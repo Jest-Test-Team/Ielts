@@ -83,6 +83,48 @@ Phase 4：全真模考衝刺期 (9月27日 - 10月2日，共6天)
         10月1日 (調整日)： 複習錯題本和筆記，不再做新題。
 
         10月2日 (準備日)： 完全放鬆，準備考試用品，熟悉考場路線。
+---
+聽力的 Section 1 & 2 或 一篇閱讀的 Passage 1 /聽力練習 (一個完整Section)/閱讀練習 (一個完整Passage)/聽說讀寫全真模考相關資源
+官方全真模考資源 (Official Full Mock Tests)
+
+這類資源最接近真實考試，權威性最高。強烈建議您保留到考前最後一週的「全真模考衝刺期」使用，以獲得最準確的實力評估。
+資源名稱	網址/說明	特點與用法
+IELTS Official (British Council)	takeielts.britishcouncil.org	由雅思官方考試局之一的英國文化協會提供，包含電腦考和紙筆考的完整免費練習題。
+IDP IELTS	ielts.idp.com	另一官方考試局IDP提供的免費練習資源，同樣包含完整的學術組模擬考試。
+
+2. 綜合練習平台 (大量刷題首選)
+
+這類網站擁有海量的模擬試題，非常適合在備考中期（例如您計畫中的第4、5週）用來大量練習，提升解題速度和熟悉度。
+資源名稱	網址/說明	特點與用法
+IELTS Online Tests	ieltstrainingonline.com	題庫量最大的網站之一，介面完全模擬電腦考試，做完後會立即提供聽力和閱讀的分數。
+IELTS-Exam.net	ielts-exam.net	另一個知名的免費練習網站，提供按題型分類的練習和完整的學術組模擬考試。
+
+3. YouTube 頻道 (聽力與口說的絕佳陪練)
+
+YouTube是練習聽力的最佳免費資源之一，因為它完美結合了「音檔播放」與「題目顯示」，完全模擬考試情境。
+頻道推薦	特點與用法
+The IELTS Listening Test	專門上傳大量聽力練習的頻道，影片標題會明確標示是「Test X, Section Y」，非常方便。
+IELTS Liz	資深雅思老師的頻道，除了有練習題，還有大量高品質的解題技巧和策略講解。
+
+如何將這些資源融入您的每日計畫
+
+您可以這樣彈性運用：
+
+    當計畫提到「完成一套聽力真題」時：
+
+        中期練習 (第1-5週)： 前往 IELTS Online Tests 或 YouTube 上的「The IELTS Listening Test」頻道，任選一個完整的Test來做。
+
+        考前模考 (第6-7週)： 使用 British Council 或 IDP 官網上的官方題目。
+
+    當計畫提到「完成一套閱讀真題」或「一個完整Passage」時：
+
+        中期練習 (第1-5週)： 前往 IELTS Online Tests 或 IELTS-Exam.net，可以選擇做完整的60分鐘閱讀測驗，或只挑選其中一個Passage來精讀練習。
+
+        考前模考 (第6-7週)： 使用 British Council 或 IDP 的官方題目。
+
+    當計畫提到「聽力的 Section 1 & 2」時：
+
+        直接在 YouTube 搜尋「IELTS Listening Test Section 1」（或Section 2），會有無數的影片可以讓您進行專項練習。這非常適合在零碎時間或不想進行高強度練習時使用。
 
 ---
 
