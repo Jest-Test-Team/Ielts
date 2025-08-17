@@ -32,3 +32,11 @@ Task 1 錯誤筆記本
 3.1 關鍵字拼寫	Cooper	Copper	30 秒檢查：最終檢查時，必須核對題目中給出的每一個關鍵名詞的拼寫。
 3.2 核心概念混淆	the amount of meals (meals 可數)<br>the figure of pH (pH 是水平)	the number of meals<br>the pH level	Amount -> 不可數 (錢、水、時間)<br>Number -> 可數 (人、車、次數)<br>Level -> 用於刻度 (溫度、酸鹼度)<br>Figure -> 用於具體的獨立數字
 3.3 生硬/不當片語	major/minor influence<br>less a third of<br>genres (用於描述食物)	the most/least popular<br>less than a third of<br>types / kinds	多看少造：多學習高分範文的道地用法，而不是自己憑感覺創造片語。
+
+
+錯誤類型	❌ 我的慣性錯誤 (My Habitual Error)	✅ 正確/更好的版本 (Correct/Better Version)	🧠 記憶規則 (Mental Rule)
+1. 數據讀反<br>(Data Reversal)	描述「酒駕」和「攻擊」原因時，將男女數據完全對調。<br>e.g., "酒駕：女性 > 男性"	準確報告圖表資訊。<br>e.g., "酒駕：男性 (~26%) > 女性 (~13%)"	出聲預讀法 (Read Aloud Preview)：動筆前，用手指著圖表，小聲說出比較關係（“OK，酒駕，男性高於女性”），進行大腦複核，100% 避免此類錯誤。
+2. 結構混亂<br>(Illogical Structure)	先詳細描述長條圖，最後在文末才補充圓餅圖的資訊。	Intro → Overall → Chart 1 (Pie) → Chart 2 (Bar)。<br>邏輯清晰，逐一擊破。	30 秒大綱法 (30-second Outline)：動筆前，在紙上快速寫下你的段落計畫 (e.g., P1-Intro, P2-Overall, P3-Pie, P4-Bar)，確保順序合理。
+3. 單位錯誤<br>(Incorrect Unit)	arrested number (被捕數字)	the percentage of people arrested (被捕百分比)	檢查 Y 軸！ 圖表給的是百分比 (%)，就絕不能用 number。養成先看單位的好習慣。
+4. 詞語搭配<br>(Collocation)	arrests reason<br>Following with	reasons for arrest<br>Followed by	將正確的詞語搭配當作一個「詞塊」來記憶，例如把 reasons for 當成一個不可分割的單字來背。
+
