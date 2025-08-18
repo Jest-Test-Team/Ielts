@@ -5,24 +5,24 @@
 ```mermaid
 graph TD
     subgraph Introduction
-        A1("1. Paraphrase Question") --> A2("2. State Thesis/Position") --> A3("3. Outline Essay Plan");
+        A1["1. Paraphrase Question"] --> A2["2. State Thesis/Position"] --> A3["3. Outline Essay Plan"]
     end
 
-    subgraph Body Paragraph 1
-        B1("Topic Sentence 1") --> B2("Explanation & Support") --> B3("Specific Example");
+    subgraph "Body Paragraph 1"
+        B1["Topic Sentence 1"] --> B2["Explanation & Support"] --> B3["Specific Example"]
     end
 
-    subgraph Body Paragraph 2
-        C1("Topic Sentence 2") --> C2("Explanation & Support") --> C3("Specific Example");
+    subgraph "Body Paragraph 2"
+        C1["Topic Sentence 2"] --> C2["Explanation & Support"] --> C3["Specific Example"]
     end
 
     subgraph Conclusion
-        D1("Summarize Main Points") --> D2("Restate Thesis/Final Thought");
+        D1["Summarize Main Points"] --> D2["Restate Thesis/Final Thought"]
     end
 
-    A3 --> B1;
-    B3 --> C1;
-    C3 --> D1;
+    A3 --> B1
+    B3 --> C1
+    C3 --> D1
 ```
 
 ---
