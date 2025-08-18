@@ -13,21 +13,25 @@
 標準的高分解構論文包含四個段落：
 
 #### 引言：
+
 - **改寫**：用自己的話重新表述論文問題
 - **論點陳述**：清楚陳述您的立場或論文將討論的內容
 - **概述**：簡要提及您將涵蓋的要點
 
 #### 主體段落 1：
+
 - **主題句**：介紹第一個主要想法
 - **解釋**：更詳細地解釋論點
 - **例子**：提供具體例子來支持您的論點
 
 #### 主體段落 2：
+
 - **主題句**：介紹第二個主要想法
 - **解釋**：更詳細地解釋論點
 - **例子**：提供具體例子來支持您的論點
 
 #### 結論：
+
 - **總結**：簡要總結您的主要論點
 - **最終觀點**：用不同的話重述您的論點
 
@@ -36,10 +40,12 @@
 變化您的句子以展示語法靈活性。
 
 #### 複合句：用連接詞連接兩個獨立子句
+
 - **連接詞**：for, and, nor, but, or, yet, so (FANBOYS)，以及連接詞如 however, therefore, 和 furthermore
 - **例子**："Many students work part-time, so they often have less time for their studies."
 
 #### 複雜句：將獨立子句與一個或多個從屬子句結合
+
 - **例子**："Many teenagers have a part-time job, which is often poorly paid, to save extra money."
 
 ---
@@ -53,14 +59,17 @@
 謹慎語言讓您的聲明聽起來更學術，不那麼絕對。
 
 #### 方法 1：頻率副詞
+
 - **詞彙**：often, usually, generally, typically
 - **例子**："Online shopping generally offers more convenience."
 
 #### 方法 2：情態動詞
+
 - **詞彙**：might, could, may, should
 - **例子**："Investing in renewable energy could help mitigate climate change."
 
 #### 方法 3：介紹性短語
+
 - **短語**：It is believed that..., Some argue that..., It could be argued that...
 - **例子**："It could be argued that strict regulations can mitigate social media's negative effects."
 
@@ -69,6 +78,7 @@
 使用被動語態創造更正式和客觀的語調。
 
 #### 何時使用：
+
 - 當動作比執行者更重要時（例如："New policies were implemented."）
 - 當陳述一般事實或過程時（例如："It is known that plastic pollutes the oceans."）
 - 當表達一般觀點時（例如："It is often said that travel broadens the mind."）
@@ -109,14 +119,14 @@
 
 通過使用關鍵學術術語的同義詞避免重複。
 
-| 概念 | 同義詞 |
-|------|--------|
-| Advantage | Benefit, Merit, Positive Aspect, Upside |
+| 概念         | 同義詞                                           |
+| ------------ | ------------------------------------------------ |
+| Advantage    | Benefit, Merit, Positive Aspect, Upside          |
 | Disadvantage | Drawback, Shortcoming, Negative Aspect, Downside |
-| Cause | Reason, Source, Origin, Factor |
-| Effect | Impact, Consequence, Outcome, Ramification |
-| Solution | Resolution, Remedy, Answer, Approach |
-| Issue | Problem, Challenge, Hurdle, Obstacle |
+| Cause        | Reason, Source, Origin, Factor                   |
+| Effect       | Impact, Consequence, Outcome, Ramification       |
+| Solution     | Resolution, Remedy, Answer, Approach             |
+| Issue        | Problem, Challenge, Hurdle, Obstacle             |
 
 ---
 
