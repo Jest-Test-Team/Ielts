@@ -1,6 +1,7 @@
 # 雅思寫作 Task 2 程序指南
 
 ## 📊 高分解構流程圖
+
 <img width="814" height="2831" alt="Ielts writing task2 Diagram drawio" src="https://github.com/user-attachments/assets/ac9bb831-bbe8-428c-b435-d1b7f2eda936" />
 
 ```mermaid
