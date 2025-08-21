@@ -53,6 +53,13 @@ function handle_conflicting_pr() {
     repo_name=$(echo "$repo" | cut -d'/' -f2)
     local local_repo_dir="${expanded_base_repo_dir}/${repo_name}"
     
+    # 檢查是否為 Snyk 發起的 PR
+    local is_snyk_pr=false
+    if [[ "$pr_title" == *"[Snyk]"* ]]; then
+        is_snyk_pr=true
+        echo -e "${BLUE}ℹ️  檢測到 Snyk 發起的 PR，將使用強制覆蓋模式${NC}"
+    fi
+    
     echo -e "${BLUE}ℹ️  正在切換到正確的儲存庫: ${repo}${NC}"
     
     if [ ! -d "$local_repo_dir" ]; then
@@ -85,9 +92,16 @@ function handle_conflicting_pr() {
 
     echo -e "${YELLOW}⚠️  自動解決失敗，需要手動處理。${NC}"
     
-    # 自動選擇標記為需要人工處理，讓腳本順順跑完
-    local choice=3
-    echo -e "${BLUE}ℹ️  自動選擇：標記為需要人工處理，繼續執行腳本${NC}"
+    # 根據 PR 類型選擇處理方式
+    if [ "$is_snyk_pr" = true ]; then
+        # Snyk PR 使用強制覆蓋模式
+        local choice=5
+        echo -e "${BLUE}ℹ️  Snyk PR 自動選擇：強制覆蓋模式${NC}"
+    else
+        # 其他 PR 標記為需要人工處理
+        local choice=3
+        echo -e "${BLUE}ℹ️  其他 PR 自動選擇：標記為需要人工處理，繼續執行腳本${NC}"
+    fi
     
     local main_branch
     main_branch=$(gh repo view --json defaultBranchRef --jq .defaultBranchRef.name)
@@ -120,6 +134,24 @@ function handle_conflicting_pr() {
             echo "3. git merge origin/${main_branch}"
             echo "4. (解決衝突後) git add . && git commit"
             echo "5. git push origin ${pr_branch}"
+            git checkout "${main_branch}"
+            ;;
+        5)
+            echo "ℹ️  Snyk PR 強制覆蓋模式："
+            echo "正在強制合併 PR #${pr_number}..."
+            
+            # 強制合併 Snyk PR
+            if gh pr merge "$pr_number" -R "$repo" --squash --delete-branch --force; then
+                echo -e "${GREEN}✅ Snyk PR 強制合併成功！${NC}"
+            else
+                echo -e "${YELLOW}⚠️  強制合併失敗，嘗試使用 --rebase 模式..."
+                if gh pr merge "$pr_number" -R "$repo" --rebase --delete-branch --force; then
+                    echo -e "${GREEN}✅ Snyk PR 強制合併成功！${NC}"
+                else
+                    echo -e "${RED}❌ 強制合併失敗，標記為需要人工處理"
+                    gh pr edit "$pr_number" -R "$repo" --add-label "needs-manual-resolution"
+                fi
+            fi
             git checkout "${main_branch}"
             ;;
         *)
