@@ -22,7 +22,7 @@
 # 請將此路徑修改為您存放本地 Git 儲存庫的根目錄
 # 腳本會在此目錄下尋找與遠端儲存庫同名的資料夾
 # 例如: 如果您的專案位於 ~/Documents/Projects/my-repo，請將此處設為 "~/Documents/Projects"
-BASE_REPO_DIR="~/Documents/Untitled/AIoT"
+BASE_REPO_DIR="~/Documents/Untitled"
 
 # --- 顏色代碼 ---
 GREEN='\033[0;32m'
