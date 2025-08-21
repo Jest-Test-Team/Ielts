@@ -1,139 +1,142 @@
-# 雅思寫作 Task 2：核心概念與策略
+IELTS Writing Task 2: Key Concepts & Strategies
 
-本指南涵蓋了構建高分解構雅思寫作 Task 2 論文的必要元素，從句子構建到高級文體技巧。
+This guide covers the essential elements for structuring a high-scoring IELTS Writing Task 2 essay, from sentence construction to advanced stylistic techniques.
 
----
+I. Essay & Sentence Structure
 
-## 📝 I. 論文與句子結構
+A clear structure is crucial. An essay should follow a logical progression, using a variety of sentence types to demonstrate grammatical range.
 
-清晰的結構至關重要。論文應該遵循邏輯進展，使用各種句子類型來展示語法範圍。
+Essay Structure
 
-### 論文結構
+A standard high-scoring essay contains four paragraphs:
 
-標準的高分解構論文包含四個段落：
+    Introduction:
 
-#### 引言：
+        Paraphrase: Restate the essay question in your own words.
 
-- **改寫**：用自己的話重新表述論文問題
-- **論點陳述**：清楚陳述您的立場或論文將討論的內容
-- **概述**：簡要提及您將涵蓋的要點
+        Thesis Statement: Clearly state your position or what the essay will discuss.
 
-#### 主體段落 1：
+        Outline: Briefly mention the main points you will cover.
 
-- **主題句**：介紹第一個主要想法
-- **解釋**：更詳細地解釋論點
-- **例子**：提供具體例子來支持您的論點
+    Body Paragraph 1:
 
-#### 主體段落 2：
+        Topic Sentence: Introduce the first main idea.
 
-- **主題句**：介紹第二個主要想法
-- **解釋**：更詳細地解釋論點
-- **例子**：提供具體例子來支持您的論點
+        Explanation: Explain the point in more detail.
 
-#### 結論：
+        Example: Provide a specific example to support your point.
 
-- **總結**：簡要總結您的主要論點
-- **最終觀點**：用不同的話重述您的論點
+    Body Paragraph 2:
 
-### 句子結構
+        Topic Sentence: Introduce the second main idea.
 
-變化您的句子以展示語法靈活性。
+        Explanation: Explain the point in more detail.
 
-#### 複合句：用連接詞連接兩個獨立子句
+        Example: Provide a specific example to support your point.
 
-- **連接詞**：for, and, nor, but, or, yet, so (FANBOYS)，以及連接詞如 however, therefore, 和 furthermore
-- **例子**："Many students work part-time, so they often have less time for their studies."
+    Conclusion:
 
-#### 複雜句：將獨立子句與一個或多個從屬子句結合
+        Summary: Briefly summarize your main points.
 
-- **例子**："Many teenagers have a part-time job, which is often poorly paid, to save extra money."
+        Final Opinion: Restate your thesis in different words.
 
----
+Sentence Structure
 
-## 🚀 II. 高級寫作技巧 (Band 7+)
+Vary your sentences to show grammatical flexibility.
 
-要獲得更高分數，請融入這些文體和語法特徵。
+    Compound Sentences: Link two independent clauses with a conjunction.
 
-### 謹慎語言 (Hedging) ✍️
+        Conjunctions: for, and, nor, but, or, yet, so (FANBOYS), as well as linking words like however, therefore, and furthermore.
 
-謹慎語言讓您的聲明聽起來更學術，不那麼絕對。
+        Example: "Many students work part-time, so they often have less time for their studies."
 
-#### 方法 1：頻率副詞
+    Complex Sentences: Combine an independent clause with one or more dependent clauses.
 
-- **詞彙**：often, usually, generally, typically
-- **例子**："Online shopping generally offers more convenience."
+        Example: "Many teenagers have a part-time job, which is often poorly paid, to save extra money."
 
-#### 方法 2：情態動詞
+II. Advanced Writing Techniques (Band 7+)
 
-- **詞彙**：might, could, may, should
-- **例子**："Investing in renewable energy could help mitigate climate change."
+To achieve a higher score, incorporate these stylistic and grammatical features.
 
-#### 方法 3：介紹性短語
+Hedging (Cautious Language) ✍️
 
-- **短語**：It is believed that..., Some argue that..., It could be argued that...
-- **例子**："It could be argued that strict regulations can mitigate social media's negative effects."
+Hedging makes your claims sound more academic and less absolute.
 
-### 被動語態 🏛️
+    Method 1: Adverbs of Frequency
 
-使用被動語態創造更正式和客觀的語調。
+        Words: often, usually, generally, typically
 
-#### 何時使用：
+        Example: "Online shopping generally offers more convenience."
 
-- 當動作比執行者更重要時（例如："New policies were implemented."）
-- 當陳述一般事實或過程時（例如："It is known that plastic pollutes the oceans."）
-- 當表達一般觀點時（例如："It is often said that travel broadens the mind."）
+    Method 2: Modal Verbs
 
----
+        Words: might, could, may, should
 
-## 🔤 III. 詞彙與連接詞
+        Example: "Investing in renewable energy could help mitigate climate change."
 
-使用精確的詞彙和流暢的過渡對於在詞彙資源和連貫性方面獲得高分至關重要。
+    Method 3: Introductory Phrases
 
-### 話語標記 (連接詞) 🔗
+        Phrases: It is believed that..., Some argue that..., It could be argued that...
 
-使用這些來引導讀者通過您的論點。避免在每個句子的開頭過度使用它們。
+        Example: "It could be argued that strict regulations can mitigate social media's negative effects."
 
-- **添加**：Moreover, Furthermore, In addition
-- **對比**：However, On the other hand, In contrast
-- **結果**：Therefore, Consequently, As a result
+The Passive Voice 🏛️
 
-### 短語動詞 ✨
+Use the passive voice to create a more formal and objective tone.
 
-使用得當的短語動詞讓您的語言聽起來更自然。
+    When to Use:
 
-- **Bring about**：導致某事發生
-- **Carry out**：執行任務
-- **Look into**：調查
-- **Point out**：引起對事實的注意
-- **Set out**：清楚呈現想法
+        When the action is more important than the actor (e.g., "New policies were implemented.").
 
-### 主題特定詞彙 🎯
+        When stating general facts or processes (e.g., "It is known that plastic pollutes the oceans.").
 
-使用與主題相關的精確詞彙展示您的詞彙範圍。
+        When expressing a general opinion (e.g., "It is often said that travel broadens the mind.").
 
-- **環境**：conservation, eco-friendly, endangered species, fossil fuels, global warming
-- **教育**：attainment, hands-on experience, vocational training, curriculum, pedagogy
-- **科技**：cutting-edge, intuitive design, social media, a technological breakthrough
+III. Vocabulary & Linking Words
 
-### 常見概念的同義詞 📚
+Using precise vocabulary and smooth transitions is essential for a high score in Lexical Resource and Coherence.
 
-通過使用關鍵學術術語的同義詞避免重複。
+Discourse Markers (Linking Words) 🔗
 
-| 概念         | 同義詞                                           |
-| ------------ | ------------------------------------------------ |
-| Advantage    | Benefit, Merit, Positive Aspect, Upside          |
-| Disadvantage | Drawback, Shortcoming, Negative Aspect, Downside |
-| Cause        | Reason, Source, Origin, Factor                   |
-| Effect       | Impact, Consequence, Outcome, Ramification       |
-| Solution     | Resolution, Remedy, Answer, Approach             |
-| Issue        | Problem, Challenge, Hurdle, Obstacle             |
+Use these to guide the reader through your arguments. Avoid overusing them at the start of every sentence.
 
----
+    Addition: Moreover, Furthermore, In addition
 
-## 💡 實用寫作提示
+    Contrast: However, On the other hand, In contrast
 
-1. **多樣性**：在每個段落中使用不同類型的句子
-2. **精確性**：選擇最能表達您意思的詞彙
-3. **流暢性**：使用適當的連接詞創造邏輯流
-4. **一致性**：保持一致的時態和語調
-5. **檢查**：留出時間檢查語法、拼寫和邏輯
+    Result: Therefore, Consequently, As a result
+
+Phrasal Verbs ✨
+
+Well-used phrasal verbs make your language sound more natural.
+
+    Bring about: to cause something to happen.
+
+    Carry out: to perform a task.
+
+    Look into: to investigate.
+
+    Point out: to draw attention to a fact.
+
+    Set out: to present ideas clearly.
+
+Topic-Specific Vocabulary 🎯
+
+Using precise words related to the topic shows your lexical range.
+
+    Environment: conservation, eco-friendly, endangered species, fossil fuels, global warming.
+
+    Education: attainment, hands-on experience, vocational training, curriculum, pedagogy.
+
+    Technology: cutting-edge, intuitive design, social media, a technological breakthrough.
+
+Synonyms for Common Concepts 📚
+
+Avoid repetition by using synonyms for key academic terms.
+Concept Synonyms
+Advantage Benefit, Merit, Positive Aspect, Upside
+Disadvantage Drawback, Shortcoming, Negative Aspect, Downside
+Cause Reason, Source, Origin, Factor
+Effect Impact, Consequence, Outcome, Ramification
+Solution Resolution, Remedy, Answer, Approach
+Issue Problem, Challenge, Hurdle, Obstacle

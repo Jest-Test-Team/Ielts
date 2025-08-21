@@ -1,103 +1,74 @@
-# 雅思寫作 Task 2 程序指南
-
-## 📊 高分解構流程圖
-
-<img width="814" height="2831" alt="Ielts writing task2 Diagram drawio" src="https://github.com/user-attachments/assets/ac9bb831-bbe8-428c-b435-d1b7f2eda936" />
-
 ```mermaid
 graph TD
-    subgraph "Introduction"
-        A1["Paraphrase Question"] --> A2["State Thesis or Position"] --> A3["Outline Essay Plan"]
+    subgraph Introduction
+        A1("1. Paraphrase Question") --> A2("2. State Thesis/Position") --> A3("3. Outline Essay Plan");
     end
 
-    subgraph "Body Paragraph 1"
-        B1["Topic Sentence 1"] --> B2["Explanation & Support"] --> B3["Specific Example"]
+    subgraph Body Paragraph 1
+        B1("Topic Sentence 1") --> B2("Explanation & Support") --> B3("Specific Example");
     end
 
-    subgraph "Body Paragraph 2"
-        C1["Topic Sentence 2"] --> C2["Explanation & Support"] --> C3["Specific Example"]
+    subgraph Body Paragraph 2
+        C1("Topic Sentence 2") --> C2("Explanation & Support") --> C3("Specific Example");
     end
 
     subgraph Conclusion
-        D1["Summarize Main Points"] --> D2["Restate Thesis/Final Thought"]
+        D1("Summarize Main Points") --> D2("Restate Thesis/Final Thought");
     end
 
-    A3 --> B1
-    B3 --> C1
-    C3 --> D1
+    A3 --> B1;
+    B3 --> C1;
+    C3 --> D1;
 ```
 
----
+High-Scoring Essay Structure
 
-## 🏗️ 高分解構框架
+This framework outlines the essential components for a well-structured, four-paragraph essay.
 
-這個框架概述了結構良好的四段式論文的必要組成部分。
+1. Introduction (3 Sentences)
 
-### 1. 引言 (3 句話)
+Your introduction should be concise and serve as a roadmap for the examiner.
 
-您的引言應該簡潔，並作為考官的路線圖。
+    Sentence 1: Paraphrase the Question
 
-#### 第 1 句：改寫問題
+        Restate the main topic of the essay question in your own words.
 
-- 用自己的話重新表述論文問題的主要主題
+    Sentence 2: State Your Thesis
 
-#### 第 2 句：陳述論點
+        Clearly present your main argument or position. For discussion essays, state that you will examine both views.
 
-- 清楚呈現您的主要論點或立場
-- 對於討論型論文，說明您將檢視兩種觀點
+    Sentence 3: Outline Your Plan
 
-#### 第 3 句：概述計劃
+        Briefly mention the main points your body paragraphs will cover.
 
-- 簡要提及您主體段落將涵蓋的要點
+2. Body Paragraphs (PEEL Method)
 
-### 2. 主體段落 (PEEL 方法)
+Each body paragraph should focus on one central idea and develop it fully using the PEEL structure.
 
-每個主體段落應該專注於一個中心思想，並使用 PEEL 結構充分發展。
+    P - Point (Topic Sentence)
 
-#### P - 論點 (主題句)
+        State the main argument of the paragraph in a single, clear sentence.
 
-- 用一句清楚的話陳述段落的主要論點
+    E - Explanation
 
-#### E - 解釋
+        Explain your point in more detail. Answer "why" or "how."
 
-- 更詳細地解釋您的論點
-- 回答「為什麼」或「如何」
+    E - Example
 
-#### E - 例子
+        Provide a specific, relevant example to support your point (e.g., from personal experience, news, or general knowledge).
 
-- 提供具體、相關的例子來支持您的論點
-- 例如：個人經驗、新聞或一般知識
+    L - Link (Optional)
 
-#### L - 連結 (可選)
+        A concluding sentence that summarizes the paragraph or links back to the main thesis.
 
-- 總結段落或連結回主要論點的結尾句
+3. Conclusion (2 Sentences)
 
-### 3. 結論 (2 句話)
+The conclusion should summarize your essay without introducing new information.
 
-結論應該總結您的論文，而不引入新資訊。
+    Sentence 1: Summarize Main Points
 
-#### 第 1 句：總結要點
+        Briefly restate the topic sentences from your body paragraphs in new words.
 
-- 用新的措辭簡要重述您主體段落的主題句
+    Sentence 2: Restate Your Thesis
 
-#### 第 2 句：重述論點
-
-- 提供強化您主要論點的最終結論性思考
-
----
-
-## ⏰ 時間分配建議
-
-**總時間：40 分鐘**
-
-- **規劃階段**：5 分鐘
-- **撰寫階段**：30 分鐘
-- **檢查階段**：5 分鐘
-
-## 📝 寫作技巧提醒
-
-1. **結構清晰**：確保每個段落都有明確的目的
-2. **邏輯流暢**：使用適當的連接詞和過渡句
-3. **例子具體**：避免模糊的概括，提供具體的實例
-4. **語言多樣**：展示您的語法範圍和詞彙資源
-5. **檢查完整**：留出時間檢查拼寫、語法和邏輯
+        Provide a final, concluding thought that reinforces your main argument.
