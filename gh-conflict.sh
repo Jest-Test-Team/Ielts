@@ -15,7 +15,7 @@
 # 2. 修改下面的 `BASE_REPO_DIR` 變數，使其指向您存放本地 Git 儲存庫的根目錄。
 # 3. 賦予腳本執行權限: `chmod +x gh-conflict.sh`
 # 4. 執行此腳本: `./gh-conflict.sh`
-# 5. 非互動式執行: `./gh-conflict.sh --non-interactive` (遇到衝突時會自動選擇顯示步驟)
+# 5. 腳本會自動處理所有衝突，遇到衝突時會標記為 'needs-manual-resolution' 並繼續執行
 # ==============================================================================
 
 # --- 設定 ---
@@ -45,7 +45,6 @@ function handle_conflicting_pr() {
     local pr_number="$2"
     local pr_branch="$3"
     local expanded_base_repo_dir="$4"
-    local non_interactive_mode="$5"
 
     echo -e "${YELLOW}⚠️  無法自動合併。狀態: CONFLICTING${NC}"
     echo -e "${YELLOW}⚠️  發現合併衝突，正在嘗試解決...${NC}"
@@ -86,20 +85,9 @@ function handle_conflicting_pr() {
 
     echo -e "${YELLOW}⚠️  自動解決失敗，需要手動處理。${NC}"
     
-    local choice
-    if [ "$non_interactive_mode" = "true" ]; then
-        echo -e "${BLUE}ℹ️  非互動模式：自動選擇選項 4。${NC}"
-        choice=4
-    else
-        echo -e "${BLUE}   當前分支為 ${pr_branch}，您可以開始手動解決衝突。${NC}"
-        echo ""
-        echo -e "${BLUE}ℹ️  請選擇處理方式：${NC}"
-        echo "1. 手動解決衝突（腳本將終止，讓您留在目前目錄處理）"
-        echo "2. 跳過此 PR（將還原變更並切回主分支）"
-        echo "3. 標記為需要人工處理（加上 'needs-manual-resolution' 標籤）"
-        echo "4. 僅顯示手動解決步驟"
-        read -r -p "請輸入選項 (1-4): " choice
-    fi
+    # 自動選擇標記為需要人工處理，讓腳本順順跑完
+    local choice=3
+    echo -e "${BLUE}ℹ️  自動選擇：標記為需要人工處理，繼續執行腳本${NC}"
     
     local main_branch
     main_branch=$(gh repo view --json defaultBranchRef --jq .defaultBranchRef.name)
@@ -151,21 +139,26 @@ function handle_conflicting_pr() {
 command -v gh >/dev/null 2>&1 || die "此腳本需要 GitHub CLI ('gh')。請先安裝。"
 
 # 檢查 gh 是否登入
-gh auth status >/dev/null 2>&1 || die "您尚未登入 GitHub CLI。請執行 'gh auth login'。"
+# 嘗試多次檢查 gh 認證狀態，有時第一次檢查可能失敗
+for i in {1..3}; do
+    if gh auth status >/dev/null 2>&1; then
+        echo -e "${GREEN}✅ GitHub CLI 認證狀態正常${NC}"
+        break
+    elif [ $i -eq 3 ]; then
+        die "您尚未登入 GitHub CLI。請執行 'gh auth login'。"
+    else
+        echo -e "${YELLOW}⚠️  嘗試再次檢查 GitHub CLI 認證狀態 (嘗試 $i/3)${NC}"
+        sleep 2
+    fi
+done
 
-# 處理非互動模式
-NON_INTERACTIVE=false
-if [ "$1" == "--non-interactive" ]; then
-    NON_INTERACTIVE=true
-fi
+# 腳本現在自動處理所有衝突，無需非互動模式
 
 # 獲取 GitHub 用戶名
 GITHUB_USER=$(gh api user --jq .login) || die "無法獲取 GitHub 用戶名。"
 
 echo -e "${BLUE}🚀 GitHub PR 自動合併與衝突處理腳本${NC}"
-if [ "$NON_INTERACTIVE" = "true" ]; then
-    echo -e "${YELLOW}Running in non-interactive mode.${NC}"
-fi
+echo -e "${GREEN}✅ 自動模式：遇到衝突時會自動標記並繼續執行${NC}"
 echo "=================================================="
 echo -e "${BLUE}ℹ️  正在為用戶 ${GITHUB_USER} 檢查所有儲存庫...${NC}"
 
@@ -222,7 +215,7 @@ for repo in $REPOS; do
                 fi
                 ;;
             "CONFLICTING")
-                handle_conflicting_pr "$repo" "$pr_number" "$pr_branch" "$expanded_base_repo_dir" "$NON_INTERACTIVE"
+                handle_conflicting_pr "$repo" "$pr_number" "$pr_branch" "$expanded_base_repo_dir"
                 # 返回到腳本執行前的目錄，以防 handle_conflicting_pr 改變了工作目錄
                 cd "$original_dir"
                 ;;
