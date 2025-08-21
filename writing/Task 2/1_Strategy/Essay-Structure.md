@@ -1,142 +1,155 @@
-IELTS Writing Task 2: Key Concepts & Strategies
+# IELTS Writing Task 2: 核心概念與策略
 
-This guide covers the essential elements for structuring a high-scoring IELTS Writing Task 2 essay, from sentence construction to advanced stylistic techniques.
+本指南涵蓋了 IELTS Writing Task 2 高分作文的基本要素，從句子結構到高級寫作技巧。
 
-I. Essay & Sentence Structure
+## I. 文章與句子結構
 
-A clear structure is crucial. An essay should follow a logical progression, using a variety of sentence types to demonstrate grammatical range.
+清晰的結構至關重要。一篇文章應該遵循邏輯進程，使用各種句型來展示語法多樣性。
 
-Essay Structure
+### 文章結構
 
-A standard high-scoring essay contains four paragraphs:
+```mermaid
+flowchart TD
+    A[IELTS 寫作結構] --> B[引言]
+    A --> C[主體段落]
+    A --> D[結論]
+    
+    B --> B1[改述問題]
+    B --> B2[論點陳述]
+    B --> B3[概述]
+    
+    C --> C1[主體段落 1]
+    C --> C2[主體段落 2]
+    
+    C1 --> C1A[主題句]
+    C1 --> C1B[解釋]
+    C1 --> C1C[例子]
+    
+    C2 --> C2A[主題句]
+    C2 --> C2B[解釋]
+    C2 --> C2C[例子]
+    
+    D --> D1[總結要點]
+    D --> D2[重申論點]
+    
+    classDef intro fill:#f9d5e5,stroke:#333,stroke-width:1px
+    classDef body fill:#eeeeee,stroke:#333,stroke-width:1px
+    classDef conc fill:#d0e8f2,stroke:#333,stroke-width:1px
+    
+    class B,B1,B2,B3 intro
+    class C,C1,C2,C1A,C1B,C1C,C2A,C2B,C2C body
+    class D,D1,D2 conc
+```
 
-    Introduction:
+一篇標準的高分文章包含四個段落：
 
-        Paraphrase: Restate the essay question in your own words.
+#### 引言 (Introduction)
 
-        Thesis Statement: Clearly state your position or what the essay will discuss.
+- **改述問題**：用自己的話重述文章問題
+- **論點陳述**：清楚表明您的立場或文章將討論的內容
+- **概述**：簡要提及您將涵蓋的主要觀點
 
-        Outline: Briefly mention the main points you will cover.
+#### 主體段落 1 (Body Paragraph 1)
 
-    Body Paragraph 1:
+- **主題句**：介紹第一個主要觀點
+- **解釋**：更詳細地解釋該觀點
+- **例子**：提供一個具體例子來支持您的觀點
 
-        Topic Sentence: Introduce the first main idea.
+#### 主體段落 2 (Body Paragraph 2)
 
-        Explanation: Explain the point in more detail.
+- **主題句**：介紹第二個主要觀點
+- **解釋**：更詳細地解釋該觀點
+- **例子**：提供一個具體例子來支持您的觀點
 
-        Example: Provide a specific example to support your point.
+#### 結論 (Conclusion)
 
-    Body Paragraph 2:
+- **總結**：簡要總結您的主要觀點
+- **最終意見**：用不同的詞語重申您的論點
 
-        Topic Sentence: Introduce the second main idea.
+### 句子結構
 
-        Explanation: Explain the point in more detail.
+變換句子結構以展示語法靈活性。
 
-        Example: Provide a specific example to support your point.
+#### 複合句 (Compound Sentences)
 
-    Conclusion:
+用連接詞連接兩個獨立分句。
 
-        Summary: Briefly summarize your main points.
+- **連接詞**：for, and, nor, but, or, yet, so (FANBOYS)，以及連接詞如 however, therefore, furthermore
+- **例子**：「Many students work part-time, so they often have less time for their studies.」
 
-        Final Opinion: Restate your thesis in different words.
+#### 複雜句 (Complex Sentences)
 
-Sentence Structure
+將一個獨立分句與一個或多個從屬分句結合。
 
-Vary your sentences to show grammatical flexibility.
+- **例子**：「Many teenagers have a part-time job, which is often poorly paid, to save extra money.」
 
-    Compound Sentences: Link two independent clauses with a conjunction.
+## II. 高級寫作技巧 (Band 7+)
 
-        Conjunctions: for, and, nor, but, or, yet, so (FANBOYS), as well as linking words like however, therefore, and furthermore.
+要獲得更高分數，請融入這些風格和語法特點。
 
-        Example: "Many students work part-time, so they often have less time for their studies."
+### 模糊限定 (Hedging) ✍️
 
-    Complex Sentences: Combine an independent clause with one or more dependent clauses.
+模糊限定使您的觀點聽起來更學術，不那麼絕對。
 
-        Example: "Many teenagers have a part-time job, which is often poorly paid, to save extra money."
+| 方法 | 詞彙/短語 | 例子 |
+|:----:|:---------|:-----|
+| **頻率副詞** | often, usually, generally, typically | Online shopping **generally** offers more convenience. |
+| **情態動詞** | might, could, may, should | Investing in renewable energy **could** help mitigate climate change. |
+| **引導性短語** | It is believed that...<br>Some argue that...<br>It could be argued that... | **It could be argued that** strict regulations can mitigate social media's negative effects. |
 
-II. Advanced Writing Techniques (Band 7+)
+### 被動語態 (Passive Voice) 🏛️
 
-To achieve a higher score, incorporate these stylistic and grammatical features.
+使用被動語態創造更正式、更客觀的語調。
 
-Hedging (Cautious Language) ✍️
+#### 何時使用
 
-Hedging makes your claims sound more academic and less absolute.
+- 當動作比行動者更重要時（例如，「New policies were implemented.」）
+- 當陳述一般事實或過程時（例如，「It is known that plastic pollutes the oceans.」）
+- 當表達一般意見時（例如，「It is often said that travel broadens the mind.」）
 
-    Method 1: Adverbs of Frequency
+## III. 詞彙與連接詞
 
-        Words: often, usually, generally, typically
+使用精確的詞彙和流暢的過渡對於在詞彙資源和連貫性方面獲得高分至關重要。
 
-        Example: "Online shopping generally offers more convenience."
+### 話語標記 (連接詞) 🔗
 
-    Method 2: Modal Verbs
+使用這些來引導讀者理解您的論點。避免在每個句子開頭過度使用它們。
 
-        Words: might, could, may, should
+| 功能 | 連接詞 |
+|:----:|:------|
+| **添加** | Moreover, Furthermore, In addition |
+| **對比** | However, On the other hand, In contrast |
+| **結果** | Therefore, Consequently, As a result |
 
-        Example: "Investing in renewable energy could help mitigate climate change."
+### 短語動詞 ✨
 
-    Method 3: Introductory Phrases
+使用得當的短語動詞使您的語言聽起來更自然。
 
-        Phrases: It is believed that..., Some argue that..., It could be argued that...
+- **Bring about**：引起某事發生
+- **Carry out**：執行任務
+- **Look into**：調查
+- **Point out**：指出事實
+- **Set out**：清晰地呈現想法
 
-        Example: "It could be argued that strict regulations can mitigate social media's negative effects."
+### 特定主題詞彙 🎯
 
-The Passive Voice 🏛️
+使用與主題相關的精確詞彙展示您的詞彙範圍。
 
-Use the passive voice to create a more formal and objective tone.
+| 主題 | 相關詞彙 |
+|:----:|:--------|
+| **環境** | conservation, eco-friendly, endangered species, fossil fuels, global warming |
+| **教育** | attainment, hands-on experience, vocational training, curriculum, pedagogy |
+| **技術** | cutting-edge, intuitive design, social media, a technological breakthrough |
 
-    When to Use:
+### 常見概念的同義詞 📚
 
-        When the action is more important than the actor (e.g., "New policies were implemented.").
+通過使用關鍵學術術語的同義詞避免重複。
 
-        When stating general facts or processes (e.g., "It is known that plastic pollutes the oceans.").
-
-        When expressing a general opinion (e.g., "It is often said that travel broadens the mind.").
-
-III. Vocabulary & Linking Words
-
-Using precise vocabulary and smooth transitions is essential for a high score in Lexical Resource and Coherence.
-
-Discourse Markers (Linking Words) 🔗
-
-Use these to guide the reader through your arguments. Avoid overusing them at the start of every sentence.
-
-    Addition: Moreover, Furthermore, In addition
-
-    Contrast: However, On the other hand, In contrast
-
-    Result: Therefore, Consequently, As a result
-
-Phrasal Verbs ✨
-
-Well-used phrasal verbs make your language sound more natural.
-
-    Bring about: to cause something to happen.
-
-    Carry out: to perform a task.
-
-    Look into: to investigate.
-
-    Point out: to draw attention to a fact.
-
-    Set out: to present ideas clearly.
-
-Topic-Specific Vocabulary 🎯
-
-Using precise words related to the topic shows your lexical range.
-
-    Environment: conservation, eco-friendly, endangered species, fossil fuels, global warming.
-
-    Education: attainment, hands-on experience, vocational training, curriculum, pedagogy.
-
-    Technology: cutting-edge, intuitive design, social media, a technological breakthrough.
-
-Synonyms for Common Concepts 📚
-
-Avoid repetition by using synonyms for key academic terms.
-Concept Synonyms
-Advantage Benefit, Merit, Positive Aspect, Upside
-Disadvantage Drawback, Shortcoming, Negative Aspect, Downside
-Cause Reason, Source, Origin, Factor
-Effect Impact, Consequence, Outcome, Ramification
-Solution Resolution, Remedy, Answer, Approach
-Issue Problem, Challenge, Hurdle, Obstacle
+| 概念 | 同義詞 |
+|:----:|:------|
+| Advantage | Benefit, Merit, Positive Aspect, Upside |
+| Disadvantage | Drawback, Shortcoming, Negative Aspect, Downside |
+| Cause | Reason, Source, Origin, Factor |
+| Effect | Impact, Consequence, Outcome, Ramification |
+| Solution | Resolution, Remedy, Answer, Approach |
+| Issue | Problem, Challenge, Hurdle, Obstacle |
