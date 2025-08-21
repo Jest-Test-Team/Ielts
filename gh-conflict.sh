@@ -421,7 +421,7 @@ for repo in $REPOS; do
     echo -e "${BLUE}ℹ️  正在檢查儲存庫: ${repo}${NC}"
 
     # 嘗試最多 3 次獲取 PR 列表
-    local prs_found=false
+    prs_found=false
     for i in {1..3}; do
         PRS=$(gh pr list -R "$repo" --json number,title,mergeable,mergeStateStatus,url,headRefName --jq '.[] | @base64' 2>/dev/null)
         
