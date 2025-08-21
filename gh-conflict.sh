@@ -139,23 +139,22 @@ function handle_conflicting_pr() {
 command -v gh >/dev/null 2>&1 || die "此腳本需要 GitHub CLI ('gh')。請先安裝。"
 
 # 檢查 gh 是否登入
-# 嘗試多次檢查 gh 認證狀態，有時第一次檢查可能失敗
-for i in {1..3}; do
-    if gh auth status >/dev/null 2>&1; then
-        echo -e "${GREEN}✅ GitHub CLI 認證狀態正常${NC}"
-        break
-    elif [ $i -eq 3 ]; then
-        die "您尚未登入 GitHub CLI。請執行 'gh auth login'。"
-    else
-        echo -e "${YELLOW}⚠️  嘗試再次檢查 GitHub CLI 認證狀態 (嘗試 $i/3)${NC}"
-        sleep 2
+# 直接嘗試獲取用戶名，這是更可靠的方式來檢查認證狀態
+echo -e "${BLUE}ℹ️  正在檢查 GitHub CLI 認證狀態...${NC}"
+if ! GITHUB_USER=$(gh api user --jq .login 2>/dev/null); then
+    echo -e "${YELLOW}⚠️  GitHub CLI 認證可能有問題，嘗試重新認證...${NC}"
+    # 嘗試重新登入
+    gh auth status >/dev/null 2>&1 || gh auth refresh -h github.com -s user >/dev/null 2>&1
+    
+    # 再次嘗試獲取用戶名
+    if ! GITHUB_USER=$(gh api user --jq .login 2>/dev/null); then
+        die "無法獲取 GitHub 用戶名。請確保您已登入 GitHub CLI (執行 'gh auth login')。"
     fi
-done
+fi
+echo -e "${GREEN}✅ GitHub CLI 認證狀態正常 - 已登入為 ${GITHUB_USER}${NC}"
 
 # 腳本現在自動處理所有衝突，無需非互動模式
-
-# 獲取 GitHub 用戶名
-GITHUB_USER=$(gh api user --jq .login) || die "無法獲取 GitHub 用戶名。"
+# 用戶名已在上面的認證檢查中獲取
 
 echo -e "${BLUE}🚀 GitHub PR 自動合併與衝突處理腳本${NC}"
 echo -e "${GREEN}✅ 自動模式：遇到衝突時會自動標記並繼續執行${NC}"
