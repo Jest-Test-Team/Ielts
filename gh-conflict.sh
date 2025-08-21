@@ -80,7 +80,7 @@ function handle_conflicting_pr() {
         else
             echo -e "${RED}❌ 克隆儲存庫失敗: ${repo}${NC}"
             echo -e "${YELLOW}   可能原因: 網絡問題、權限問題或儲存庫不存在${NC}"
-            return
+        return
         fi
     fi
 
@@ -113,21 +113,74 @@ function handle_conflicting_pr() {
             echo -e "${YELLOW}⚠️  嘗試強制 checkout，這可能會覆蓋本地變更${NC}"
         fi
     fi
-
+    
     # 使用 `gh pr checkout` 會自動處理 fetch 和建立本地分支
     echo -e "${BLUE}ℹ️  正在 checkout PR #${pr_number} 以便處理衝突...${NC}"
     
-    if ! gh pr checkout "$pr_number"; then
-        echo -e "${RED}❌ checkout PR #${pr_number} 失敗。${NC}"
-        echo -e "${YELLOW}   可能原因: 遠端分支已被刪除、本地有未提交變更或分支名稱衝突${NC}"
-        
-        # 如果我們之前創建了 stash，提醒用戶
-        if [ "$HAS_STASHED" = true ]; then
-            echo -e "${BLUE}ℹ️  您有未處理的 stash，可以使用 'git stash list' 和 'git stash pop' 恢復${NC}"
-        fi
-        
+    # 檢查 PR 是否仍然存在
+    if ! gh pr view "$pr_number" -R "$repo" &>/dev/null; then
+        echo -e "${YELLOW}⚠️  PR #${pr_number} 可能已不存在或無法訪問${NC}"
+        echo -e "${BLUE}ℹ️  嘗試關閉或刪除此 PR...${NC}"
+        gh pr close "$pr_number" -R "$repo" --delete-branch &>/dev/null || true
         cd - > /dev/null # 返回原始目錄
         return
+    fi
+    
+    # 嘗試直接獲取 PR 的分支名稱
+    local pr_branch_name
+    pr_branch_name=$(gh pr view "$pr_number" -R "$repo" --json headRefName --jq .headRefName 2>/dev/null)
+    if [ -z "$pr_branch_name" ]; then
+        echo -e "${RED}❌ 無法獲取 PR #${pr_number} 的分支名稱${NC}"
+        cd - > /dev/null # 返回原始目錄
+        return
+    fi
+    
+    # 嘗試直接 fetch 和 checkout 分支，而不是使用 gh pr checkout
+    if ! git fetch origin "$pr_branch_name:$pr_branch_name" 2>/dev/null; then
+        echo -e "${YELLOW}⚠️  無法 fetch PR 分支，可能已被刪除，嘗試使用 gh pr checkout...${NC}"
+        if ! gh pr checkout "$pr_number" 2>/dev/null; then
+            echo -e "${RED}❌ checkout PR #${pr_number} 失敗。${NC}"
+            echo -e "${YELLOW}   可能原因: 遠端分支已被刪除、本地有未提交變更或分支名稱衝突${NC}"
+            echo -e "${BLUE}ℹ️  嘗試標記 PR 為需要人工處理並繼續...${NC}"
+            
+            # 嘗試關閉或標記 PR
+            if [[ "$pr_title" == *"[Snyk]"* ]]; then
+                echo -e "${BLUE}ℹ️  這是 Snyk PR，嘗試關閉...${NC}"
+                gh pr close "$pr_number" -R "$repo" --delete-branch &>/dev/null || true
+            else
+                # 檢查標籤是否存在，不存在則創建
+                if ! gh label list -R "$repo" --json name --jq '.[] | .name' | grep -q "needs-manual-resolution"; then
+                    echo "ℹ️  標籤 'needs-manual-resolution' 不存在，正在創建..."
+                    if gh label create "needs-manual-resolution" -R "$repo" -c "#FF0000" -d "需要手動解決衝突的 PR"; then
+                        echo "✅ 已創建標籤: needs-manual-resolution"
+                    else
+                        echo "❌ 創建標籤失敗，可能沒有足夠權限。"
+                    fi
+                fi
+                
+                # 添加標籤到 PR
+                if gh pr edit "$pr_number" -R "$repo" --add-label "needs-manual-resolution"; then
+                    echo "✅ 已標記為: needs-manual-resolution"
+                else
+                    echo "❌ 標記失敗。"
+                fi
+            fi
+            
+            # 如果我們之前創建了 stash，提醒用戶
+            if [ "$HAS_STASHED" = true ]; then
+                echo -e "${BLUE}ℹ️  您有未處理的 stash，可以使用 'git stash list' 和 'git stash pop' 恢復${NC}"
+            fi
+            
+            cd - > /dev/null # 返回原始目錄
+            return
+        fi
+    else
+        # 成功 fetch 了分支，現在切換到它
+        if ! git checkout "$pr_branch_name" 2>/dev/null; then
+            echo -e "${RED}❌ 切換到分支 ${pr_branch_name} 失敗${NC}"
+            cd - > /dev/null # 返回原始目錄
+            return
+        fi
     fi
 
     echo -e "${YELLOW}⚠️  自動解決失敗，需要手動處理。${NC}"
@@ -224,6 +277,15 @@ function handle_conflicting_pr() {
             echo "ℹ️  Snyk PR 強制覆蓋模式："
             echo "正在強制合併 PR #${pr_number}..."
             
+            # 檢查 PR 是否仍然存在
+            if ! gh pr view "$pr_number" -R "$repo" &>/dev/null; then
+                echo -e "${YELLOW}⚠️  PR #${pr_number} 可能已不存在或無法訪問${NC}"
+                echo -e "${BLUE}ℹ️  嘗試關閉或刪除此 PR...${NC}"
+                gh pr close "$pr_number" -R "$repo" --delete-branch &>/dev/null || true
+                git checkout "${main_branch}" &>/dev/null || true
+                return
+            fi
+            
             # 強制合併 Snyk PR (使用 --admin 參數來繞過檢查)
             if gh pr merge "$pr_number" -R "$repo" --squash --delete-branch --admin; then
                 echo -e "${GREEN}✅ Snyk PR 強制合併成功！${NC}"
@@ -233,7 +295,7 @@ function handle_conflicting_pr() {
                     echo -e "${GREEN}✅ Snyk PR 強制合併成功！${NC}"
                 else
                     echo -e "${RED}❌ 強制合併失敗，嘗試啟用自動合併..."
-                    if gh pr merge "$pr_number" -R "$repo" --auto --squash; then
+                    if gh pr merge "$pr_number" -R "$repo" --auto --squash 2>/dev/null; then
                         echo -e "${GREEN}✅ 已啟用自動合併，PR 將在通過檢查後自動合併${NC}"
                     else
                         echo -e "${RED}❌ 所有嘗試都失敗，標記為需要人工處理${NC}"
@@ -300,16 +362,24 @@ command -v gh >/dev/null 2>&1 || die "此腳本需要 GitHub CLI ('gh')。請先
 # 檢查 gh 是否登入
 # 直接嘗試獲取用戶名，這是更可靠的方式來檢查認證狀態
 echo -e "${BLUE}ℹ️  正在檢查 GitHub CLI 認證狀態...${NC}"
-if ! GITHUB_USER=$(gh api user --jq .login 2>/dev/null); then
-    echo -e "${YELLOW}⚠️  GitHub CLI 認證可能有問題，嘗試重新認證...${NC}"
-    # 嘗試重新登入
-    gh auth status >/dev/null 2>&1 || gh auth refresh -h github.com -s user >/dev/null 2>&1
+
+# 嘗試最多 3 次獲取用戶名
+for i in {1..3}; do
+    if GITHUB_USER=$(gh api user --jq .login 2>/dev/null); then
+        break
+    else
+        echo -e "${YELLOW}⚠️  GitHub CLI 認證可能有問題，嘗試重新認證 (嘗試 $i/3)...${NC}"
+        # 嘗試重新登入
+        gh auth status >/dev/null 2>&1 || gh auth refresh -h github.com -s user >/dev/null 2>&1
+        sleep 2
+    fi
     
-    # 再次嘗試獲取用戶名
-    if ! GITHUB_USER=$(gh api user --jq .login 2>/dev/null); then
+    # 如果是最後一次嘗試且仍然失敗
+    if [ $i -eq 3 ] && ! GITHUB_USER=$(gh api user --jq .login 2>/dev/null); then
         die "無法獲取 GitHub 用戶名。請確保您已登入 GitHub CLI (執行 'gh auth login')。"
     fi
-fi
+done
+
 echo -e "${GREEN}✅ GitHub CLI 認證狀態正常 - 已登入為 ${GITHUB_USER}${NC}"
 
 # 腳本現在自動處理所有衝突，無需非互動模式
@@ -327,20 +397,47 @@ if [[ "$expanded_base_repo_dir" != /* && "$expanded_base_repo_dir" != ~* ]]; the
 fi
 
 # 獲取所有儲存庫列表
-REPOS=$(gh repo list --json nameWithOwner --limit 1000 --jq '.[].nameWithOwner')
+echo -e "${BLUE}ℹ️  正在獲取儲存庫列表...${NC}"
 
-if [ -z "$REPOS" ]; then
+# 嘗試最多 3 次獲取儲存庫列表
+for i in {1..3}; do
+    REPOS=$(gh repo list --json nameWithOwner --limit 1000 --jq '.[].nameWithOwner' 2>/dev/null)
+    if [ -n "$REPOS" ]; then
+        break
+    else
+        echo -e "${YELLOW}⚠️  獲取儲存庫列表失敗，嘗試重新獲取 (嘗試 $i/3)...${NC}"
+        sleep 2
+    fi
+    
+    # 如果是最後一次嘗試且仍然失敗
+    if [ $i -eq 3 ] && [ -z "$REPOS" ]; then
     echo -e "${YELLOW}⚠️  找不到任何屬於 ${GITHUB_USER} 的儲存庫。${NC}"
     exit 1
 fi
+done
 
 for repo in $REPOS; do
     echo "-----------------------------------------------------"
     echo -e "${BLUE}ℹ️  正在檢查儲存庫: ${repo}${NC}"
 
-    PRS=$(gh pr list -R "$repo" --json number,title,mergeable,mergeStateStatus,url,headRefName --jq '.[] | @base64')
-
-    if [ -z "$PRS" ]; then
+    # 嘗試最多 3 次獲取 PR 列表
+    local prs_found=false
+    for i in {1..3}; do
+        PRS=$(gh pr list -R "$repo" --json number,title,mergeable,mergeStateStatus,url,headRefName --jq '.[] | @base64' 2>/dev/null)
+        
+        if [ -n "$PRS" ]; then
+            prs_found=true
+            break
+        else
+            # 只有在第一次嘗試失敗時才顯示重試訊息
+            if [ $i -eq 1 ]; then
+                echo -e "${YELLOW}⚠️  獲取 PR 列表失敗，嘗試重新獲取...${NC}"
+            fi
+            sleep 2
+        fi
+    done
+    
+    if [ "$prs_found" = false ]; then
         echo "  > 沒有找到開啟的 Pull Requests。"
         continue
     fi
@@ -348,14 +445,26 @@ for repo in $REPOS; do
     original_dir=$(pwd)
     
     for pr_base64 in $PRS; do
-        pr_details=$(echo "$pr_base64" | base64 --decode)
+        # 解碼 PR 詳情並處理可能的錯誤
+        pr_details=""
+        if ! pr_details=$(echo "$pr_base64" | base64 --decode 2>/dev/null); then
+            echo -e "${YELLOW}⚠️  解碼 PR 詳情失敗，跳過...${NC}"
+            continue
+        fi
         
-        pr_number=$(echo "$pr_details" | jq -r '.number')
-        pr_title=$(echo "$pr_details" | jq -r '.title')
-        pr_mergeable=$(echo "$pr_details" | jq -r '.mergeable')
-        pr_status=$(echo "$pr_details" | jq -r '.mergeStateStatus')
-        pr_url=$(echo "$pr_details" | jq -r '.url')
-        pr_branch=$(echo "$pr_details" | jq -r '.headRefName')
+        # 提取 PR 資訊並檢查是否有效
+        pr_number=$(echo "$pr_details" | jq -r '.number' 2>/dev/null)
+        pr_title=$(echo "$pr_details" | jq -r '.title' 2>/dev/null)
+        pr_mergeable=$(echo "$pr_details" | jq -r '.mergeable' 2>/dev/null)
+        pr_status=$(echo "$pr_details" | jq -r '.mergeStateStatus' 2>/dev/null)
+        pr_url=$(echo "$pr_details" | jq -r '.url' 2>/dev/null)
+        pr_branch=$(echo "$pr_details" | jq -r '.headRefName' 2>/dev/null)
+        
+        # 檢查是否獲取了所有必要資訊
+        if [ -z "$pr_number" ] || [ -z "$pr_title" ] || [ -z "$pr_mergeable" ] || [ -z "$pr_url" ]; then
+            echo -e "${YELLOW}⚠️  無法獲取完整的 PR 資訊，跳過...${NC}"
+            continue
+        fi
 
         echo ""
         echo "  > 找到 PR: ${pr_url}"
@@ -366,6 +475,12 @@ for repo in $REPOS; do
         case "$pr_mergeable" in
             "MERGEABLE")
                 echo -e "${GREEN}✅ 狀態為可合併。正在嘗試自動合併...${NC}"
+                # 檢查 PR 是否仍然存在
+                if ! gh pr view "$pr_number" -R "$repo" &>/dev/null; then
+                    echo -e "${YELLOW}⚠️  PR #${pr_number} 可能已不存在或無法訪問，跳過${NC}"
+                    continue
+                fi
+                
                 if gh pr merge "$pr_url" --squash --delete-branch; then
                     echo -e "${GREEN}✅ ✅ PR 合併成功！${NC}"
                 else
@@ -375,7 +490,15 @@ for repo in $REPOS; do
                     echo -e "${YELLOW}   - 需要審核（Review）${NC}"
                     echo -e "${YELLOW}   - 分支保護規則阻止合併${NC}"
                     echo -e "${YELLOW}   - 合併時發生衝突${NC}"
-                    echo -e "${BLUE}ℹ️  建議: 嘗試使用 'gh pr merge ${pr_url} --auto' 啟用自動合併${NC}"
+                    
+                    # 嘗試啟用自動合併
+                    echo -e "${BLUE}ℹ️  嘗試啟用自動合併...${NC}"
+                    if gh pr merge "$pr_url" --auto --squash 2>/dev/null; then
+                        echo -e "${GREEN}✅ 已啟用自動合併，PR 將在通過檢查後自動合併${NC}"
+                    else
+                        echo -e "${YELLOW}⚠️  無法啟用自動合併，可能需要手動處理${NC}"
+                        echo -e "${BLUE}ℹ️  建議: 手動檢查 PR 狀態: 'gh pr view ${pr_url}'${NC}"
+                    fi
                 fi
                 ;;
             "CONFLICTING")
