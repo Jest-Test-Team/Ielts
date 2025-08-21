@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+
 ```mermaid
 graph TD
     subgraph Introduction
@@ -73,7 +74,9 @@ The conclusion should summarize your essay without introducing new information.
     Sentence 2: Restate Your Thesis
 
         Provide a final, concluding thought that reinforces your main argument.
+
 =======
+
 # IELTS Task 2 寫作流程指南
 
 ## 文章結構流程圖
@@ -81,25 +84,25 @@ The conclusion should summarize your essay without introducing new information.
 ```mermaid
 graph TD
     subgraph "引言 (Introduction)"
-        A1["1. 改述問題 (Paraphrase Question)"] --> 
-        A2["2. 陳述論點/立場 (State Thesis/Position)"] --> 
+        A1["1. 改述問題 (Paraphrase Question)"] -->
+        A2["2. 陳述論點/立場 (State Thesis/Position)"] -->
         A3["3. 概述文章計劃 (Outline Essay Plan)"]
     end
 
     subgraph "主體段落 1 (Body Paragraph 1)"
-        B1["主題句 (Topic Sentence)"] --> 
-        B2["解釋與支持 (Explanation & Support)"] --> 
+        B1["主題句 (Topic Sentence)"] -->
+        B2["解釋與支持 (Explanation & Support)"] -->
         B3["具體例子 (Specific Example)"]
     end
 
     subgraph "主體段落 2 (Body Paragraph 2)"
-        C1["主題句 (Topic Sentence)"] --> 
-        C2["解釋與支持 (Explanation & Support)"] --> 
+        C1["主題句 (Topic Sentence)"] -->
+        C2["解釋與支持 (Explanation & Support)"] -->
         C3["具體例子 (Specific Example)"]
     end
 
     subgraph "結論 (Conclusion)"
-        D1["總結主要觀點 (Summarize Main Points)"] --> 
+        D1["總結主要觀點 (Summarize Main Points)"] -->
         D2["重申論點/最終思考 (Restate Thesis/Final Thought)"]
     end
 
@@ -111,7 +114,7 @@ graph TD
     classDef body1 fill:#eeeeee,stroke:#333,stroke-width:1px
     classDef body2 fill:#dddddd,stroke:#333,stroke-width:1px
     classDef conclusion fill:#d0e8f2,stroke:#333,stroke-width:1px
-    
+
     class A1,A2,A3 introduction
     class B1,B2,B3 body1
     class C1,C2,C3 body2
@@ -182,7 +185,7 @@ flowchart LR
     C --> D[寫主體段落]
     D --> E[寫結論]
     E -->|檢查| F[校對]
-    
+
     style A fill:#f9d5e5,stroke:#333,stroke-width:1px
     style B fill:#eeeeee,stroke:#333,stroke-width:1px
     style C fill:#dddddd,stroke:#333,stroke-width:1px
@@ -190,4 +193,5 @@ flowchart LR
     style E fill:#c9e4ca,stroke:#333,stroke-width:1px
     style F fill:#fcf6bd,stroke:#333,stroke-width:1px
 ```
->>>>>>> Stashed changes
+
+> > > > > > > Stashed changes
