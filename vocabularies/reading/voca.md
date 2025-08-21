@@ -128,3 +128,65 @@
 | 指出複雜性/雙面性 | While [subject] can be harnessed for positive change, it can also contribute to [a negative outcome]... | 原文: While neuroplasticity can be harnessed for positive change, it can also contribute to the development of maladaptive behaviors... 應用: While social media can be harnessed for positive social movements, it can also contribute to the spread of misinformation. |
 | 展望未來與提出條件 | Realizing this potential will require ongoing [effort] to further [verb]... | 原文: Realizing this potential will require ongoing research to further elucidate the mechanisms of neuroplasticity... 應用: Realizing this potential will require ongoing investment to further develop the necessary infrastructure for electric vehicles. |
 | 做出總結與呼籲 | By embracing [a concept], we may be able to unlock the full potential of... | 原文: By embracing the brain's capacity for change, we may be able to unlock the full potential of this remarkable organ... 應用: By embracing international cooperation, we may be able to unlock the full potential of global trade to reduce poverty. |
+
+
+
+Web 3.0
+
+Semantic web (語義網)
+Machine-readable (機器可讀)
+Interconnected (互聯的)
+Ontologies (本體論)
+Artificial intelligence (人工智慧)
+Big data (大數據)
+Advanced machine learning algorithms (先進機器學習演算法)
+Decentralized (去中心化的)
+Blockchain (區塊鏈)
+Virtual assistants (虛擬助理)
+Internet of Things (IoT) (物聯網)
+Smart cities (智慧城市)
+Real-time data (即時數據)
+Interoperability (互操作性)
+Fragmented ecosystem (碎片化生態系統)
+Job displacement (工作取代)
+Ethical implications (道德影響)
+Digital divides (數位鴻溝)
+Digital literacy (數位素養)
+Equitable access (公平存取)
+
+Decision-Making Biases
+
+Heuristics (啟發法)
+Biases (偏差)
+Systematic errors (系統性錯誤)
+Bounded rationality (有限理性)
+Satisficing (滿意化決策)
+Somatic marker hypothesis (軀體標記假說)
+Emotional responses (情緒反應)
+Loss aversion (損失厭惡)
+Framing effects (框架效應)
+Cognitive dissonance (認知失調)
+Mental discomfort (心理不適)
+Inconsistent beliefs (不一致信念)
+Unconsciously adjust (無意識調整)
+
+Biomimicry
+
+Biomimicry (仿生學)
+Emulate (模擬)
+Time-tested strategies (經時間驗證的策略)
+Sustainable (可持續的)
+Resilient (有彈性的)
+Velcro (魔鬼氈)
+Burrs (芒刺)
+Aerodynamic (空氣動力學的)
+Sonic booms (音爆)
+Light-harvesting (光收集)
+Photosynthesis (光合作用)
+Solar cells (太陽能電池)
+Passive ventilation (被動通風)
+Spider silk (蜘蛛絲)
+Bulletproof vests (防彈背心)
+Medical sutures (醫用縫線)
+Iterative process (迭代過程)
+Optimizes organisms (優化有機體)
