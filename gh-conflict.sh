@@ -139,7 +139,18 @@ function handle_conflicting_pr() {
 command -v gh >/dev/null 2>&1 || die "此腳本需要 GitHub CLI ('gh')。請先安裝。"
 
 # 檢查 gh 是否登入
-gh auth status >/dev/null 2>&1 || die "您尚未登入 GitHub CLI。請執行 'gh auth login'。"
+# 嘗試多次檢查 gh 認證狀態，有時第一次檢查可能失敗
+for i in {1..3}; do
+    if gh auth status >/dev/null 2>&1; then
+        echo -e "${GREEN}✅ GitHub CLI 認證狀態正常${NC}"
+        break
+    elif [ $i -eq 3 ]; then
+        die "您尚未登入 GitHub CLI。請執行 'gh auth login'。"
+    else
+        echo -e "${YELLOW}⚠️  嘗試再次檢查 GitHub CLI 認證狀態 (嘗試 $i/3)${NC}"
+        sleep 2
+    fi
+done
 
 # 腳本現在自動處理所有衝突，無需非互動模式
 
