@@ -47,6 +47,9 @@ function handle_conflicting_pr() {
     local pr_number="$2"
     local pr_branch="$3"
     local expanded_base_repo_dir="$4"
+    
+    # 初始化變數
+    local HAS_STASHED=false
 
     echo -e "${YELLOW}⚠️  無法自動合併。狀態: CONFLICTING${NC}"
     echo -e "${YELLOW}⚠️  發現合併衝突，正在嘗試解決...${NC}"
@@ -65,9 +68,20 @@ function handle_conflicting_pr() {
     echo -e "${BLUE}ℹ️  正在切換到正確的儲存庫: ${repo}${NC}"
     
     if [ ! -d "$local_repo_dir" ]; then
-        echo -e "${YELLOW}⚠️  找不到本地儲存庫: ${local_repo_dir}。${NC}"
-        echo -e "${YELLOW}   請確認您的 BASE_REPO_DIR 設定是否正確，以及儲存庫是否已克隆。${NC}"
-        return
+        echo -e "${YELLOW}⚠️  找不到本地儲存庫: ${local_repo_dir}${NC}"
+        echo -e "${BLUE}ℹ️  嘗試自動克隆儲存庫 ${repo}...${NC}"
+        
+        # 創建父目錄（如果不存在）
+        mkdir -p "$expanded_base_repo_dir"
+        
+        # 嘗試克隆儲存庫
+        if gh repo clone "$repo" "$local_repo_dir"; then
+            echo -e "${GREEN}✅ 成功克隆儲存庫: ${repo}${NC}"
+        else
+            echo -e "${RED}❌ 克隆儲存庫失敗: ${repo}${NC}"
+            echo -e "${YELLOW}   可能原因: 網絡問題、權限問題或儲存庫不存在${NC}"
+            return
+        fi
     fi
 
     echo -e "${BLUE}ℹ️  找到本地儲存庫: ${repo_name}${NC}"
@@ -83,11 +97,35 @@ function handle_conflicting_pr() {
 
     echo -e "${GREEN}✅ 成功切換到儲存庫: ${repo}${NC}"
     
+    # 檢查是否有未提交的變更
+    if git status --porcelain | grep -q .; then
+        echo -e "${YELLOW}⚠️  檢測到本地未提交的變更，嘗試自動 stash...${NC}"
+        
+        # 創建一個包含時間戳的 stash 訊息
+        stash_message="自動 stash 由腳本創建於 $(date '+%Y-%m-%d %H:%M:%S')"
+        
+        if git stash push -m "$stash_message"; then
+            echo -e "${GREEN}✅ 成功 stash 本地變更${NC}"
+            # 記錄我們創建了 stash，以便稍後提醒用戶
+            HAS_STASHED=true
+        else
+            echo -e "${RED}❌ stash 本地變更失敗${NC}"
+            echo -e "${YELLOW}⚠️  嘗試強制 checkout，這可能會覆蓋本地變更${NC}"
+        fi
+    fi
+
     # 使用 `gh pr checkout` 會自動處理 fetch 和建立本地分支
     echo -e "${BLUE}ℹ️  正在 checkout PR #${pr_number} 以便處理衝突...${NC}"
     
     if ! gh pr checkout "$pr_number"; then
-        echo -e "${RED}❌ checkout PR #${pr_number} 失敗。可能遠端分支已被刪除或有其他問題。${NC}"
+        echo -e "${RED}❌ checkout PR #${pr_number} 失敗。${NC}"
+        echo -e "${YELLOW}   可能原因: 遠端分支已被刪除、本地有未提交變更或分支名稱衝突${NC}"
+        
+        # 如果我們之前創建了 stash，提醒用戶
+        if [ "$HAS_STASHED" = true ]; then
+            echo -e "${BLUE}ℹ️  您有未處理的 stash，可以使用 'git stash list' 和 'git stash pop' 恢復${NC}"
+        fi
+        
         cd - > /dev/null # 返回原始目錄
         return
     fi
@@ -118,7 +156,18 @@ function handle_conflicting_pr() {
         2)
             echo "ℹ️  已跳過 PR #${pr_number}。"
             git merge --abort > /dev/null 2>&1 || git reset --hard HEAD > /dev/null 2>&1
-            git checkout "${main_branch}"
+            
+            # 切換回主分支
+            if git checkout "${main_branch}"; then
+                echo -e "${GREEN}✅ 已切換回主分支${NC}"
+            else
+                echo -e "${RED}❌ 切換回主分支失敗${NC}"
+            fi
+            
+            # 如果之前有 stash，提醒用戶
+            if [ "$HAS_STASHED" = true ]; then
+                echo -e "${BLUE}ℹ️  您有未處理的 stash，可以使用 'git stash list' 和 'git stash pop' 恢復${NC}"
+            fi
             ;;
         3)
             echo "ℹ️  正在標記 PR 為需要人工處理..."
@@ -138,7 +187,18 @@ function handle_conflicting_pr() {
             else
                 echo "❌ 標記失敗。"
             fi
-            git checkout "${main_branch}"
+            
+            # 切換回主分支
+            if git checkout "${main_branch}"; then
+                echo -e "${GREEN}✅ 已切換回主分支${NC}"
+            else
+                echo -e "${RED}❌ 切換回主分支失敗${NC}"
+            fi
+            
+            # 如果之前有 stash，提醒用戶
+            if [ "$HAS_STASHED" = true ]; then
+                echo -e "${BLUE}ℹ️  您有未處理的 stash，可以使用 'git stash list' 和 'git stash pop' 恢復${NC}"
+            fi
             ;;
         4)
             echo "ℹ️  顯示手動解決衝突的步驟："
@@ -147,7 +207,18 @@ function handle_conflicting_pr() {
             echo "3. git merge origin/${main_branch}"
             echo "4. (解決衝突後) git add . && git commit"
             echo "5. git push origin ${pr_branch}"
-            git checkout "${main_branch}"
+            
+            # 切換回主分支
+            if git checkout "${main_branch}"; then
+                echo -e "${GREEN}✅ 已切換回主分支${NC}"
+            else
+                echo -e "${RED}❌ 切換回主分支失敗${NC}"
+            fi
+            
+            # 如果之前有 stash，提醒用戶
+            if [ "$HAS_STASHED" = true ]; then
+                echo -e "${BLUE}ℹ️  您有未處理的 stash，可以使用 'git stash list' 和 'git stash pop' 恢復${NC}"
+            fi
             ;;
         5)
             echo "ℹ️  Snyk PR 強制覆蓋模式："
@@ -187,11 +258,32 @@ function handle_conflicting_pr() {
                     fi
                 fi
             fi
-            git checkout "${main_branch}" || echo "無法切換回主分支，可能已經在主分支上"
+            # 切換回主分支
+            if git checkout "${main_branch}"; then
+                echo -e "${GREEN}✅ 已切換回主分支${NC}"
+            else
+                echo -e "${RED}❌ 切換回主分支失敗，可能已經在主分支上${NC}"
+            fi
+            
+            # 如果之前有 stash，提醒用戶
+            if [ "$HAS_STASHED" = true ]; then
+                echo -e "${BLUE}ℹ️  您有未處理的 stash，可以使用 'git stash list' 和 'git stash pop' 恢復${NC}"
+            fi
             ;;
         *)
             echo "無效的選項。將跳過此 PR。"
-            git checkout "${main_branch}"
+            
+            # 切換回主分支
+            if git checkout "${main_branch}"; then
+                echo -e "${GREEN}✅ 已切換回主分支${NC}"
+            else
+                echo -e "${RED}❌ 切換回主分支失敗${NC}"
+            fi
+            
+            # 如果之前有 stash，提醒用戶
+            if [ "$HAS_STASHED" = true ]; then
+                echo -e "${BLUE}ℹ️  您有未處理的 stash，可以使用 'git stash list' 和 'git stash pop' 恢復${NC}"
+            fi
             ;;
     esac
     
@@ -277,7 +369,13 @@ for repo in $REPOS; do
                 if gh pr merge "$pr_url" --squash --delete-branch; then
                     echo -e "${GREEN}✅ ✅ PR 合併成功！${NC}"
                 else
-                    echo -e "${RED}⚠️  ⚠️  自動合併失敗。可能是因為狀態檢查未通過。${NC}"
+                    echo -e "${RED}⚠️  ⚠️  自動合併失敗。${NC}"
+                    echo -e "${YELLOW}   可能原因: ${NC}"
+                    echo -e "${YELLOW}   - 狀態檢查未通過（CI/CD 測試失敗）${NC}"
+                    echo -e "${YELLOW}   - 需要審核（Review）${NC}"
+                    echo -e "${YELLOW}   - 分支保護規則阻止合併${NC}"
+                    echo -e "${YELLOW}   - 合併時發生衝突${NC}"
+                    echo -e "${BLUE}ℹ️  建議: 嘗試使用 'gh pr merge ${pr_url} --auto' 啟用自動合併${NC}"
                 fi
                 ;;
             "CONFLICTING")
@@ -286,9 +384,16 @@ for repo in $REPOS; do
                 cd "$original_dir"
                 ;;
             "UNKNOWN")
-                 echo -e "${YELLOW}🔄 合併狀態未知。通常是因為有檢查正在執行中。${NC}"
-                 echo -e "${YELLOW}   您可以嘗試啟用自動合併 (auto-merge) 或稍後重試。${NC}"
-                 echo -e "${RED}⚠️  ⚠️  自動合併失敗，請手動處理。${NC}"
+                echo -e "${YELLOW}🔄 合併狀態未知。${NC}"
+                echo -e "${YELLOW}   可能原因: ${NC}"
+                echo -e "${YELLOW}   - 檢查正在執行中（CI/CD 測試）${NC}"
+                echo -e "${YELLOW}   - GitHub API 暫時性問題${NC}"
+                echo -e "${YELLOW}   - PR 剛剛建立，狀態尚未更新${NC}"
+                echo -e "${BLUE}ℹ️  建議: ${NC}"
+                echo -e "${BLUE}   - 嘗試啟用自動合併: 'gh pr merge ${pr_url} --auto'${NC}"
+                echo -e "${BLUE}   - 稍後重新執行此腳本${NC}"
+                echo -e "${BLUE}   - 查看 PR 狀態: 'gh pr view ${pr_url}'${NC}"
+                echo -e "${RED}⚠️  自動合併失敗，請手動處理。${NC}"
                 ;;
             *)
                 echo -e "${RED}❌ 無法合併 PR #${pr_number}。狀態: ${pr_mergeable} (${pr_status})${NC}"
