@@ -397,6 +397,12 @@ for repo in $REPOS; do
                 ;;
             *)
                 echo -e "${RED}❌ 無法合併 PR #${pr_number}。狀態: ${pr_mergeable} (${pr_status})${NC}"
+                echo -e "${YELLOW}   未知的合併狀態，可能是: ${NC}"
+                echo -e "${YELLOW}   - PR 已關閉或已合併${NC}"
+                echo -e "${YELLOW}   - PR 被鎖定${NC}"
+                echo -e "${YELLOW}   - 分支已被刪除${NC}"
+                echo -e "${YELLOW}   - GitHub API 返回了未處理的狀態${NC}"
+                echo -e "${BLUE}ℹ️  建議: 手動檢查 PR 狀態: 'gh pr view ${pr_url}'${NC}"
                 ;;
         esac
     done
