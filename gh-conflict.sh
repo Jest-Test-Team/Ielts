@@ -15,7 +15,9 @@
 # 2. 修改下面的 `BASE_REPO_DIR` 變數，使其指向您存放本地 Git 儲存庫的根目錄。
 # 3. 賦予腳本執行權限: `chmod +x gh-conflict.sh`
 # 4. 執行此腳本: `./gh-conflict.sh`
-# 5. 腳本會自動處理所有衝突，遇到衝突時會標記為 'needs-manual-resolution' 並繼續執行
+# 5. 腳本會自動處理所有衝突：
+#    - 對於 Snyk PR，會嘗試使用 --admin 參數強制合併
+#    - 對於其他衝突 PR，會標記為 'needs-manual-resolution' 並繼續執行
 # ==============================================================================
 
 # --- 設定 ---
@@ -140,19 +142,24 @@ function handle_conflicting_pr() {
             echo "ℹ️  Snyk PR 強制覆蓋模式："
             echo "正在強制合併 PR #${pr_number}..."
             
-            # 強制合併 Snyk PR
-            if gh pr merge "$pr_number" -R "$repo" --squash --delete-branch --force; then
+            # 強制合併 Snyk PR (使用 --admin 參數來繞過檢查)
+            if gh pr merge "$pr_number" -R "$repo" --squash --delete-branch --admin; then
                 echo -e "${GREEN}✅ Snyk PR 強制合併成功！${NC}"
             else
                 echo -e "${YELLOW}⚠️  強制合併失敗，嘗試使用 --rebase 模式..."
-                if gh pr merge "$pr_number" -R "$repo" --rebase --delete-branch --force; then
+                if gh pr merge "$pr_number" -R "$repo" --rebase --delete-branch --admin; then
                     echo -e "${GREEN}✅ Snyk PR 強制合併成功！${NC}"
                 else
-                    echo -e "${RED}❌ 強制合併失敗，標記為需要人工處理"
-                    gh pr edit "$pr_number" -R "$repo" --add-label "needs-manual-resolution"
+                    echo -e "${RED}❌ 強制合併失敗，嘗試啟用自動合併..."
+                    if gh pr merge "$pr_number" -R "$repo" --auto --squash; then
+                        echo -e "${GREEN}✅ 已啟用自動合併，PR 將在通過檢查後自動合併${NC}"
+                    else
+                        echo -e "${RED}❌ 所有嘗試都失敗，標記為需要人工處理${NC}"
+                        gh pr edit "$pr_number" -R "$repo" --add-label "needs-manual-resolution" || echo "無法添加標籤，可能標籤不存在"
+                    fi
                 fi
             fi
-            git checkout "${main_branch}"
+            git checkout "${main_branch}" || echo "無法切換回主分支，可能已經在主分支上"
             ;;
         *)
             echo "無效的選項。將跳過此 PR。"
@@ -189,7 +196,7 @@ echo -e "${GREEN}✅ GitHub CLI 認證狀態正常 - 已登入為 ${GITHUB_USER}
 # 用戶名已在上面的認證檢查中獲取
 
 echo -e "${BLUE}🚀 GitHub PR 自動合併與衝突處理腳本${NC}"
-echo -e "${GREEN}✅ 自動模式：遇到衝突時會自動標記並繼續執行${NC}"
+echo -e "${GREEN}✅ 自動模式：Snyk PR 將使用強制覆蓋，其他衝突 PR 會自動標記${NC}"
 echo "=================================================="
 echo -e "${BLUE}ℹ️  正在為用戶 ${GITHUB_USER} 檢查所有儲存庫...${NC}"
 
