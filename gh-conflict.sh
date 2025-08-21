@@ -122,6 +122,17 @@ function handle_conflicting_pr() {
             ;;
         3)
             echo "ℹ️  正在標記 PR 為需要人工處理..."
+            # 檢查標籤是否存在，不存在則創建
+            if ! gh label list -R "$repo" --json name --jq '.[] | .name' | grep -q "needs-manual-resolution"; then
+                echo "ℹ️  標籤 'needs-manual-resolution' 不存在，正在創建..."
+                if gh label create "needs-manual-resolution" -R "$repo" -c "#FF0000" -d "需要手動解決衝突的 PR"; then
+                    echo "✅ 已創建標籤: needs-manual-resolution"
+                else
+                    echo "❌ 創建標籤失敗，可能沒有足夠權限。"
+                fi
+            fi
+            
+            # 添加標籤到 PR
             if gh pr edit "$pr_number" -R "$repo" --add-label "needs-manual-resolution"; then
                 echo "✅ 已標記為: needs-manual-resolution"
             else
@@ -155,7 +166,24 @@ function handle_conflicting_pr() {
                         echo -e "${GREEN}✅ 已啟用自動合併，PR 將在通過檢查後自動合併${NC}"
                     else
                         echo -e "${RED}❌ 所有嘗試都失敗，標記為需要人工處理${NC}"
-                        gh pr edit "$pr_number" -R "$repo" --add-label "needs-manual-resolution" || echo "無法添加標籤，可能標籤不存在"
+                        # 檢查標籤是否存在，不存在則創建
+                        if ! gh label list -R "$repo" --json name --jq '.[] | .name' | grep -q "needs-manual-resolution"; then
+                            echo "ℹ️  標籤 'needs-manual-resolution' 不存在，正在創建..."
+                            if gh label create "needs-manual-resolution" -R "$repo" -c "#FF0000" -d "需要手動解決衝突的 PR"; then
+                                echo "✅ 已創建標籤: needs-manual-resolution"
+                            else
+                                echo "❌ 創建標籤失敗，可能沒有足夠權限。"
+                            fi
+                        fi
+                        
+                        # 添加標籤到 PR
+                        if gh pr edit "$pr_number" -R "$repo" --add-label "needs-manual-resolution"; then
+                            echo "✅ 已標記 PR #${pr_number} 為: needs-manual-resolution"
+                            # 添加 URL 以便後續查看
+                            echo "${pr_url}"
+                        else
+                            echo "❌ 標記失敗。"
+                        fi
                     fi
                 fi
             fi
