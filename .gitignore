@@ -1,32 +1,19 @@
-writing/task1-guideline/total.txt
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+
+# Editor directories and files
+.idea/
+.vscode/
+.cursor/
+
+# Archive directory (completely removed to fix Jekyll build)
+archive/
+
+# Other files
 cli.txt
-ielts_materialfor_rag/vocabularies copy/reading/voca.md
-ielts_materialfor_rag/Vocabulary copy/Phrasal-Verbs.md
-ielts_materialfor_rag/Vocabulary copy/substitution-words.md
-ielts_materialfor_rag/Vocabulary copy/Synonyms-Master-List.md
-ielts_materialfor_rag/writing copy/Task 1/1_Strategy/Comparison-Phrases.md
-ielts_materialfor_rag/writing copy/Task 1/1_Strategy/Pipeline.md
-ielts_materialfor_rag/writing copy/Task 1/2_Practice-Essays/2023-10-15_Bar-Chart-Analysis.md
-ielts_materialfor_rag/writing copy/Task 1/2_Practice-Essays/2023-10-20_Pie-Chart-Analysis.md
-ielts_materialfor_rag/writing copy/Task 1/Error-Notebook-Task1.md
-ielts_materialfor_rag/writing copy/Task 1/task-1-graduation.md
-ielts_materialfor_rag/writing copy/Task 1/Task1 Writing Pipeline.md
-ielts_materialfor_rag/writing copy/Task 2/1_Strategy/Essay-Structure.md
-# Archive files (removed problematic references)
-# ielts_materialfor_rag/writing copy/Task 2/2_Practice-Essays/removed-problematic-file.md
-ielts_materialfor_rag/writing copy/task1-concepts/comparsion-phrase.md
-ielts_materialfor_rag/writing copy/task1-concepts/critical_note.md
-ielts_materialfor_rag/writing copy/task1-concepts/error_notebook/bar_chart.md
-ielts_materialfor_rag/writing copy/task1-concepts/guideline.md
-ielts_materialfor_rag/writing copy/task1-concepts/key_notes/Line_Graphs.md
-ielts_materialfor_rag/writing copy/task1-concepts/synoinyms.md
-ielts_materialfor_rag/writing copy/task1-concepts/task1-writing-practices/bar-chart-1.md
-ielts_materialfor_rag/writing copy/task1-concepts/task1-writing-practices/bar-chart-2.md
-ielts_materialfor_rag/writing copy/task1-concepts/task1-writing-practices/break-through.md
-ielts_materialfor_rag/writing copy/task1-concepts/task1-writing-practices/line+pit_charts.md
-ielts_materialfor_rag/writing copy/task1-concepts/task1-writing-practices/pie-charts-1.md
-ielts_materialfor_rag/writing copy/task1-concepts/task1-writing-practices/pie-charts-2.md
-ielts_materialfor_rag/writing copy/task1-concepts/total.txt
-ielts_materialfor_rag/writing copy/task2_concepts/consultant.md
-ielts_materialfor_rag/writing copy/task2_concepts/Key Concepts & Strategies.md
-ielts_materialfor_rag/writing copy/task2_concepts/procedure.md
