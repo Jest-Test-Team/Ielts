@@ -13,8 +13,7 @@
 
 - [錯誤記錄](02_Reading/error_log.html)
 - [策略筆記](02_Reading/strategy_notes.html)
-- [詞彙庫](02_Reading/vocabulary/synonyms_master_list.html)
-- [短語動詞](02_Reading/vocabulary/phrasal_verbs.html)
+- [詞彙庫](02_Reading/vocabulary.html)
 
 ### 寫作 (Writing)
 
@@ -30,6 +29,7 @@
 - [文章結構](03_Writing/Task_2/1_strategy/essay_structures.html)
 - [論點庫](03_Writing/Task_2/1_strategy/argument_bank.html)
 - [句子控制記錄](03_Writing/Task_2/3_error_notebook/sentence_control_log.html)
+- [常見錯誤](03_Writing/Task_2/3_error_notebook/common_errors.html)
 
 ### 口說 (Speaking)
 
