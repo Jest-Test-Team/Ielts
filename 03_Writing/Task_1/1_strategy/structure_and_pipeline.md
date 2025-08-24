@@ -36,7 +36,7 @@ _(適用於線圖、長條圖、圓餅圖、表格等)_
 
 ## 📋 Key Writing Strategies
 
-### **For Charts & Graphs**
+### **For Charts and Graphs**
 
 - **Grouping**: Identify 2 main categories for body paragraphs
 - **Trends**: Focus on overall patterns and key changes
