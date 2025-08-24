@@ -2,10 +2,6 @@ theme: jekyll-theme-cayman
 title: IELTS 學習筆記
 description: 我的 IELTS 考試準備筆記和資源集合
 
-# Enable Mermaid support
-plugins:
-  - jekyll-mermaid
-
 # Site settings
 url: "https://jest-test-team.github.io"
 baseurl: "/Ielts"
