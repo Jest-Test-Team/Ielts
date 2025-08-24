@@ -72,6 +72,7 @@ bundle exec jekyll serve
 ## 📊 學習進度追蹤
 
 ### 當前狀態
+
 - **聽力** ✅ 策略制定完成，開始錯誤分析
 - **閱讀** ✅ 基礎策略建立，詞彙庫完善
 - **寫作 Task 1** ✅ 完整策略體系，持續練習改進
@@ -79,6 +80,7 @@ bundle exec jekyll serve
 - **口說** 🔄 短語庫建立，開始話題練習
 
 ### 下階段目標
+
 - 完成所有 Task 2 練習記錄
 - 建立完整的錯誤分析體系
 - 開始口說 Part 2 和 Part 3 練習
@@ -112,4 +114,4 @@ bundle exec jekyll serve
 
 ---
 
-*Remember: Consistent practice and systematic improvement are the keys to IELTS success!* 🎯✨
+_Remember: Consistent practice and systematic improvement are the keys to IELTS success!_ 🎯✨
