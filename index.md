@@ -20,7 +20,7 @@
 #### Task 1
 
 - [寫作流程和結構](03_Writing/Task_1/1_strategy/structure_and_pipeline.html)
-- [比較短語](03_Writing/Task_1/1_strategy/Comparison-Phrases.html)
+- [比較短語](03_Writing/Task_1/1_strategy/comparison_phrases.html)
 - [詞彙表](03_Writing/Task_1/1_strategy/vocabulary_master_sheet.html)
 - [常見錯誤](03_Writing/Task_1/3_error_notebook/common_errors.html)
 
