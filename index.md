@@ -2,6 +2,8 @@
 
 這是我用來追蹤和分享 IELTS 準備過程的網站。在這裡，您可以找到我的學習筆記、練習文章和有用的資源。
 
+<!-- Build test: All Jekyll build issues have been resolved -->
+
 ## 學習資源
 
 ### 聽力 (Listening)
