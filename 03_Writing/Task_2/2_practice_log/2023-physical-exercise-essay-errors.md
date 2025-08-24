@@ -1,4 +1,4 @@
-Error & Improvement Notebook: Physical Exercise Essay
+# Error and Improvement Notebook: Physical Exercise Essay
 This notebook targets specific, recurring errors in your Band 8.0 essay on physical exercise.
 Category,Specific Error / Area for Improvement,❌ My Common Mistake (Example),✅ The Fix (Correction & Rule)
 Grammar,Sentence Fragment,Which is an evidence that their exercise habit was established...,"..., which is evidence that their exercise habit was established.
