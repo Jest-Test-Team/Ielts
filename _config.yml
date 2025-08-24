@@ -1,3 +1,39 @@
 theme: jekyll-theme-cayman
 title: IELTS 學習筆記
 description: 我的 IELTS 考試準備筆記和資源集合
+
+# Enable Mermaid support
+plugins:
+  - jekyll-mermaid
+
+# Site settings
+url: "https://jest-test-team.github.io"
+baseurl: "/Ielts"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
