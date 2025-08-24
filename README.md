@@ -45,9 +45,9 @@ Ielts/
 
 #### 啟用方式
 
-1. **Jekyll 插件**：已在 `_config.yml` 中啟用 `jekyll-mermaid`
-2. **Gemfile**：包含 `jekyll-mermaid` 依賴
-3. **自定義樣式**：在 `_includes/head.html` 中配置
+1. **CDN 載入**：使用 CDN 載入 Mermaid JavaScript 庫
+2. **自定義樣式**：在 `_includes/head.html` 中配置樣式和初始化
+3. **兼容性**：無需額外 Jekyll 插件，完全兼容 GitHub Pages
 
 #### 使用語法
 
