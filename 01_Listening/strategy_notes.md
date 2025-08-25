@@ -7,6 +7,15 @@
 **Question Types**: Multiple choice, matching, plan/map/diagram labeling, form/note/table/summary completion, sentence completion
 
 ---
+## 策略階段 (Strategy Phase)	核心技巧 (Core Technique)	具體行動 (Specific Action)
+- ### 通用原則 (Overall Principles)	仔細審題 (Examine Instructions)	嚴格遵守字數限制 (如 NO MORE THAN TWO WORDS)，任何超出都會失分。
+-	#### 預期同義詞替換 (Expect Paraphrasing)	不要期待聽到和題目上一模一樣的字，要專注於聽意思而非單字。
+-	#### 考前30秒 (Before Listening)	檢視問題 (Examine Questions)	快速瀏覽題目，劃出關鍵字 (Keywords)，了解問題的核心。
+-	####  預測答案 (Predict Answers)	根據題目句子的文法結構，預測答案的詞性（名詞、動詞、數字等），甚至預測可能的內容範圍。
+-	####  考試進行中 (During Listening)	跟隨節奏 (Follow Along)	聽力題目的順序與音檔內容的順序完全一致。聽到一題的答案後，立刻將注意力轉移到下一題。
+-	#### 果斷放棄 (Don't Get Stuck)	如果錯過了一題的答案，不要糾結，立即放棄，專心聽下一題。避免因一題失誤而錯過後續所有題目。
+-	#### 電腦考特別注意	直接輸入 (Direct Entry)	電腦考試沒有最後10分鐘的答案謄寫時間。必須邊聽邊將答案直接打入對應的空格中。
+___
 
 ## 📋 Section Breakdown
 

@@ -82,5 +82,28 @@
 
 ---
 
+# My Personal Listening Devil's Details Checklist
+
+**Instructions:** Before every listening test, quickly review this list. During the review time after each section, use this list to check your answers.
+
+---
+
+### ☐ **1. 拼寫與詞性 (Spelling & Word Form)**
+- [ ] **核心原則：** 絕不在拼寫上丟掉任何一分！
+- [ ] **常見錯誤：** `communicater` -> `communicate`
+- [ ] **常見錯誤：** `roses` -> `rosses` (拼寫不準確)
+- [ ] **檢查點：** 我寫下的每一個字都100%確定拼寫正確嗎？詞性符合句子要求嗎？
+
+### ☐ **2. 數字、日期與格式 (Numbers, Dates & Formats)**
+- [ ] **核心原則：** 聽到什麼，就寫什麼。注意格式要求。
+- [ ] **常見錯誤：** 錄音讀 `9.30` (nine thirty)，我是否寫成了 `9:00`？
+- [ ] **檢查點：** 數字的小數點、貨幣符號($/£)是否正確？時間格式是否符合錄音？
+
+### ☐ **3. 文法細節 (Grammar Details)**
+- [ ] **核心原則：** 單數/複數 和 冠詞 是偷走分數的隱形殺手。
+- [ ] **常見錯誤：** 該加 `s` 的名詞是否加了？(e.g., `rose` vs `roses`)
+- [ ] **常見錯誤：** 是否漏掉了關鍵的冠詞 `a`/`an`/`the`？
+- [ ] **檢查點：** 快速掃描我寫下的名詞，它們的單複數形式正確嗎？
+
 *Last Updated: [Date]*
 *Next Review: [Date]*
