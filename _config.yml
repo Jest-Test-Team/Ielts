@@ -1,17 +1,45 @@
-theme: jekyll-theme-cayman
-title: IELTS 學習筆記
-description: 我的 IELTS 考試準備筆記和資源集合
+theme: minima
+title: IELTS 學習筆記 | 準備指南
+description: 完整的 IELTS 考試準備筆記、策略和資源集合
 
 # Site settings
 url: "https://jest-test-team.github.io"
 baseurl: "/Ielts"
+lang: zh-TW
+author: IELTS Learner
+timezone: Asia/Taipei
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+show_excerpts: true
+
+# Navigation Menu
+header_pages:
+  - 01_Listening/index.md
+  - 02_Reading/index.md
+  - 03_Writing/index.md
+  - 04_Speaking/index.md
+
+# Social Links
+twitter_username:
+github_username: jest-test-team
+linkedin_username:
 
 # Collections
 collections:
+  listening:
+    output: true
+    permalink: /listening/:path/
+  reading:
+    output: true
+    permalink: /reading/:path/
+  writing:
+    output: true
+    permalink: /writing/:path/
+  speaking:
+    output: true
+    permalink: /speaking/:path/
   posts:
     output: true
     permalink: /:collection/:name/
@@ -23,6 +51,22 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+
+# Paginate
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 # Exclude from processing
 exclude:
@@ -33,3 +77,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - README.md
+  - gh-conflict.sh
+  - cli.txt
