@@ -201,6 +201,29 @@ In conclusion, while both sides of the argument have merit, I believe that [your
 - **結構**：引言 → 問題描述 → 解決方案 1 → 解決方案 2 → 結論
 - **重點**：清楚定義問題，提供可行解決方案
 
+- # IELTS Task 2 Essay Structures
+
+This guide outlines the standard, high-scoring structures for different essay types. The fundamental model for a strong essay is the **Four-Paragraph Structure**.
+
+## The Universal Four-Paragraph Framework
+1.  **Introduction:** Sets the stage and presents your thesis.
+2.  **Body Paragraph 1:** Develops your first main point.
+3.  **Body Paragraph 2:** Develops your second main point.
+4.  **Conclusion:** Summarizes and concludes your argument.
+
+---
+### Structure for "Problem & Solution" Essays
+*(Based on the "Museums" essay)*
+
+This structure is used for questions that ask you to identify causes/problems and propose solutions.
+
+| Paragraph | Purpose | Key Content |
+| :--- | :--- | :--- |
+| **1. Introduction** | Roadmap | - **Paraphrase:** Restate the topic.<br>- **Thesis/Outline:** State that you will discuss the causes of the issue and then propose solutions. |
+| **2. Body 1** | Discuss the **Causes** | - **Topic Sentence:** Introduce the main reasons for the problem.<br>- **Explanation:** Explain *why* these are the causes.<br>- **Example:** Provide a specific example to support your explanation (e.g., Taipei Fine Arts Museum's proximity and commercialization). |
+| **3. Body 2** | Propose **Solutions** | - **Topic Sentence:** Introduce your proposed solutions.<br>- **Explanation:** Explain *how* these solutions would work and directly address the causes from Body 1.<br>- **Example:** Provide a specific example of a successful solution (e.g., the non-commercial Wei Te-Sheng event). |
+| **4. Conclusion** | Summarize | - **Summary:** Briefly summarize the main causes and solutions you discussed.<br>- **Final Thought:** Provide a concluding statement or recommendation. |
+
 ---
 
 _Remember: Strong arguments are built on clear logic, solid evidence, and thoughtful analysis. Practice regularly to improve your argumentative writing skills._ 🎯✨

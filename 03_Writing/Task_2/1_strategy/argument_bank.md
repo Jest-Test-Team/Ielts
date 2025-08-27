@@ -134,6 +134,30 @@
 - Example: "This demonstrates that technology can complement rather than replace human connection."
 
 ---
+# IELTS Task 2 Argument Bank
+
+This file stores powerful arguments and examples from practice essays that can be adapted for future topics.
+
+## Topic: Culture & Society (Museums / Local Tourism)
+
+*Last Updated: Aug 27, 2025*
+
+### **Why don't local residents visit local cultural sites?**
+
+* **Argument 1: Proximity Breeds Indifference**
+    * **Explanation:** People are often more curious about unfamiliar, distant cultures than their own. The ease of access to local sites removes the feeling of excitement and novelty.
+    * **Supporting Example:** Residents of Taipei are less likely to visit the Taipei Fine Arts Museum because it is always available to them.
+
+* **Argument 2: Over-Commercialization Deters Locals**
+    * **Explanation:** When historic sites become dominated by generic gift shops and markets aimed at tourists, they lose their authentic appeal for locals who can find similar goods elsewhere.
+    * **Supporting Example:** The Taipei Fine Arts Museum's gift shops sell common crafts that do not offer a unique experience for local citizens.
+
+### **How can cultural sites attract more local visitors?**
+
+* **Solution: Host Unique, Non-Commercial Events**
+    * **Explanation:** Create fresh, exclusive experiences that focus on cultural engagement rather than sales. This builds a stronger community connection and provides a reason for locals to visit repeatedly.
+    * **Supporting Example:** The public interview with film director Wei Te-Sheng at the Taipei museum was a huge success because it was a unique, non-commercial event focused on local culture and history, drawing thousands of local attendees.
+---
 
 ## 📊 Supporting Evidence Types
 
