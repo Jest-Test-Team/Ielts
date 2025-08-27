@@ -266,5 +266,20 @@
 - **Improvements**: Expand ideas, provide specific examples
 
 ---
+# My Personal Error Notebook
+
+This log tracks recurring errors to eliminate from my writing.
+
+*Last Updated: Aug 27, 2025 (Based on "Museums" Essay)*
+
+| Error Type | ❌ My Error (Example) | ✅ The Fix / Better Version | 🧠 Mental Rule / Note |
+| :--- | :--- | :--- | :--- |
+| **Structure** | Writing a separate "Overall" paragraph after the introduction in a Task 2 essay. | Integrate the thesis and outline into the final sentences of the **introduction**. | **Task 2 has no separate overview.** Stick to the strict four-paragraph structure. |
+| **Vocabulary**| `...constructive and fleshing events...` | `...constructive and **fresh** events...` | Proofread carefully for typos that change the word's meaning. |
+| **Vocabulary**| `...the freshness and off-selling of this event...` | `...the freshness and **non-commercial nature** of this event...` | "Off-selling" is not a standard term. Aim for clear and precise academic vocabulary. |
+| **Vocabulary**| (From Grok's Feedback) Overusing words like `freshness` and `excitement`. | Mix in synonyms like `novelty`, `attractiveness`, `appeal`. | **Variety is key.** If you feel you're repeating a key concept word, check a thesaurus for alternatives. |
+| **Grammar**| `...local residents loss motivations...` | `...local residents **lose** motivation...` | `Loss` is a noun (a loss). `Lose` is the verb (to lose). |
+| **Grammar**| `...their range of routine lifes.` | `...their range of routine **lives**.` | `Life` is the singular noun. `Lives` is the plural noun. |
+---
 
 _Remember: Every error is an opportunity to learn and improve. Focus on systematic improvement rather than trying to fix everything at once._ 🎯✨
