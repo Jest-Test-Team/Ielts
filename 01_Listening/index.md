@@ -29,6 +29,11 @@ title: 聽力學習中心
 4. **關注數字和名稱** - 特別注意數字、日期、時間和專有名詞
 5. **理解重音和語調** - 通過語調變化捕捉重要信息
 
+## academic bandscore standard
+
+<img width="579" height="513" alt="image" src="https://github.com/user-attachments/assets/3c9ba6ce-aa63-46c8-87d4-c0240b41da50" />
+
+
 ## 📈 進步追蹤
 
 記錄您的聽力練習成績，觀察進步軌跡：
