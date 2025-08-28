@@ -35,3 +35,19 @@
 2. **錯誤追蹤：** 記錄每次練習中出現的錯誤
 3. **定期複習：** 每週複習此筆記，更新錯誤模式
 4. **範例學習：** 從高分範文中學習正確的表達方式
+
+___
+
+# My Personal IELTS Error Notebook
+
+This log tracks recurring errors to eliminate from my writing. This combines feedback from both my coach and other AI tools like Grok.
+
+*Last Updated: Aug 28, 2025*
+
+| Priority | Error Type | ❌ My Common Mistake (Example) | ✅ The Fix / Better Version | 🧠 Mental Rule / Note |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | **Grammar** | **Sentence Fragments** | `Which may result in...` <br> `Showing major influence...` | `..., which may result in...` <br> `..., showing major influence...`<br><br>**Rule:** `Which` and `-ing` clauses are "hooks," not "engines." They must be attached to the previous sentence with a comma. |
+| **2** | **Grammar** | **Run-on / "Monster" Sentences** | (Multiple examples of sentences over 40-50 words that combine too many ideas) | Break the idea into 2-3 shorter, clearer sentences. | **Rule:** The **"25-Word Max Iron Law."** This is the #1 way to improve clarity and reduce errors. |
+| **3** | **Vocabulary** | **Keyword Spelling & Factual Errors** | `Cooper` -> `Copper` <br> `govenment` -> `government` <br> `Dorothy` the sheep -> `Dolly` | Proofread the final text against the prompt. Double-check famous names/facts. | **Rule:** Careless errors in keywords and famous examples undermine credibility. Add this to your 30-second final check. |
+| **4** | **Vocabulary** | **Imprecise Word Choice** | `colleges` vs `colleagues` <br> `fell` vs `feel` <br> `loss` vs `lose` | Use the correct word based on meaning. | **Rule:** These are personal "fossilized errors." Review this list before every practice to stay vigilant. |
+| **5** | **Structure** | **Incorrect Task 2 Structure** | Writing a separate "Overall" paragraph after the introduction. | The thesis/outline is the **final part of the introduction**. | **Rule:** Task 2 is a strict **four-paragraph** essay (Intro, Body 1, Body 2, Conclusion). |
