@@ -89,3 +89,49 @@
     * The number for A (26) was **almost half** the number for B (50). (A 的數量幾乎是 B 的一半。)
     * At 26, the figure for A was **roughly half** that of B. (A 的數字為 26，大約是 B 的一半。)
     * The proportion of A (26%) was **approximately a quarter of** the proportion of C (99%). (A 的比例約為 C 的四分之一。)
+
+___
+
+# IELTS Task 2 Argument Bank
+
+This file stores powerful arguments and examples from practice essays that can be adapted for future topics.
+
+*Last Updated: Aug 28, 2025*
+
+---
+## Topic: Culture & Society (e.g., Museums, Local Tourism)
+
+### **Causes: Why Locals Don't Visit Local Sites**
+* **Argument:** Proximity & Familiarity breeds indifference. People are more curious about distant, novel cultures.
+* **Example:** Taipei residents are less likely to visit the Taipei Fine Arts Museum because it is always available to them.
+
+* **Argument:** Over-Commercialization deters locals.
+* **Example:** The museum's gift shops sell generic crafts, which offer no unique experience for citizens who can buy them elsewhere.
+
+### **Solutions: How to Attract Local Visitors**
+* **Solution:** Host unique, non-commercial events.
+* **Example:** A public interview with a famous local film director (Wei Te-Sheng) about local history was a huge success, attracting thousands.
+
+---
+## Topic: Work & Lifestyle (e.g., Work-Life Balance)
+
+### **Problems: How Digitalization Blurs Boundaries**
+* **Argument:** Remote work can lead to longer, unmonitored hours.
+* **Example:** Software developers working from home face pressure to meet performance metrics that require long-running automated tasks, extending their workday.
+
+* **Argument:** Personal communication apps are co-opted for work.
+* **Example:** Companies forcing employees into Line groups for work discussions, leading to stressful notifications after hours.
+
+### **Solutions: How to Re-establish Boundaries**
+* **Solution:** Use technology to fight technology.
+* **Example:** Use dedicated work apps (Slack, Discord) and combine them with the phone's built-in "do-not-disturb" or scheduled notification features to silence work alerts during personal time.
+
+---
+## Topic: Education & Society (e.g., Purpose of Schools)
+
+### **Argument: Against a Purely Vocational Focus**
+* **Argument:** An over-emphasis on creating "good workers" can stifle innovation.
+* **Example:** Traditional, rigid computer science curricula (e.g., SQL databases) produce competent engineers but may lack the cross-disciplinary environment needed for breakthroughs like ChatGPT.
+
+* **Argument:** School is for individual discovery, not just career training.
+* **Example:** Guitarist Kiko Loureiro studied both music and biology in high school, allowing him to make an informed life choice based on his individual passion rather than just a career path, eventually winning a Grammy.
