@@ -164,6 +164,11 @@
     </div>
   </footer>
 
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="回到頂部">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   
@@ -184,6 +189,54 @@
         } else {
           $('body').removeClass('nav-open');
         }
+      });
+
+      // Theme toggle
+      $('#theme-toggle').click(function(e) {
+        e.preventDefault();
+        $('body').toggleClass('dark-theme');
+        const isDark = $('body').hasClass('dark-theme');
+        $(this).find('i').toggleClass('fa-moon fa-sun');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      });
+
+      // Load saved theme
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        $('body').addClass('dark-theme');
+        $('#theme-toggle i').removeClass('fa-moon').addClass('fa-sun');
+      }
+
+      // Back to top button
+      const backToTop = $('#back-to-top');
+      
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 300) {
+          backToTop.addClass('show');
+        } else {
+          backToTop.removeClass('show');
+        }
+      });
+
+      backToTop.click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 600);
+      });
+
+      // Smooth scroll for anchor links
+      $('a[href^="#"]').click(function(e) {
+        const target = $(this.getAttribute('href'));
+        if (target.length) {
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: target.offset().top - 80
+          }, 600);
+        }
+      });
+
+      // Add loading animation
+      $('.feature-card, .practice-item, .strategy-card').each(function(index) {
+        $(this).css('animation-delay', (index * 0.1) + 's');
       });
     });
   </script>
