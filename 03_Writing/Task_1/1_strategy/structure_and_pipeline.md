@@ -68,6 +68,49 @@ _(適用於線圖、長條圖、圓餅圖、表格等)_
 - Body paragraphs: 10-12 minutes
 - Final check: 1-2 minutes
 
+
+## The Universal Four-Paragraph Framework
+1.  **Introduction:** Sets the stage and presents your thesis.
+2.  **Body Paragraph 1:** Develops your first main point.
+3.  **Body Paragraph 2:** Develops your second main point.
+4.  **Conclusion:** Summarizes and concludes your argument.
+
+**Grok's Note on Cohesion:** While using linking words is good, avoid repetition. Vary your transitions (`Furthermore`, `In addition`, `Moreover`) to improve flow.
+
+---
+### Structure 1: Problem & Solution Essay
+*(e.g., "Work-Life Balance," "Museums for Locals")*
+
+| Paragraph | Purpose | Key Content |
+| :--- | :--- | :--- |
+| **1. Introduction** | Roadmap | - **Paraphrase:** Restate the topic.<br>- **Thesis/Outline:** State that you will discuss the causes/problems and then propose solutions. |
+| **2. Body 1** | Discuss the **Causes/Problems** | - **Topic Sentence:** Introduce the main reasons for the problem.<br>- **Explanation:** Explain *why* these are the causes.<br>- **Example:** Provide one well-developed, specific example. |
+| **3. Body 2** | Propose **Solutions** | - **Topic Sentence:** Introduce your proposed solutions.<br>- **Explanation:** Explain *how* these solutions would work.<br>- **Example:** Provide one well-developed, specific example of a solution in action. |
+| **4. Conclusion** | Summarize | - **Summary:** Briefly summarize the main problems and solutions.<br>- **Final Thought:** Provide a concluding statement or recommendation. |
+
+---
+### Structure 2: Opinion Essay (Agree/Disagree)
+*(e.g., "Science Student Support," "Housing vs. Parks")*
+
+| Paragraph | Purpose | Key Content |
+| :--- | :--- | :--- |
+| **1. Introduction** | Roadmap | - **Paraphrase:** Restate the topic.<br>- **Thesis:** Clearly state your opinion (e.g., "I strongly agree/disagree...").<br>- **Outline:** Briefly mention the two reasons you will provide. |
+| **2. Body 1** | **Reason 1** for Your Opinion | - **Topic Sentence:** State your first reason.<br>- **Explanation:** Explain the reason in detail.<br>- **Example:** Provide one well-developed, specific example to support it. |
+| **3. Body 2** | **Reason 2** for Your Opinion | - **Topic Sentence:** State your second reason.<br>- **Explanation:** Explain this reason in detail.<br>- **Example:** Provide another well-developed, specific example. |
+| **4. Conclusion** | Summarize | - **Summary:** Briefly restate your two reasons.<br>- **Final Thought:** Reaffirm your opinion in different words. |
+
+---
+### Structure 3: Discussion Essay
+*(e.g., "Animal Testing")*
+
+| Paragraph | Purpose | Key Content |
+| :--- | :--- | :--- |
+| **1. Introduction** | Roadmap | - **Paraphrase:** Restate the topic.<br>- **Thesis/Outline:** State that the essay will discuss both sides of the argument before giving a final opinion. |
+| **2. Body 1** | **View A** | - **Topic Sentence:** Introduce the first perspective.<br>- **Explanation:** Explain why some people hold this view.<br>- **Example:** Provide an example to support this side of the argument. |
+| **3. Body 2** | **View B** | - **Topic Sentence:** Introduce the second, opposing perspective.<br>- **Explanation:** Explain why other people hold this view.<br>- **Example:** Provide an example to support this side. |
+| **4. Conclusion** | Summarize & Opine | - **Summary:** Briefly summarize both views.<br>- **Your Opinion:** Clearly state which side you agree with more, or offer a balanced synthesis. |
+
+
 ---
 
 _Remember: Practice this pipeline regularly to improve your speed and accuracy in Task 1 writing._ 🚀✨
