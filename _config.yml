@@ -3,8 +3,8 @@ title: IELTS 學習筆記 | 準備指南
 description: 完整的 IELTS 考試準備筆記、策略和資源集合
 
 # Site settings
-url: "https://jest-test-team.github.io"
-baseurl: "/Ielts"
+url: "https://ielts-prepare.dennisleehappy.org"
+baseurl: ""
 lang: zh-TW
 author: IELTS Learner
 timezone: Asia/Taipei
@@ -23,7 +23,7 @@ header_pages:
 
 # Social Links
 twitter_username:
-github_username: jest-test-team
+github_username: dennisleehappy
 linkedin_username:
 
 # Collections
