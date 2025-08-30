@@ -25,7 +25,7 @@ title: IELTS 學習中心
       <div class="feature-content">
         <h3>🎧 聽力 (Listening)</h3>
         <p>掌握關鍵聽力技巧，提高對各種口音和話題的理解能力。</p>
-        <a href="{{ "/01_Listening/" | relative_url }}" class="feature-link">探索聽力資源 <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ "01_Listening/" | relative_url }}" class="feature-link">探索聽力資源 <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
     
@@ -37,7 +37,7 @@ title: IELTS 學習中心
       <div class="feature-content">
         <h3>📖 閱讀 (Reading)</h3>
         <p>提高閱讀速度和理解能力，掌握各種題型的解題技巧。</p>
-        <a href="{{ "/02_Reading/" | relative_url }}" class="feature-link">探索閱讀資源 <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ "02_Reading/" | relative_url }}" class="feature-link">探索閱讀資源 <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
     
@@ -49,7 +49,7 @@ title: IELTS 學習中心
       <div class="feature-content">
         <h3>✍️ 寫作 (Writing)</h3>
         <p>學習高分寫作結構和表達，掌握 Task 1 和 Task 2 的寫作策略。</p>
-        <a href="{{ "/03_Writing/" | relative_url }}" class="feature-link">探索寫作資源 <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ "03_Writing/" | relative_url }}" class="feature-link">探索寫作資源 <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
     
@@ -61,7 +61,7 @@ title: IELTS 學習中心
       <div class="feature-content">
         <h3>🗣️ 口說 (Speaking)</h3>
         <p>提升口語表達流暢度和豐富度，掌握應對各種話題的技巧。</p>
-        <a href="{{ "/04_Speaking/" | relative_url }}" class="feature-link">探索口說資源 <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ "04_Speaking/" | relative_url }}" class="feature-link">探索口說資源 <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
   </div>

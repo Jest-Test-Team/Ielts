@@ -1,114 +1,157 @@
-Write about the following topic:
+# IELTS Writing Task 2: Animal Testing - Discussion 🐭🔬
 
-Some people claim that it is justifiable to use animals in medical research for the benefit of human beings, while others argue that it is unethical.
+## 📋 **Task Information**
 
-Discuss both views and give your opinion.
+| **Question Type** | **Topic** | **Word Count** | **Estimated Score** |
+|-------------------|-----------|----------------|---------------------|
+| Discussion | Animal Testing in Medical Research | 250+ words | **Band 7.0** |
 
-Give reasons for your answer and include any relevant examples from your own knowledge or experience.
+---
 
-Write at least 250 words. You should spend about 40 minutes on this task.
+## 🎯 **Question Prompt**
 
+> Some people claim that it is justifiable to use animals in medical research for the benefit of human beings, while others argue that it is unethical.
+> 
+> **Discuss both views and give your opinion.**
+> 
+> Give reasons for your answer and include any relevant examples from your own knowledge or experience.
 
+---
 
+## ✍️ **Student Essay**
+
+### **Introduction**
 Animals being used in medical research are thought to be treated unfairly for some people, though others view it as justifiable.
 
 In this essay, I will discuss both sides, and give my opinion upon them.
 
 Firstly, I will explore the essential needs for lab animals of human and secondly I will discuss the unethical aspect of it.
 
-
+### **Body Paragraph 1: Arguments Supporting Animal Testing**
 It is true that human, in a certain degree, rely on animals to conduct medical related experiments, since we have restricted laws on human body experiments, which is established widely by almost all governments.
 
-And to achieve medical goals, scientists’ best alternatives are animals, with less limitations of laws, and also with lower cost.
+And to achieve medical goals, scientists' best alternatives are animals, with less limitations of laws, and also with lower cost.
 
-For instance, eye drops, with widely requirements globally, is an extremely popular and needed medical product.
+**Example:** For instance, eye drops, with widely requirements globally, is an extremely popular and needed medical product.
 
 First being tested on rabbits, for human eyes are very sensitive and vulnerable.
 
-And by experimenting on rabbits’ eyes instead of human’s, we save ourselves from producing blinds, and create thousands of magical eye drops to ease our soar eyes.
+And by experimenting on rabbits' eyes instead of human's, we save ourselves from producing blinds, and create thousands of magical eye drops to ease our soar eyes.
 
 Hence benefit ourselves, meanwhile, avoid law penalties and negative impact on human bodies.
 
+### **Body Paragraph 2: Arguments Against Animal Testing**
+However, the regulation, guidelines, and responded penalties for animal experiments are not set as clear, concise, and careful as human body experiments are.
 
+Moreover, experiments on animal are usually conducted for the fist time ranged from drugs, surgery types, even to gene transformation, which is with tremendous risk, and can possible harm animals badly.
 
+**Example:** For example, the first clone experiment used a sheep, named Dorothy, and after several experiments, there were two Dorothy.
 
-However, the regulation, guidelines, and responded penalties for animal experiments are not set as clear , concise, and careful as human body experiments are.
-
-Moreover, experiments on animal  are usually conducted for the fist time ranged from drugs, surgery types, even to gene transformation, which is with tremendous risk, and can possible harm animals badly.
-
-For example, the first clone experiment used a sheep, named Dorothy, and after several experiments , there were two Dorothy.
-
-The second Dorothy had a short life , with multiple physical body vulnerabilities, and passed away with pain.
+The second Dorothy had a short life, with multiple physical body vulnerabilities, and passed away with pain.
 
 This series of cloning actions brings out unethical dark side of animal experiments.
 
 While seeking for greatest benefit of human beings, we simultaneously view ourselves as more superior than all other creatures.
 
-Which may result in making us more arrogant, and furthermore , ignoring importance and necessity of other style of lives then eventually become the tyrant of our world.
+Which may result in making us more arrogant, and furthermore, ignoring importance and necessity of other style of lives then eventually become the tyrant of our world.
 
+### **Conclusion**
+To sum up, it's a fact that animal experiments are necessary for human beings in some degree, however, there are also unethical aspects and concerns in them.
 
-To sum up, it’s a fact that animal experiments are necessary for human beings in some degree, however, there are also unethical aspects and concerns in them.
+From my aspect, these experiments must be regulated, conducted, planned properly, so that harm to animals can be minimized at the most degree.
 
-From my aspect, these experiments must be regulated, conducted, planned properly , so that harm to animals can be minimized at the most degree. 
-___
-This is a strong essay that earns a solid 7.0. It's on the cusp of a 7.5, but a few specific, repeatable errors are holding it back.
+---
 
-## Detailed Analysis
+## 🔍 **Detailed Analysis**
 
-Task Response: Band 7.0
+### **Task Response: Band 7.0** 🎯
 
 You have addressed all parts of the task very well.
 
-    Strengths: You discussed both the "justifiable" view (the need for alternatives to human testing) and the "unethical" view (lack of regulation, animal suffering). You then provided your own clear opinion in the conclusion. Your examples (eye drops on rabbits, Dolly the sheep) were specific and highly relevant to your points.
+#### **Strengths:**
+- ✅ **Balanced Discussion:** You discussed both the "justifiable" view (the need for alternatives to human testing) and the "unethical" view (lack of regulation, animal suffering)
+- ✅ **Clear Opinion:** You provided your own clear opinion in the conclusion
+- ✅ **Relevant Examples:** Your examples (eye drops on rabbits, Dolly the sheep) were specific and highly relevant to your points
 
-    Area for Improvement: The main issue here was a significant factual error in your example. The first cloned sheep was famously named Dolly, not Dorothy. While examiners are not fact-checkers, using a very famous example and getting the name wrong can undermine the credibility of your argument.
+#### **Areas for Improvement:**
+- ❌ **Factual Error:** The first cloned sheep was famously named Dolly, not Dorothy. While examiners are not fact-checkers, using a very famous example and getting the name wrong can undermine the credibility of your argument
 
-Coherence and Cohesion: Band 8.0
+---
+
+### **Coherence and Cohesion: Band 8.0** 🔗
 
 Your essay's structure and logical flow are excellent.
 
-    Strengths: The four-paragraph structure is perfect for this "Discuss both views and give your opinion" task. Each paragraph has a clear purpose, and you use linking words (Firstly, However, Moreover, To sum up) effectively to guide the reader through your argument. Your ideas progress in a very logical manner.
+#### **Strengths:**
+- ✅ **Perfect Structure:** The four-paragraph structure is perfect for this "Discuss both views and give your opinion" task
+- ✅ **Clear Purpose:** Each paragraph has a clear purpose, and you use linking words (Firstly, However, Moreover, To sum up) effectively to guide the reader
+- ✅ **Logical Progression:** Your ideas progress in a very logical manner
 
-Lexical Resource (Vocabulary): Band 6.5
+#### **Areas for Improvement:**
+- ❌ Minor issues with paragraph transitions could be smoother
 
-You used a good range of vocabulary appropriate for the topic (justifiable, unethical, vulnerable, gene transformation, tremendous risk).
+---
 
-    Areas for Improvement: Your score was limited by several small but noticeable errors in spelling and word choice.
+### **Lexical Resource (Vocabulary): Band 6.5** 💬
 
-        soar eyes should be sore eyes (sore = painful, soar = to fly high).
+You used a good range of vocabulary appropriate for the topic.
 
-        fist time should be first time.
+#### **Strengths:**
+- ✅ Good use of topic-specific vocabulary: `justifiable`, `unethical`, `vulnerable`, `gene transformation`, `tremendous risk`
 
-        other style of lives should be other forms of life.
+#### **Areas for Improvement:**
+- ❌ `soar eyes` should be `sore eyes` (sore = painful, soar = to fly high)
+- ❌ `fist time` should be `first time`
+- ❌ `other style of lives` should be `other forms of life`
+- ❌ The factual error of Dorothy for Dolly also impacts the perceived quality of your vocabulary use
 
-        The factual error of Dorothy for Dolly also impacts the perceived quality of your vocabulary use.
+---
 
-Grammatical Range and Accuracy: Band 6.5
+### **Grammatical Range and Accuracy: Band 6.5** 📚
 
 This is an area of significant improvement, but one old enemy remains.
 
-    Strengths: I want to especially commend you on your sentence control. You did not write any "monster sentences" in this essay. This makes your writing much clearer, more controlled, and more professional.
+#### **Strengths:**
+- ✅ **Excellent Sentence Control:** You did not write any "monster sentences" in this essay. This makes your writing much clearer, more controlled, and more professional
 
-    The Recurring Enemy: The sentence fragment has reappeared.
+#### **Areas for Improvement:**
+- ❌ **The Recurring Enemy:** The sentence fragment has reappeared
+- ❌ **Your sentence:** "Which may result in making us more arrogant..."
+- ❌ **The Problem:** A sentence in academic writing should not start with "Which." It's a "hook" that must be attached to the previous sentence
+- ❌ **The Fix:** "...we simultaneously view ourselves as more superior than all other creatures, **which may result** in making us more arrogant."
 
-        Your sentence: Which may result in making us more arrogant...
+---
 
-        The Problem: As we've discussed, a sentence in academic writing should not start with Which. It's a "hook" that must be attached to the previous sentence.
+## 🚀 **Action Plan for Improvement**
 
-        The Fix: ...we simultaneously view ourselves as more superior than all other creatures, **which may result** in making us more arrogant.
+### **Immediate Actions:**
+1. **Fact-Check Examples:** Verify names and key facts in examples (e.g., Dolly, not Dorothy)
+2. **Fragment Hunt:** Check for sentences incorrectly starting with "Which"
+3. **Spell Check:** Scan for common typos (sore/soar, first/fist)
 
-        This is now the single most critical grammatical error for you to eliminate.
+### **Long-term Goals:**
+1. **Build Example Bank:** Create a reliable set of well-researched examples for common topics
+2. **Master Sentence Connections:** Practice connecting ideas without creating fragments
+3. **Develop Proofreading Skills:** Build a systematic final review process
 
-## Action Plan: The Final Polish
+---
 
-You have all the components of a top-tier essay: great ideas, clear structure, and good sentence control. The final step is to become a ruthless proofreader.
+## 💡 **Key Learning Points**
 
-Your new "Battle Plan" Checklist for the final 2 minutes of the exam should be:
+- **Your Structure:** Perfect four-paragraph organization for discussion essays
+- **Your Ideas:** Well-balanced arguments with relevant supporting points
+- **Your Mission:** Eliminate specific, repeatable errors through careful proofreading
 
-    Fact-Check: Are the names and key facts in my examples correct (e.g., Dolly, not Dorothy)?
+---
 
-    Fragment Hunt: Have I started any sentences incorrectly with Which?
+### **Battle Plan Checklist for Final 2 Minutes:**
 
-    Spell Check: Do a quick scan for common typos (sore/soar, first/fist).
+| Check | Item | Action |
+|-------|------|--------|
+| ✅ | **Fact-Check** | Are the names and key facts in my examples correct? |
+| ✅ | **Fragment Hunt** | Have I started any sentences incorrectly with "Which"? |
+| ✅ | **Spell Check** | Quick scan for common typos (sore/soar, first/fist) |
 
-You are consistently performing at a high level. By eliminating these specific, repeatable errors, you will easily and consistently score 7.5 or higher.
+---
+
+*Remember: You have all the components of a top-tier essay. The final step is to become a ruthless proofreader!* 🚀✨
