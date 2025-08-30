@@ -7,7 +7,7 @@
   <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   
   <!-- Google Fonts -->
@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <!-- Preload critical resources -->
-  <link rel="preload" href="{{ "/assets/css/main.css" | relative_url }}" as="style">
+  <link rel="preload" href="{{ "assets/css/main.css" | relative_url }}" as="style">
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;800&display=swap" as="style">
   
   <!-- Mermaid Diagram Support -->
@@ -101,7 +101,7 @@
     <!-- Search Bar -->
     <div class="search-container">
       <div class="wrapper">
-        <form action="/search/" method="get" class="search-form">
+        <form action="{{ "search.html" | relative_url }}" method="get" class="search-form">
           <input type="text" id="search-box" name="query" placeholder="搜尋筆記和資源...">
           <button type="submit"><i class="fas fa-search"></i></button>
         </form>
