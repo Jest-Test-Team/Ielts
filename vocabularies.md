@@ -1,228 +1,290 @@
-Hedonistic	享樂主義的 (形容詞)。用於描述追求快樂、避免痛苦的人生觀。
-Fatalistic	宿命論的 (形容詞)。用於描述相信命運已注定、無法改變的態度。
-Temptation	誘惑 (名詞)。常用於描述那些吸引人但可能不該做的事物。
-Virtuous	品德高尚的 (形容詞)。形容一個人有良好的道德品質。
-Motivation	動機；積極性 (名詞)。雅思聽說讀寫都極其高頻的詞彙。
-Time-management	時間管理 (名詞)。另一個所有學術場景下的高頻詞。
-Modules	(課程) 模塊；單元 (名詞)。用於描述大學課程的組成部分。
-Protagonists	(故事的) 主角 (名詞)。在討論文學、電影時非常實用。
-Omniscient	全知的 (形容詞)。常用於描述小說的「上帝視角」。
-Abstract ideas	抽象概念 (名詞片語)。與 concrete examples (具體例子) 相对。
-Human companionship	人類情誼；陪伴 (名詞片語)。一個非常地道的表達。
-Leisure	休閒；閒暇 (名詞)。比 free time 更正式。
-Commuter	通勤者 (名詞)。形容每日往返於住家和工作地點的人。
-Off-peak	非高峰時段 (名詞/形容詞)。常用於交通和電價等話題
+# IELTS Vocabulary Master List 📚
 
-ank 1：必學高頻核心單字 (強力推薦)
+## 🎯 **Essential High-Frequency Core Words (Rank 1 - Strongly Recommended)**
 
-這些是構成學術寫作骨架的關鍵詞彙。掌握它們，你的文章就能清晰、有力且具備學術性。
-分類	單字 (Word)	中文意思
-動詞 (Verbs)	undergo	經歷；經受
-	revolutionize	徹底改變
-	mitigate	減輕；緩和
-	harness	利用；駕馭
-	foster	培養；促進
-	address	處理；應對
-	enhance	提升；增強
-	ensure	確保
-	play a crucial role	扮演關鍵角色
-	contribute to	貢獻於；促成
-	emerge	出現；興起
-	adopt	採用
-	challenge	挑戰
-	demonstrate	展示；證明
-	provide	提供
-	require	要求；需要
-	develop	發展
-	improve	改善
-	reduce	減少
-	achieve	達成
-	impact	影響
-	lead to	導致
-	allow	允許
-	create	創造
-名詞 (Nouns)	transformation	轉變
-	potential	潛力
-	aspect	方面
-	mechanism	機制
-	capacity	能力；容量
-	benefit	好處；利益
-	challenge	挑戰
-	issue	議題；問題
-	solution	解決方案
-	strategy	策略
-	innovation	創新
-	access	途徑；使用權
-	impact	影響
-	factor	因素
-	process	過程
-	evidence	證據
-	development	發展
-	advantage	優勢
-	resource	資源
-	community	社群；社區
-形容詞 (Adjectives)	significant	顯著的；重要的
-	crucial	至關重要的
-	fundamental	基礎的；根本的
-	sustainable	可持續的
-	efficient	有效率的
-	remarkable	非凡的；卓越的
-	essential	必要的；本質的
-	profound	深刻的；深遠的
-	complex	複雜的
-	viable	可行的
-	primary	主要的
-	traditional	傳統的
-	local	當地的
-	urban	都市的
-	rural	鄉村的
-	environmental	環境的
-	economic	經濟的
-	social	社會的
-	physical	身體的；物理的
-	mental	心理的
-副詞 (Adverbs)	significantly	顯著地
-	increasingly	越來越多地
-	particularly	特別是
-	effectively	有效地
-	ultimately	最終
+These are the key vocabulary words that form the skeleton of academic writing. Mastering them will make your articles clear, powerful, and academically sound.
 
-Rank 2：高分進階單字 (強力建議)
+---
 
-這些詞彙能讓你的論述更精準、更具體、更有說服力，是從 6 分邁向 7+ 分的關鍵。
-分類	單字 (Word)	中文意思
-動詞 (Verbs)	exacerbate	使惡化；加劇
-	emulate	模仿；效仿
-	facilitate	促進；使便利
-	implement	實施；執行
-	integrate	整合
-	interpret	解釋；詮釋
-	manipulate	操作；操縱
-	optimize	優化
-	perceive	察覺；認為
-	pioneer	開創；引領
-	rectify	糾正；修復
-	reinforce	加強；鞏固
-	reveal	揭露；顯示
-	stimulate	刺激；激勵
-	supplement	補充
-	sustain	維持；支撐
-	thrive	茁壯成長
-	undertake	從事；承擔
-	visualize	使視覺化
-	yield	產生；得出
-名詞 (Nouns)	decentralization	去中心化
-	neuroplasticity	神經可塑性
-	biomimicry	仿生學
-	cognitive dissonance	認知失調
-	repercussion	反響；後果
-	advent	出現；到來
-	collaboration	合作
-	consensus	共識
-	constraint	限制；約束
-	criterion	標準；準則 (複數: criteria)
-	deliberation	深思熟慮
-	dilemma	困境；兩難
-	disparity	差異；不平等
-	efficacy	功效；效力
-	infrastructure	基礎設施
-	initiative	倡議；新措施
-	interoperability	互操作性；互通性
-	momentum	動力；勢頭
-	paradigm	範式；典範
-	proponent	支持者；倡導者
-形容詞 (Adjectives)	resilient	有恢復力的；適應力強的
-	adept	熟練的；擅長的
-	autonomous	自主的
-	comprehensive	全面的；綜合的
-	consecutive	連續的
-	detrimental	有害的
-	feasible	可行的
-	holistic	整體性的
-	imperative	必要的；緊急的
-	indispensable	不可或缺的
-	intricate	錯綜複雜的
-	lucrative	有利可圖的
-	mundane	平凡的；世俗的
-	plausible	看似有理的
-	prevalent	流行的；普遍的
-	robust	強健的；可靠的
-	sedentary	久坐的
-	tangible	有形的；可觸摸的
-	unparalleled	無與倫比的
-	versatile	多才多藝的；多功能的
-片語 (Phrases)	long-held belief	長期持有的信念
-	a wide array of	各式各樣的
-	on the cusp of	處於...的邊緣/開端
-	pave the way for	為...鋪路
-	shed light on	闡明；揭示
+### **Verbs (動詞)**
 
-Rank 3：學術亮點單字 (值得學習)
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **undergo** | 經歷；經受 | Volcanology has **undergone** a major transformation in recent years. |
+| **revolutionize** | 徹底改變 | Urban farming has the potential to **revolutionize** the way we grow food. |
+| **mitigate** | 減輕；緩和 | Urban farms can help to **mitigate** the urban heat island effect. |
+| **harness** | 利用；駕馭 | We can **harness** the power of renewable energy. |
+| **foster** | 培養；促進 | Education **fosters** critical thinking skills. |
+| **address** | 處理；應對 | We must **address** the challenges of climate change. |
+| **enhance** | 提升；增強 | Technology **enhances** our learning capabilities. |
+| **ensure** | 確保 | Proper planning **ensures** project success. |
+| **play a crucial role** | 扮演關鍵角色 | Framing effects **play a crucial role** in decision-making. |
+| **contribute to** | 貢獻於；促成 | Innovation **contributes to** economic growth. |
+| **emerge** | 出現；興起 | New solutions **emerge** from collaborative research. |
+| **adopt** | 採用 | Many companies **adopt** sustainable practices. |
+| **challenge** | 挑戰 | This finding **challenges** traditional theories. |
+| **demonstrate** | 展示；證明 | Research **demonstrates** the effectiveness of this approach. |
+| **provide** | 提供 | Data **provides** valuable insights. |
+| **require** | 要求；需要 | Success **requires** dedication and effort. |
+| **develop** | 發展 | We must **develop** new strategies. |
+| **improve** | 改善 | Continuous learning **improves** performance. |
+| **reduce** | 減少 | This method **reduces** costs significantly. |
+| **achieve** | 達成 | Hard work helps **achieve** goals. |
+| **impact** | 影響 | Technology **impacts** every aspect of life. |
+| **lead to** | 導致 | Poor planning **leads to** project failure. |
+| **allow** | 允許 | Flexibility **allows** for adaptation. |
+| **create** | 創造 | Innovation **creates** new opportunities. |
 
-這些是更專業或學術化的詞彙，若能在對的上下文中使用，絕對能讓考官眼前一亮。
-分類	單字 (Word)	中文意思
-動詞 (Verbs)	amalgamate	合併；結合
-	delineate	描繪；勾勒
-	demystify	使不再神秘；闡明
-	disseminate	傳播；散佈
-	elucidate	闡明；解釋
-	envision	想像；展望
-	epitomize	成為...的縮影；概括
-	galvanize	激勵；鍍鋅
-	posit	假定；斷定
-	scrutinize	詳細審查
-名詞 (Nouns)	advocate	擁護者
-	catalyst	催化劑
-	conundrum	難題；謎題
-	dichotomy	二分法；對立
-	ethos	(民族、時代的)精神氣質
-	gamut	整個範圍
-	harbinger	預兆；先驅
-	plethora	過多；過剩
-	prerequisite	先決條件
-	synergy	協同效應
-形容詞 (Adjectives)	burgeoning	迅速發展的
-	clandestine	秘密的；暗中的
-	commensurate	相稱的；相當的
-	conducive	有助於...的
-	esoteric	深奧的；只有內行才懂的
-	nascent	初期的；新生的
-	ubiquitous	無所不在的
-	pragmatic	務實的
-	semantic	語義的
-	rudimentary	基本的；初步的
+---
 
-    Rank 1：必學高頻核心單字 (強力推薦)
+### **Nouns (名詞)**
 
-這些單字通用性高，能精準表達複雜概念，是學術寫作的基石。
-單字 (Word)	中文意思 (Meaning)	文章範例 / 造句 (Example)
-undergo	經歷；經受	Volcanology, the study of volcanoes, has undergone a major transformation in recent years. (火山學在近年來經歷了重大的轉變。)
-significant	顯著的；重要的	Another significant aspect of Web 3.0 is the semantic web. (Web 3.0 的另一個重要方面是語義網。)
-potential	潛力；潛在的	Urban farming has the potential to revolutionize the way we grow food. (都市農業有潛力徹底改變我們種植糧食的方式。)
-crucial	至關重要的	Framing effects also play a crucial role in decision-making. (框架效應在決策中也扮演著至關重要的角色。)
-fundamental	基礎的；根本的	This process is the fundamental mechanism underlying memory formation. (這個過程是記憶形成的基礎機制。)
-revolutionize	徹底改變；改革	Urban farming has the potential to revolutionize the way we grow food. (都市農業有潛力徹底改變我們種植糧食的方式。)
-mitigate	減輕；緩和	Urban farms can help to mitigate the urban heat island effect. (都市農場有助於減緩都市熱島效應。)
-harness	利用；駕馭	As our understanding of neuroplasticity continues to evolve, it is the hope that this phenomenon holds immense promise for harnessing its power. (隨著我們對神經可塑性的理解不斷發展，希望能利用其力量帶來無限可能。)
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **transformation** | 轉變 | The digital age has brought a major **transformation**. |
+| **potential** | 潛力 | Urban farming has great **potential** for sustainability. |
+| **aspect** | 方面 | Another significant **aspect** is the semantic web. |
+| **mechanism** | 機制 | This process is the fundamental **mechanism** underlying memory formation. |
+| **capacity** | 能力；容量 | The brain has remarkable **capacity** for adaptation. |
+| **benefit** | 好處；利益 | Technology provides numerous **benefits**. |
+| **challenge** | 挑戰 | Climate change presents a major **challenge**. |
+| **issue** | 議題；問題 | We must address this critical **issue**. |
+| **solution** | 解決方案 | Innovation offers creative **solutions**. |
+| **strategy** | 策略 | Effective **strategies** require careful planning. |
+| **innovation** | 創新 | **Innovation** drives economic growth. |
+| **access** | 途徑；使用權 | Digital tools improve **access** to information. |
+| **impact** | 影響 | Big data has profound **impact** on research. |
+| **factor** | 因素 | Multiple **factors** contribute to success. |
+| **process** | 過程 | Learning is a continuous **process**. |
+| **evidence** | 證據 | Research provides strong **evidence**. |
+| **development** | 發展 | Sustainable **development** is essential. |
+| **advantage** | 優勢 | Technology provides competitive **advantages**. |
+| **resource** | 資源 | Efficient use of **resources** is crucial. |
+| **community** | 社群；社區 | Strong **communities** support growth. |
 
-Rank 2：高分進階單字 (強力建議)
+---
 
-使用這些單字可以讓你的論述更具體、更有說服力，展現你的詞彙廣度。
-單字 (Word)	中文意思 (Meaning)	文章範例 / 造句 (Example)
-emergence	出現；興起	The emergence of Web 3.0 is heralding a new era of the internet. (Web 3.0 的出現預示著網路新時代的到來。)
-adept	熟練的；擅長的	Even the most adept models can struggle to capture all of the variables at play. (即使是最精密的模型也很難捕捉所有變數。)
-subsequent	隨後的；後來的	Subsequent studies have provided further evidence of the brain's remarkable capacity. (後續的研究為大腦的卓越能力提供了進一步的證據。)
-profound	深刻的；深遠的	The rise of big data and machine learning has also had a profound impact on volcanology. (大數據和機器學習的興起也對火山學產生了深遠的影響。)
-indispensable	不可或缺的	These technologies are becoming indispensable for modern scientific research. (這些技術正成為現代科學研究中不可或缺的一部分。)
-resilient	有恢復力的；適應力強的	Biomimicry aims to create more sustainable and resilient infrastructure. (仿生學旨在創造更具可持續性和彈性的基礎設施。)
-exacerbate	使惡化；加劇	The increasing reliance on automation raises concerns that it could exacerbate job displacement. (對自動化日益增長的依賴引發了可能加劇工作崗位流失的擔憂。)
+### **Adjectives (形容詞)**
 
-Rank 3：學術亮點單字 (值得學習)
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **significant** | 顯著的；重要的 | This represents a **significant** breakthrough. |
+| **crucial** | 至關重要的 | Timing is **crucial** for success. |
+| **fundamental** | 基礎的；根本的 | This is a **fundamental** principle. |
+| **sustainable** | 可持續的 | We need **sustainable** solutions. |
+| **efficient** | 有效率的 | **Efficient** systems save resources. |
+| **remarkable** | 非凡的；卓越的 | The results are truly **remarkable**. |
+| **essential** | 必要的；本質的 | Planning is **essential** for success. |
+| **profound** | 深刻的；深遠的 | Technology has **profound** implications. |
+| **complex** | 複雜的 | Modern problems are increasingly **complex**. |
+| **viable** | 可行的 | This approach is economically **viable**. |
+| **primary** | 主要的 | Education is the **primary** goal. |
+| **traditional** | 傳統的 | **Traditional** methods have limitations. |
+| **local** | 當地的 | **Local** solutions are often most effective. |
+| **urban** | 都市的 | **Urban** development requires planning. |
+| **rural** | 鄉村的 | **Rural** areas face unique challenges. |
+| **environmental** | 環境的 | **Environmental** protection is urgent. |
+| **economic** | 經濟的 | **Economic** factors influence decisions. |
+| **social** | 社會的 | **Social** change happens gradually. |
+| **physical** | 身體的；物理的 | **Physical** activity improves health. |
+| **mental** | 心理的 | **Mental** health is equally important. |
 
-這些是更專業或學術化的詞彙，若能在適當的時機使用，可以讓你的文章脫穎而出。
-單字 (Word)	中文意思 (Meaning)	文章範例 / 造句 (Example)
-decentralization	去中心化	One of the key features of Web 3.0 is its emphasis on decentralization. (Web 3.0 的主要特點之一是其對去中心化的強調。)
-neuroplasticity	神經可塑性	This ability, known as neuroplasticity, challenges the long-held belief that the brain's structure is fixed. (這種被稱為神經可塑性的能力，挑戰了長期以來認為大腦結構是固定的看法。)
-biomimicry	仿生學	Biomimicry is the practice of learning from and emulating nature's strategies. (仿生學是學習和模仿自然策略的實踐。)
-cognitive dissonance	認知失調	Cognitive dissonance occurs when we hold two conflicting beliefs. (當我們持有兩種相互衝突的信念時，就會產生認知失調。)
-semantic	語義的	The semantic web focuses on making data more machine-readable. (語義網專注於使數據更易於機器讀取。)
+---
+
+### **Adverbs (副詞)**
+
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **significantly** | 顯著地 | Technology has **significantly** improved our lives. |
+| **increasingly** | 越來越多地 | Problems are **increasingly** complex. |
+| **particularly** | 特別是 | This is **particularly** important for students. |
+| **effectively** | 有效地 | We must communicate **effectively**. |
+| **ultimately** | 最終 | **Ultimately**, success depends on effort. |
+
+---
+
+## 🚀 **High-Score Advanced Words (Rank 2 - Strongly Suggested)**
+
+These vocabulary words can make your arguments more precise, specific, and persuasive, and are key to moving from Band 6 to Band 7+.
+
+---
+
+### **Verbs (動詞)**
+
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **exacerbate** | 使惡化；加劇 | Automation could **exacerbate** job displacement. |
+| **emulate** | 模仿；效仿 | We should **emulate** successful strategies. |
+| **facilitate** | 促進；使便利 | Technology **facilitates** learning. |
+| **implement** | 實施；執行 | We must **implement** these policies effectively. |
+| **integrate** | 整合 | We need to **integrate** various approaches. |
+| **interpret** | 解釋；詮釋 | Data must be carefully **interpreted**. |
+| **manipulate** | 操作；操縱 | Scientists **manipulate** variables in experiments. |
+| **optimize** | 優化 | We must **optimize** our processes. |
+| **perceive** | 察覺；認為 | People **perceive** risks differently. |
+| **pioneer** | 開創；引領 | This company **pioneers** new technologies. |
+| **rectify** | 糾正；修復 | We must **rectify** these errors. |
+| **reinforce** | 加強；鞏固 | Practice **reinforces** learning. |
+| **reveal** | 揭露；顯示 | Research **reveals** important patterns. |
+| **stimulate** | 刺激；激勵 | Innovation **stimulates** economic growth. |
+| **supplement** | 補充 | Digital tools **supplement** traditional methods. |
+| **sustain** | 維持；支撐 | We must **sustain** our efforts. |
+| **thrive** | 茁壯成長 | Innovation helps businesses **thrive**. |
+| **undertake** | 從事；承擔 | We **undertake** this project carefully. |
+| **visualize** | 使視覺化 | Charts help **visualize** data. |
+| **yield** | 產生；得出 | Research **yields** valuable insights. |
+
+---
+
+### **Nouns (名詞)**
+
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **decentralization** | 去中心化 | Web 3.0 emphasizes **decentralization**. |
+| **neuroplasticity** | 神經可塑性 | **Neuroplasticity** challenges fixed brain theories. |
+| **biomimicry** | 仿生學 | **Biomimicry** learns from nature's strategies. |
+| **cognitive dissonance** | 認知失調 | **Cognitive dissonance** occurs with conflicting beliefs. |
+| **repercussion** | 反響；後果 | Actions have long-term **repercussions**. |
+| **advent** | 出現；到來 | The **advent** of AI changes everything. |
+| **collaboration** | 合作 | **Collaboration** enhances creativity. |
+| **consensus** | 共識 | Building **consensus** takes time. |
+| **constraint** | 限制；約束 | Budget **constraints** limit options. |
+| **criterion** | 標準；準則 | Clear **criteria** guide decisions. |
+| **deliberation** | 深思熟慮 | Careful **deliberation** leads to better choices. |
+| **dilemma** | 困境；兩難 | We face a difficult **dilemma**. |
+| **disparity** | 差異；不平等 | Economic **disparity** creates challenges. |
+| **efficacy** | 功效；效力 | We measure the **efficacy** of treatments. |
+| **infrastructure** | 基礎設施 | Modern **infrastructure** supports growth. |
+| **initiative** | 倡議；新措施 | This **initiative** addresses key needs. |
+| **interoperability** | 互操作性 | **Interoperability** enables system integration. |
+| **momentum** | 動力；勢頭 | The project gains **momentum**. |
+| **paradigm** | 範式；典範 | This represents a new **paradigm**. |
+| **proponent** | 支持者；倡導者 | **Proponents** argue for change. |
+
+---
+
+### **Adjectives (形容詞)**
+
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **resilient** | 有恢復力的；適應力強的 | **Resilient** systems adapt to change. |
+| **adept** | 熟練的；擅長的 | Even **adept** models have limitations. |
+| **autonomous** | 自主的 | **Autonomous** systems operate independently. |
+| **comprehensive** | 全面的；綜合的 | We need **comprehensive** solutions. |
+| **consecutive** | 連續的 | **Consecutive** failures teach valuable lessons. |
+| **detrimental** | 有害的 | Poor planning has **detrimental** effects. |
+| **feasible** | 可行的 | This approach is economically **feasible**. |
+| **holistic** | 整體性的 | **Holistic** approaches consider all factors. |
+| **imperative** | 必要的；緊急的 | Action is **imperative** now. |
+| **indispensable** | 不可或缺的 | Technology is **indispensable** for research. |
+| **intricate** | 錯綜複雜的 | Modern systems are increasingly **intricate**. |
+| **lucrative** | 有利可圖的 | Innovation creates **lucrative** opportunities. |
+| **mundane** | 平凡的；世俗的 | Even **mundane** tasks have value. |
+| **plausible** | 看似有理的 | This explanation seems **plausible**. |
+| **prevalent** | 流行的；普遍的 | Digital tools are increasingly **prevalent**. |
+| **robust** | 強健的；可靠的 | We need **robust** systems. |
+| **sedentary** | 久坐的 | **Sedentary** lifestyles affect health. |
+| **tangible** | 有形的；可觸摸的 | We need **tangible** results. |
+| **unparalleled** | 無與倫比的 | This represents **unparalleled** progress. |
+| **versatile** | 多才多藝的；多功能的 | **Versatile** tools serve multiple purposes. |
+
+---
+
+### **Phrases (片語)**
+
+| Phrase | Chinese Meaning | Example Sentence |
+|---------|-----------------|------------------|
+| **long-held belief** | 長期持有的信念 | This challenges **long-held beliefs** about the brain. |
+| **a wide array of** | 各式各樣的 | Technology offers **a wide array of** solutions. |
+| **on the cusp of** | 處於...的邊緣/開端 | We are **on the cusp of** major breakthroughs. |
+| **pave the way for** | 為...鋪路 | Innovation **paves the way for** progress. |
+| **shed light on** | 闡明；揭示 | Research **sheds light on** complex issues. |
+
+---
+
+## ⭐ **Academic Highlight Words (Rank 3 - Worth Learning)**
+
+These are more professional or academic vocabulary words that, when used in the right context, can definitely make examiners' eyes light up.
+
+---
+
+### **Verbs (動詞)**
+
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **amalgamate** | 合併；結合 | We **amalgamate** various approaches. |
+| **delineate** | 描繪；勾勒 | Research **delineates** clear boundaries. |
+| **demystify** | 使不再神秘；闡明 | This study **demystifies** complex processes. |
+| **disseminate** | 傳播；散佈 | We **disseminate** knowledge widely. |
+| **elucidate** | 闡明；解釋 | This research **elucidates** key mechanisms. |
+| **envision** | 想像；展望 | We **envision** a sustainable future. |
+| **epitomize** | 成為...的縮影；概括 | This case **epitomizes** the challenge. |
+| **galvanize** | 激勵；鍍鋅 | Success stories **galvanize** action. |
+| **posit** | 假定；斷定 | Researchers **posit** new theories. |
+| **scrutinize** | 詳細審查 | We must **scrutinize** all evidence. |
+
+---
+
+### **Nouns (名詞)**
+
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **advocate** | 擁護者 | **Advocates** argue for change. |
+| **catalyst** | 催化劑 | Innovation acts as a **catalyst** for growth. |
+| **conundrum** | 難題；謎題 | We face a complex **conundrum**. |
+| **dichotomy** | 二分法；對立 | This creates a false **dichotomy**. |
+| **ethos** | (民族、時代的)精神氣質 | The **ethos** of innovation drives progress. |
+| **gamut** | 整個範圍 | This covers the full **gamut** of possibilities. |
+| **harbinger** | 預兆；先驅 | Early signs are **harbingers** of change. |
+| **plethora** | 過多；過剩 | We face a **plethora** of options. |
+| **prerequisite** | 先決條件 | Planning is a **prerequisite** for success. |
+| **synergy** | 協同效應 | **Synergy** creates greater value. |
+
+---
+
+### **Adjectives (形容詞)**
+
+| Word | Chinese Meaning | Example Sentence |
+|------|-----------------|------------------|
+| **burgeoning** | 迅速發展的 | **Burgeoning** technology creates opportunities. |
+| **clandestine** | 秘密的；暗中的 | Some research involves **clandestine** operations. |
+| **commensurate** | 相稱的；相當的 | Rewards should be **commensurate** with effort. |
+| **conducive** | 有助於...的 | This environment is **conducive** to learning. |
+| **esoteric** | 深奧的；只有內行才懂的 | Some concepts remain **esoteric** to outsiders. |
+| **nascent** | 初期的；新生的 | **Nascent** industries show promise. |
+| **ubiquitous** | 無所不在的 | Digital tools are becoming **ubiquitous**. |
+| **pragmatic** | 務實的 | We need **pragmatic** solutions. |
+| **semantic** | 語義的 | The **semantic** web improves data understanding. |
+| **rudimentary** | 基本的；初步的 | Our understanding is still **rudimentary**. |
+
+---
+
+## 📝 **Usage Tips**
+
+### **How to Use These Words Effectively:**
+
+1. **Context Matters** - Choose words that fit naturally in your sentence
+2. **Don't Overuse** - Variety is better than repetition
+3. **Practice Regularly** - Use these words in your writing practice
+4. **Check Collocations** - Some words work better with certain prepositions
+5. **Start with Rank 1** - Master the basics before moving to advanced words
+
+### **Learning Strategy:**
+
+- **Week 1-2:** Focus on Rank 1 words (core vocabulary)
+- **Week 3-4:** Add Rank 2 words (advanced vocabulary)
+- **Week 5-6:** Incorporate Rank 3 words (academic highlights)
+- **Ongoing:** Practice using all words in context
+
+---
+
+## 🎯 **Key Learning Points**
+
+- **Rank 1 words** are your foundation - master these first
+- **Rank 2 words** will boost your score from 6 to 7+
+- **Rank 3 words** can make your writing stand out
+- **Practice makes perfect** - use these words regularly in your writing
+
+---
+
+*Remember: Vocabulary is the foundation of good writing. Practice using these words in context to improve your IELTS performance.* 🚀✨
