@@ -11,3 +11,37 @@ Make / Cause	Functional, but more sophisticated verbs show a higher level of voc
 Kids	Too informal for academic writing.	Children, Youngsters, Adolescents, The youth	"Many youngsters today are highly proficient with digital technology."
 Solve	A common word that can be replaced with more specific phrases.	Address this issue, Tackle this problem, Mitigate the negative effects, Rectify the situation, Implement a remedy	"To mitigate the negative effects of gaming addiction, parental guidance is essential."
 Think / Believe	As in "I think..." or "people think...".	In my opinion, From my perspective, It is argued that..., It is widely believed that..., Many contend that...	"It is often argued that the primary goal of education is to create good workers."
+
+
+__
+ 學習輔導
+
+Of course. Replacing "new" is an excellent way to improve your vocabulary score (Lexical Resource). The key is not just to find synonyms for the word "new," but to use different verbs and sentence structures to describe things that have been added.
+
+Here are several effective alternatives you can use.
+
+## 1. Use Verbs of Creation (動詞變化)
+
+This is the most powerful method. Instead of using the adjective "new," use a strong verb in the passive voice to describe the action of building.
+Verb	Example Sentence
+constructed / built	A new traffic road was constructed, and a housing estate was built.
+added / introduced	A leisure complex was added to the village. A train station was introduced on the railway line.
+established / erected	A large business park was established south of the main road. A new hotel was erected near the station.
+developed	A housing estate was developed to the west of the original village.
+
+## 2. Use Nouns of Creation (名詞變化)
+
+You can also change the sentence structure to focus on the act of creation itself.
+Noun	Example Sentence
+The construction of...	The period between 1985 and now saw the construction of a hotel and a business park.
+The addition of...	A key change was the addition of a new superstore.
+The development of...	The development of a new housing estate led to the village's expansion.
+The emergence of...	The final map shows the emergence of a new train station.
+
+## 3. Use "Replacement" Phrases (替代性片語)
+
+This is perfect for maps where one feature is replaced by another (though not in this specific essay, it's a crucial skill for other maps).
+Phrase	Example Sentence
+was replaced with...	The old shops were demolished and were replaced with a new business park.
+was converted into...	The large house was converted into a retirement home.
+made way for...	The farmland was cleared to make way for new housing.

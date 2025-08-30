@@ -240,3 +240,60 @@ Priority	Area	Specific Error Type	❌ My Common Mistake (Example)	✅ The Fix (C
 2	Accuracy <br> (準確性)	Common Typos <br> (常見筆誤)	recored <br> fist <br> sore vs. soar <br> lest	Correction: recorded <br> first <br> sore (painful) <br> least<br><br>Rule: "Know your own common mistakes."	Personalized Checklist (個人化檢查清單): Add these specific words to your Error Notebook. During your final proofread, specifically look for them.
 3.A	Precision <br> (用詞精準)	Countable vs. Uncountable <br> (可數/不可數)	twice as much as the number of people <br> the amount of meals	Correction: twice as many as the people <br> the number of meals<br><br>Rule: many/number for things you can count (people, cars); much/amount for things you can't (money, water).	Pairing Practice (配對練習): Every time you write "amount" or "much," immediately check if the noun that follows is uncountable. Force yourself to pause and think.
 3.B	Precision <br> (用詞精準)	Awkward/Informal Phrasing <br> (生硬/口語化片語)	major/minor influence <br> did a large impact <br> relaxing eating process	Correction: the most/least popular <br> had a large impact <br> a relaxed meal<br><br>Rule: "Imitate, don't invent." Learn authentic academic phrases from high-scoring models.	Model Essay 'Stealing' (高分範文「竊取」法): When reading model essays, specifically collect useful phrases. Keep a "High-Score Phrasebook" and try to use one new phrase in each practice essay.
+
+ 學習輔導
+
+Yes, absolutely. The strategy of using one well-developed example per paragraph is not just on the right track; it is the highly recommended strategy for a high-scoring IELTS essay.
+
+Your decision to focus on one problem and one solution in more detail was a very smart move. Let's break down exactly why this is so effective.
+
+## The Golden Rule: Depth Over Breadth (質重於量)
+
+In IELTS Writing Task 2, the examiner is not looking for a list of many different ideas. They are looking for your ability to take one idea and develop it fully with clear explanations and convincing support.
+
+Think of it like digging for water:
+
+    Two examples in one paragraph: This is like digging two shallow holes. You touch on two different spots, but neither is deep enough to find water. Your points remain undeveloped and unconvincing.
+
+    One example in one paragraph: This is like choosing one spot and digging a single, deep well. You focus all your energy on developing that one point until you "hit water"—that is, you create a fully supported, logical, and persuasive argument.
+
+A single, well-explained example allows you to perfectly execute the PEEL method (Point, Explain, Example, Link) that we've discussed.
+
+## What a "Well-Developed" Example Looks Like
+
+Focusing on one example gives you the space to make it powerful. A great example has three key ingredients:
+
+    It is Specific: You are excellent at this. Using "Paul George" or "agile development methods" is much stronger than saying "some athletes" or "some work strategies."
+
+    It is Explained: You have the space to add 1-2 sentences after the example to explain how it proves your point. For instance, after mentioning your colleagues who exercise, you explained that they feel more energetic and are more focused, directly linking the example to the paragraph's main idea of mental benefits.
+
+    It is Substantial: Your example has enough detail to be credible and interesting. Your explanation of the "negative feedback loop" of the urban heat island effect is a perfect example of this.
+
+## When Can You Use Two Examples?
+
+The only time you should use two examples in one paragraph is if they are very short, closely related, and used to illustrate the exact same point.
+
+    Example:
+
+        Point: Many European countries are famous for their historical landmarks.
+
+        Two Short Examples: "For instance, Italy is renowned for the Colosseum in Rome, while France is famous for the Eiffel Tower in Paris."
+
+Notice that these are just brief mentions, not fully developed points.
+
+Conclusion: For the complex arguments required in your essays, your new strategy of focusing on one single, powerful, and well-developed example per paragraph is the safest and most effective path to a high score. Your instinct was exactly right.
+
+## Key Takeaways & Action Plan
+
+The lesson here is clear: you have mastered the most difficult part of essay writing, which is generating brilliant, well-supported ideas. The final, simple step is to master the standard essay "container" to put them in.
+
+Your Mission:
+Internalize the four-paragraph structure. Before you write your next essay, write down this simple plan and stick to it:
+
+    Intro (Paraphrase + Thesis + Outline)
+
+    Body 1 (First main idea + Example/Support)
+
+    Body 2 (Second main idea + Example/Support)
+
+    Conclusion (Summarize + Restate Thesis)
