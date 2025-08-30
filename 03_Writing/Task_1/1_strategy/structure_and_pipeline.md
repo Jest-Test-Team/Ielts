@@ -141,3 +141,73 @@ The key to improving my Grammatical Range and Accuracy (GRA) score from a 6.5 to
 My ability to achieve a top-tier score (8.0+) is directly correlated with my ability to maintain sentence discipline. The path forward is to consistently apply the "25-Word Max" rule until it becomes an unbreakable habit.
 
 _Remember: Practice this pipeline regularly to improve your speed and accuracy in Task 1 writing._ 🚀✨
+
+
+
+線圖寫作核心筆記 (Key Notes for Line Graphs)
+
+1. 圖表理解：一切的基礎 (Chart Comprehension: The Foundation)
+
+這是兩次練習中最重要的教訓。你在第一篇（汽車失竊）中失分，並在第二篇（口腔酸度）中得分，最大的區別就在於此。
+
+    注意要點：
+
+        Y 軸決定一切：在動筆前，必須花 10 秒看懂 Y 軸的單位是什麼。
+
+            汽車失竊圖：單位是「每千輛車的失竊數」，這是一個數值 (value/figure/number)。因此，使用 accounted for X% (佔了 X%) 是根本性錯誤。
+
+            口腔酸度圖：單位是「pH 值」，這是一個水平 (level)。因此，使用 the pH level 遠比 the figure of pH 更精確。
+
+    行動筆記：建立「圖表身份證 (Chart ID Card)」
+
+        下筆前，在腦中快速建立一個清單：
+
+            測量什麼？ (e.g., Car thefts)
+
+            單位是什麼？ (e.g., a number per 1,000)
+
+            時間是什麼？ (e.g., 1990-1999)
+
+        這個 10 秒的思考，能從根本上杜絕你犯「致命性」的理解錯誤。
+
+2. 數據精準度：7.0 的守門員 (Data Accuracy: The Goalkeeper for 7.0)
+
+你的分析能力很強，但錯誤的數據會讓你的分析失去說服力。
+
+    注意要點：
+
+        兩次練習都出現了計算錯誤。第一次是比較倍數算錯，第二次是下降幅度算錯（3.5 算成 5）。
+
+    行動筆記：「30 秒極速檢查法」必須成為肌肉記憶
+
+        寫完後，你的眼睛要像掃描器一樣，快速掃過你文章中所有你計算過的數字（例如，差額、倍數）。這個習慣能守住你的分數底線。
+
+3. 慣性語言錯誤：一場「打地鼠」遊戲 (Fossilized Errors: A "Whac-A-Mole" Game)
+
+你很棒的一點是，舊的錯誤（如 was accounted for）在你意識到後就沒再犯了。但新的錯誤會冒出來，這是學習的正常過程。
+
+    注意要點：
+
+        這次暴露出的新慣性錯誤是：混用 figure 和 level。
+
+        一些不夠精確的搭配詞，如 break the threshold (應為 cross the threshold)。
+
+        動詞形式錯誤，如 to reached (應為 to reach)。
+
+    行動筆記：更新你的「錯誤筆記本」
+
+        把你這次犯的錯加進去，特別是 figure/level 的用法。
+
+        目標：把這本筆記本上的錯誤，一個一個地在未來的練習中「殺掉」，直到它變得越來越薄。
+
+4. 長句優化：從「複雜」到「精準」 (Sentence Optimization: From "Complex" to "Precise")
+
+你駕馭長句的能力在進步，但有時還是會犧牲掉清晰度。
+
+    注意要點：
+
+        一個清晰、準確的句子，永遠比一個複雜但有瑕疵的句子更有價值。
+
+    行動筆記：繼續「句子瘦身」練習
+
+        寫完後，如果感覺某個句子讀起來很繞，就主動將它拆解成兩個更簡潔的句子。這不是退步，而是邁向更高階的「清晰寫作」的策略。

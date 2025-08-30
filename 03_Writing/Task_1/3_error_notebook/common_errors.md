@@ -51,3 +51,14 @@ This log tracks recurring errors to eliminate from my writing. This combines fee
 | **3** | **Vocabulary** | **Keyword Spelling & Factual Errors** | `Cooper` -> `Copper` <br> `govenment` -> `government` <br> `Dorothy` the sheep -> `Dolly` | Proofread the final text against the prompt. Double-check famous names/facts. | **Rule:** Careless errors in keywords and famous examples undermine credibility. Add this to your 30-second final check. |
 | **4** | **Vocabulary** | **Imprecise Word Choice** | `colleges` vs `colleagues` <br> `fell` vs `feel` <br> `loss` vs `lose` | Use the correct word based on meaning. | **Rule:** These are personal "fossilized errors." Review this list before every practice to stay vigilant. |
 | **5** | **Structure** | **Incorrect Task 2 Structure** | Writing a separate "Overall" paragraph after the introduction. | The thesis/outline is the **final part of the introduction**. | **Rule:** Task 2 is a strict **four-paragraph** essay (Intro, Body 1, Body 2, Conclusion). |
+
+
+ 被動語態的「形式」：你已經知道何時用被動，現在需要精通如何用。
+
+            公式：被動語態 = be 動詞 + 過去分詞 (p.p.)
+
+            你的錯誤：
+
+                ...and being sent to... -> 應該是 ...and **are sent** to... (are + 過去分詞 sent)
+
+                ...bricks will be shift to... -> 應該是 ...bricks will be **shifted** to... (be + 過去分詞 shifted)
