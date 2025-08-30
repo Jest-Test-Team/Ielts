@@ -1,114 +1,141 @@
-The charts below show the males and females arrested over5 years and the reasons for most recent arrests.
+# IELTS Writing Task 1: Arrest Data Analysis 📊
 
+## 📊 Task Description
 
-___
+**Time Limit:** 20 minutes  
+**Word Count:** At least 150 words
 
-answer
+### Question
+**Mixed Charts:** The charts below show the males and females arrested over 5 years and the reasons for most recent arrests.
 
-__
+**Summarise the information by selecting and reporting the main features, and make comparisons where relevant.**
 
+---
 
-mixed charts:
+## 📈 Chart Data
 
-The charts give information about arrested number for both males and females over 5 years, and 7 types of most recent arrests reason .
+**Arrest Data Analysis**
 
+*Bar chart shows arrest reasons by gender, pie chart shows overall arrest percentages over 5 years*
 
-In general, more males were arrested than females were.And public drink was the most frequent arrest reason, and drinking driving, a similar reason, was also a majority types of arrest reason.
+---
 
+## ✍️ My Answer
 
-We can see that the percentage of public drinking type arrest was relatively higher than other’s, with men made up around 30 percent and about 37.5% from ladies.
+The charts give information about arrested number for both males and females over 5 years, and 7 types of most recent arrests reason.
+
+In general, more males were arrested than females were. And public drink was the most frequent arrest reason, and drinking driving, a similar reason, was also a majority types of arrest reason.
+
+We can see that the percentage of public drinking type arrest was relatively higher than other's, with men made up around 30 percent and about 37.5% from ladies.
 
 Following with drink driving, which females made up around 25 percent and about slightly below 15 from males.
 
-Next, we can observe that assault type had more females were involved in than males were, jus slightly below 20% versus merely over 15.
+Next, we can observe that assault type had more females were involved in than males were, just slightly below 20% versus merely over 15.
 
-While these 3 types , contrarily, shared alike feature, more males in involved in than females were.
+While these 3 types, contrarily, shared alike feature, more males in involved in than females were.
 
-Men made up more than 15 percent in Breach type while less than 15% from women.And males made up just above 15% in theft type while less than 15% from women.
+Men made up more than 15 percent in Breach type while less than 15% from women. And males made up just above 15% in theft type while less than 15% from women.
 
-Also, males made up just below 20% in other reasons type , which is marginally more than females’ percentage.
+Also, males made up just below 20% in other reasons type, which is marginally more than females' percentage.
 
-Finally , with no answer type, merely about just above 10% in total, showed a relatively insignificant impact compared to public drinking type.
+Finally, with no answer type, merely about just above 10% in total, showed a relatively insignificant impact compared to public drinking type.
 
-While percentage of public drinking type is almost 5 times more than the percentage of no answer type
-
+While percentage of public drinking type is almost 5 times more than the percentage of no answer type.
 
 On the other hand, generally speaking, more males were arrested than females were.
 
-32% of males were arrested , while only 9% of females  were arrested, over 5 years.
+32% of males were arrested, while only 9% of females were arrested, over 5 years.
 
-The arrested percentage of males was nearly four times than the  percentage of females. 
-___
-總體評分 (Estimated Overall Score): 5.0
+The arrested percentage of males was nearly four times than the percentage of females.
 
-詳細分析
+---
 
-第一號致命錯誤：數據完全讀反 (Task Achievement - Band 4.5)
+## 📊 Assessment Results
 
-這是這次寫作最核心、最嚴重的問題。你幾乎是把整張長條圖 (bar chart) 的男女數據完全對調了。
+### Overall Band Score: **5.0**
 
-    問題點分析：
+---
 
-        關於酒駕 (Drink driving)：
+## 🔍 Detailed Analysis
 
-            你的寫法：女性 (約 25%) 比男性 (約 15%) 多。
+### **Critical Error #1: Completely Reversed Data (Task Achievement - Band 4.5)**
 
-            圖表真相：恰恰相反。男性 (約 26%) 明顯高於女性 (約 13%)。
+This is the most core and serious problem in this writing. You almost completely reversed the male-female data in the entire bar chart.
 
-        關於攻擊 (Assault)：
+#### **Problem Analysis:**
 
-            你的寫法：女性比男性多。
+**Regarding Drink Driving:**
+- **Your writing:** Females (about 25%) more than males (about 15%)
+- **Chart reality:** Exactly the opposite. Males (about 26%) clearly higher than females (about 13%)
 
-            圖表真相：依然相反。男性 (約 18%) 高於女性 (約 15%)。
+**Regarding Assault:**
+- **Your writing:** Females more than males
+- **Chart reality:** Still opposite. Males (about 18%) higher than females (about 15%)
 
-    為何致命？
+#### **Why Fatal?**
 
-        在雅思 Task 1 中，準確地報告數據是最基本、最核心的要求。當你把關鍵數據完全搞反，這篇文章的內容就失去了意義。這不是一個小瑕疵，而是一個根本性的錯誤，會讓 TA 分數直接降到 5 分以下。
+In IELTS Task 1, accurately reporting data is the most basic and core requirement. When you completely reverse key data, the content of this article loses meaning. This is not a small flaw, but a fundamental error that will directly drop your TA score below 5.
 
-第二號急迫問題：混亂的文章結構 (Coherence and Cohesion - Band 5.0)
+---
 
-    問題點分析：
+### **Critical Issue #2: Chaotic Article Structure (Coherence and Cohesion - Band 5.0)**
 
-        你的文章結構非常混亂。你先用很長的篇幅去描述長條圖，然後在文章的最後，才用一個獨立的段落去描述圓餅圖 (pie chart)。這讓圓餅圖的資訊看起來像一個突然冒出來的補充說明，而不是文章的有機組成部分。
+#### **Problem Analysis:**
 
-    更清晰的結構應該是：
+Your article structure is very chaotic. You spent a long time describing the bar chart, then at the very end of the article, used an independent paragraph to describe the pie chart. This makes the pie chart information look like a suddenly appearing supplement rather than an organic component of the article.
 
-        第一段：引言 (Introduction)。
+**Better structure should be:**
 
-        第二段：總覽 (Overall)。概括兩個最重要的發現（例如：男性被捕比例遠高於女性；公共場合飲酒是主要原因）。
+| Paragraph | Purpose | Content |
+|-----------|---------|---------|
+| **1. Introduction** | Sets the stage | Brief overview of both charts |
+| **2. Overall** | Summarizes key findings | Two most important discoveries (e.g., male arrest rate much higher than female; public drinking is main reason) |
+| **3. Detail Pie Chart** | Describes pie chart | Detailed description of 32% vs 9% comparison |
+| **4. Detail Bar Chart** | Describes bar chart | Detailed description of various arrest reason data, can group comparisons (e.g., reasons with higher female rates vs reasons with higher male rates) |
 
-        第三段：詳述圓餅圖。詳細描述 32% vs 9% 的對比。
+---
 
-        第四段：詳述長條圖。詳細描述各種被捕原因的數據，可以進行分組比較（例如，女性比例較高的原因 vs. 男性比例較高的原因）。
+### **Language Expression Issues (LR & GRA - Band 5.5)**
 
-語言表達的問題 (LR & GRA - Band 5.5)
+Your short sentence strategy wasn't strictly implemented this time, but the main problem lies in accuracy and collocation.
 
-    你的短句策略這次沒有嚴格執行，但更主要的問題在於準確性和搭配。
+| ❌ **Incorrect** | ✅ **Correct** |
+|------------------|----------------|
+| arrested number | the percentage of people arrested |
+| arrests reason | reasons for arrest |
+| Following with | Followed by |
+| more males in involved in | more males were involved in |
 
-        arrested number -> the percentage of people arrested (圖表是百分比，不是數字)。
+---
 
-        arrests reason -> reasons for arrest。
+## 📝 **Summary & "Disaster Recovery" Plan**
 
-        Following with -> Followed by。
+This 5.0 score is a very important wake-up call. It tells us: all advanced vocabulary and sentence patterns are pale and powerless in the face of incorrect data.
 
-        more males in involved in -> more males were involved in。
+We must now return to the most core first step of our battle plan and upgrade it.
 
-總結與「災後重建」計畫
+**Battle Plan 6.0: Absolute Accuracy**
 
-這次的 5.0 分是一個非常重要的警鐘。它告訴我們：所有高級的詞彙和句型，在錯誤的數據面前都蒼白無力。
+### **Mandatory "Out-loud Pre-reading" Step Before Writing:**
 
-我們現在必須回到作戰計畫最核心的第一步，並把它升級。
+**Action:** Before writing any paragraph, point at the chart with your finger and softly say the data and comparisons you're about to write.
 
-作戰計畫 6.0：絕對準確 (Absolute Accuracy)
+**Example:** "Okay, public drinking, females higher than males. Drink driving, males higher than females. Assault, males higher than females..."
 
-    寫作前的「出聲預讀」步驟 (MANDATORY)：
+**Purpose:** This action forces your brain to conduct a "fact-check," which can 100% prevent you from making data reversal errors again.
 
-        動作：在動筆寫任何一個段落之前，用手指著圖表，小聲地把你要寫的數據和比較說出來。
+### **Plan First, Structure Supreme:**
 
-        範例：「Okay，公共飲酒，女性高於男性。酒駕，男性高於女性。攻擊，男性高於女性...」
+Before writing, spend 30 seconds writing your four-paragraph outline on draft paper. For example: P1-Intro, P2-Overall, P3-Pies, P4-Bar. This ensures your article structure is clear.
 
-        目的：這個動作會強迫你的大腦進行一次「事實核查 (fact-check)」，可以 100% 避免你再犯數據讀反的錯誤。
+---
 
-    規劃先行，結構至上：
+## 💡 **Key Learning Points**
 
-        在動筆前，花 30 秒在草稿紙上寫下你的四段式大綱。例如：P1-Intro, P2-Overall, P3-Pies, P4-Bar。這能保證你的文章結構清晰。
+- **Data accuracy is fundamental** - all other skills depend on it
+- **Structure planning is crucial** - plan before you write
+- **Verification methods work** - use the "out-loud pre-reading" technique
+
+---
+
+*Remember: This is a valuable lesson. Data accuracy is your foundation - build it strong before adding advanced techniques.* 🚀✨

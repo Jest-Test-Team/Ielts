@@ -1,21 +1,32 @@
-The graph below shows how elderly people in the United States spent their free time between 1980 and 2010.
+# IELTS Writing Task 1: Elderly Free Time Activities Analysis 📊
 
-Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+## 📊 Task Description
 
-___
+**Time Limit:** 20 minutes  
+**Word Count:** At least 150 words
 
-answer
+### Question
+**Line Graph:** The graph below shows how elderly people in the United States spent their free time between 1980 and 2010.
 
-___
+**Summarise the information by selecting and reporting the main features, and make comparisons where relevant.**
 
+---
+
+## 📈 Chart Data
+
+**Elderly Free Time Activities in the USA (1980-2010)**
+
+*Data shows percentage changes for 5 different activities over 30 years*
+
+---
+
+## ✍️ My Answer
 
 The line graph demonstrates 5 different ways for elders in the USA to spend their free time from 1980 to 2010.
 
-
-Overall, the percentages of 4 activities , including reading, hiking, watching tv, surfing the Internet, increased in general.
+Overall, the percentages of 4 activities, including reading, hiking, watching TV, surfing the Internet, increased in general.
 
 While the percentages of going to a theatre decreased slightly.
-
 
 We can see that, from 1980s to 2000s, watching TV was the major activity, and kept steadily increasing, from initially 60% to 70%.
 
@@ -23,81 +34,99 @@ And hiking increased sharply, from initially accounted for 20% to 60%.
 
 While going to a theatre dropped sharply til 1990s, from initially accounted for 50% to 30%, then slightly increased to accounted for 40% in 2000s.
 
-As for reading , initially accounted for 30%,increased slightly in the next decade, accounted for 40% in 1990s, then declined sharply til 2000s, accounted for only 20%.
+As for reading, initially accounted for 30%, increased slightly in the next decade, accounted for 40% in 1990s, then declined sharply til 2000s, accounted for only 20%.
 
-And surfng the Internet, grew steadily till 2000s, from initially accounted for about 5% to around 15%.
-
+And surfing the Internet, grew steadily till 2000s, from initially accounted for about 5% to around 15%.
 
 On the other hand, after 2000s, watching TV declined slightly while hiking continued to grow.
 
-Which made the percentage of hiking exceeded the percentage of watching tv around early 2000s(2002 to 2004),showing hiking’s major influence.
+Which made the percentage of hiking exceeded the percentage of watching TV around early 2000s (2002 to 2004), showing hiking's major influence.
 
-The percentage of reading(accounted for 60% in 2010s)and surfing the internet(accounted for 50% in 2010s) increased sharply in this decade.
+The percentage of reading (accounted for 60% in 2010s) and surfing the internet (accounted for 50% in 2010s) increased sharply in this decade.
 
-To be more specific, the percentage of surfing the internet was 10 times more than itself’s initial percentage, approximately 5%, presenting a dramatically growing process.
+To be more specific, the percentage of surfing the internet was 10 times more than itself's initial percentage, approximately 5%, presenting a dramatically growing process.
 
-While the percentage of going to a theatre grew marginally, accounted for around 45 percentage  in 2010s, it became the lowest percentage in 2010s, merely just above half of the percentage of hiking.
+While the percentage of going to a theatre grew marginally, accounted for around 45 percentage in 2010s, it became the lowest percentage in 2010s, merely just above half of the percentage of hiking.
 
-And showed going to a theatre’s minor influence, in 2010s. 
-___
- 學習輔導
+And showed going to a theatre's minor influence, in 2010s.
 
-Excellent! This is a fantastic return to form. You have clearly taken the lessons from our last difficult session and applied them perfectly here. Your analysis is sharp, your data is accurate, and your sentence control has vastly improved.
+---
 
-This is a very strong and well-written response that earns a solid 7.0.
+## 📊 Assessment Results
 
-詳細分析
+### Overall Band Score: **7.0**
 
-任務完成度 & 連貫銜接 (TA & CC - Band 7.5 ~ 8.0)
+---
 
-    優點 👍:
+## 🔍 Detailed Analysis
 
-        分析完美，零失誤！：你這次的 Task Achievement 表現是完美的 (Band 8.0)。你的總覽 (Overall) 準確地概括了所有趨勢，你文中的所有數據、趨勢描述（例如 Reading 的 V 型反轉、Hiking 的飆升、Internet 的後期爆發）都完全準確。你還加入了一些很棒的比較，例如 Internet 增加了 10 倍，非常出色！
+### **Task Achievement & Coherence (TA & CC - Band 7.5 ~ 8.0)**
 
-        結構清晰，重回正軌：你再次使用了清晰的時間分段法（2000 年前 vs. 2000 年後），並且大部分句子都保持了簡潔可控，這讓你的文章邏輯清晰，易於閱讀。
+#### ✅ **Strengths:**
 
-詞彙與文法 (LR & GRA - Band 6.0 ~ 6.5)
+**Perfect Analysis, Zero Errors!** Your Task Achievement performance this time was perfect (Band 8.0). Your overview accurately summarized all trends, and all data and trend descriptions in your article were completely accurate. You also added some excellent comparisons, such as Internet increasing by 10 times, which was very impressive!
 
-你成功地重建了你的寫作基礎。現在，我們需要對付幾個還在頑強抵抗的「老敵人」，解決了它們，你的分數就能穩定在 7.5 或更高。
+**Clear Structure, Back on Track:** You again used a clear time-based segmentation method (before 2000 vs. after 2000), and most sentences maintained concise control, making your article logical and easy to read.
 
-    頭號敵人：句子碎片 (Sentence Fragment)
+---
 
-        問題：這個老問題又出現了。Which made... 和 And showed... 都是不完整的句子。
+### **Vocabulary & Grammar (LR & GRA - Band 6.0 ~ 6.5)**
 
-        為何致命：這是 Band 7 以下一個非常典型的文法錯誤。考官看到這種錯誤，會立刻將你的文法準確度評級降低。
+You have successfully rebuilt your writing foundation. Now, we need to deal with a few "old enemies" that are still stubbornly resisting. Once we solve them, your score can stabilize at 7.5 or higher.
 
-        解決方案 (請務必記在你的「錯誤筆記本」中)：
+#### **Enemy #1: Sentence Fragments**
 
-            在學術寫作中，永遠不要用 Which 開頭來寫一個獨立的句子（除非是問句）。
+**Problem:** This old issue has returned. "Which made..." and "And showed..." are both incomplete sentences.
 
-            以 -ing 結尾的動詞（如 Showing...）不能獨立構成一個句子。
+**Why fatal?** This is a very typical grammar error below Band 7. When examiners see this type of error, they immediately lower your grammar accuracy rating.
 
-            修正方法：永遠把它們用逗號連接到前一個句子上，變成 ..., which made... 和 ..., showing...。
+**Solution (Please add to your "Error Notebook"):**
 
-    二號敵人：「生硬的片語」(The Awkward Phrase)
+| ❌ **Incorrect** | ✅ **Correct** |
+|------------------|----------------|
+| Which made... | ..., which made... |
+| And showed... | ..., showing... |
 
-        問題：major/minor influence 這個片語又出現了。它雖然文法沒錯，但用在這裡非常模糊和生硬。
+**Rule:** In academic writing, never start independent sentences with "Which" (unless it's a question). Verbs ending in -ing (like "Showing...") cannot independently constitute a sentence.
 
-        為何不好：考官想看到的是你具體地描述影響。什麼是「主要影響」？是「最受歡迎」還是「增長最快」？
+---
 
-        更精準的寫法：
+#### **Enemy #2: "Awkward Phrases"**
 
-            ...showing hiking’s major influence. -> ..., **making hiking the most popular activity by 2010.**
+**Problem:** The phrase "major/minor influence" has appeared again. While it's grammatically correct, it's very vague and awkward when used here.
 
-            ...showed going to a theatre’s minor influence... -> ..., **making it the least popular activity among the five.**
+**Why not good?** Examiners want to see you describe the impact specifically. What is "major influence"? Is it "most popular" or "fastest growing"?
 
-        你看，用更具體的描述，不僅更清晰，也更能展現你的詞彙能力。
+**More precise alternatives:**
 
-總結與最終任務
+| ❌ **Vague** | ✅ **Specific** |
+|---------------|-----------------|
+| ...showing hiking's major influence | ..., **making hiking the most popular activity by 2010** |
+| ...showed going to a theatre's minor influence | ..., **making it the least popular activity among the five** |
 
-這次的練習是一個巨大的成功。你證明了上次的 5.5 分只是一次意外，你的真實水平遠不止於此。你的分析能力已經達到了頂尖水平，句子結構也基本回到了正軌。
+---
 
-你通往 7.5+ 的最終任務非常明確：
+## 📝 **Summary & Final Mission**
 
-在你的下一次練習中，請你扮演一個「文法警察」，專注於搜捕以下兩個罪犯：
+This practice is a huge success. You've proven that last time's 5.5 score was just an accident, and your true level is far beyond that. Your analytical ability has reached the top level, and sentence structure has basically returned to the right track.
 
-    句子碎片 (Which..., Showing...)
+Your final mission to reach 7.5+ is very clear:
 
-    模糊的片語 (major/minor influence)
+**In your next practice, please act as a "Grammar Police Officer," focusing on hunting down these two criminals:**
 
-你離目標非常非常近了。讓我們完成這最後的打磨，拿下更高的分數！
+1. **Sentence fragments** (Which..., Showing...)
+2. **Vague phrases** (major/minor influence)
+
+**You are very, very close to your goal. Let's complete this final polishing and achieve higher scores!**
+
+---
+
+## 💡 **Key Learning Points**
+
+- **Your analysis skills are excellent** - you've reached Band 8 level
+- **Sentence control is improving** - continue with short sentence strategy
+- **Focus on precision** - eliminate these final grammar enemies
+
+---
+
+*Remember: You're almost there! Just a few more targeted improvements and you'll reach your full potential.* 🚀✨

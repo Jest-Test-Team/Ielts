@@ -1,96 +1,134 @@
-The chart below gives information about population growth in three major Australian cities from 1992 to 2016.
+# IELTS Writing Task 1: Population Growth Analysis 📊
 
-Summarise the information by selecting and reporting the main features and make comparisons where relevant.
+## 📊 Task Description
 
+**Time Limit:** 20 minutes  
+**Word Count:** At least 150 words
 
+### Question
+**Line Chart:** The chart below gives information about population growth in three major Australian cities from 1992 to 2016.
 
-The line chart demonstrates  growth of population in three major cities in Australia for 9 years, from 1992 to 2016.
+**Summarise the information by selecting and reporting the main features and make comparisons where relevant.**
 
-Overall, population growth in all these 3 cities increased, but the population growth degree in Brisbane is much lower than  others.
+---
 
+## 📈 Chart Data
 
+**Population Growth in Three Major Australian Cities (1992-2016)**
+
+*Data shows annual population growth figures over 24 years*
+
+---
+
+## ✍️ My Answer
+
+The line chart demonstrates growth of population in three major cities in Australia for 9 years, from 1992 to 2016.
+
+Overall, population growth in all these 3 cities increased, but the population growth degree in Brisbane is much lower than others.
 
 We can see that the population of Melbourne and Sydney dropped then sharply increased till around 1996 to 1997.
 
-With the population of Melbourne merely below 40,000 people and the  population of Sydney was approximately 50,000 people in around 1996 to 1997.
+With the population of Melbourne merely below 40,000 people and the population of Sydney was approximately 50,000 people in around 1996 to 1997.
 
 While the population of Brisbane increased steadily till 1995, then sharply decline til 1998.
 
 And from about 1996, though began with declining, the population of Sydney increased till 2001, with just over 60,000 people in 2001.
 
-Then the population of Melbourne remained around slightly below 50,000  in 2004.
+Then the population of Melbourne remained around slightly below 50,000 in 2004.
 
 And the population of Brisbane increased to marginally below the population of Melbourne in 2004.
 
-While the population of Sydney  dropped sharply from 2001 to 2004, with only slight above 20,000 population in 200, less than half of the population in Melbourne or Brisbane .
-
+While the population of Sydney dropped sharply from 2001 to 2004, with only slight above 20,000 population in 2004, less than half of the population in Melbourne or Brisbane.
 
 And from 2004, the population of Sydney rocketed to slightly above 80,000, then drop sharply to slightly below 60,000, and sharply increased til 2016, with more than 100,000 people.
 
-Population in Melbourne shared the similar pattern, rocketed to almost 100,000 around 2009, then  drop sharply to approximately 75,000, and increased til 2016, even with more population than Sydney did.
+Population in Melbourne shared the similar pattern, rocketed to almost 100,000 around 2009, then drop sharply to approximately 75,000, and increased til 2016, even with more population than Sydney did.
 
 Which both show major influences.
 
 On the other hand, population in Brisbane kept fluctuating til 2016, with merely around 50,000 people in 2016.
 
-Which shows minor influence. 
+Which shows minor influence.
 
-總體評分 (Estimated Overall Score): 5.5
+---
 
-詳細分析
+## 📊 Assessment Results
 
-第一號急迫問題：圖表的根本性誤讀 (Task Achievement - Band 5.0)
+### Overall Band Score: **5.5**
 
-這是這次分數偏低最主要、最根本的原因。
+---
 
-    問題一：誤解 Y 軸的意義
+## 🔍 Detailed Analysis
 
-        你在整篇文章中都使用「the population of Melbourne (墨爾本的人口總數)...」這樣的描述。但圖表的 Y 軸標示的是「(thousands)」，指的是年度人口增長數，而不是總人口。
+### **Critical Issue #1: Fundamental Misreading of Chart (Task Achievement - Band 5.0)**
 
-        正確的理解：圖表並不是說「在 1996 年，雪梨的總人口是 5 萬人」，而是說「在 1996 年那一年裡，雪梨的人口增加了 5 萬人」。這兩者是完全不同的概念。
+This is the most fundamental reason for the low score.
 
-        為何致命？ 這是對圖表核心資訊的誤解，會讓考官認為你沒有看懂題目，導致 TA 分數被限制在很低的水平。
+#### **Problem 1: Misunderstanding Y-axis Meaning**
 
-    問題二：引言的資訊錯誤
+- **Your description:** Throughout the article, you used "the population of Melbourne (Melbourne's total population)..." 
+- **Chart reality:** The Y-axis shows "(thousands)" - annual population growth, not total population
+- **Correct understanding:** The chart doesn't say "Sydney's total population was 50,000 in 1996," but "Sydney's population increased by 50,000 in 1996"
+- **Why fatal?** This is a fundamental misunderstanding of the chart's core information, making examiners think you don't understand the question
 
-        你的第一句提到時間跨度是「9 years, from 1992 to 2016」。但 1992 年到 2016 年實際上是 24 年。這個基礎事實的錯誤會給考官留下粗心的第一印象。
+#### **Problem 2: Incorrect Information in Introduction**
 
-第二號急迫問題：「怪獸長句」與混亂的結構 (GRA & CC - Band 5.0 ~ 5.5)
+- **Your writing:** "9 years, from 1992 to 2016"
+- **Reality:** 1992 to 2016 is actually 24 years
+- **Impact:** This basic factual error gives examiners a careless first impression
 
-    問題一：放棄了短句策略
+---
 
-        你這次完全放棄了我們之前練習多次且非常成功的「短句策略」。文章中充斥著結構複雜、資訊混亂且容易出錯的長句。
+### **Critical Issue #2: "Monster Sentences" & Chaotic Structure (GRA & CC - Band 5.0 ~ 5.5)**
 
-        後果：這直接導致你的文法 (GRA) 分數下降，因為長句中出現了更多的錯誤。更重要的是，它讓你的文章變得極其難以閱讀。
+#### **Problem 1: Abandoned Short Sentence Strategy**
 
-    問題二：混亂的描述順序
+- **Issue:** You completely abandoned the "short sentence strategy" that we practiced multiple times and was very successful
+- **Consequence:** This directly caused your grammar (GRA) score to drop, and made your article extremely difficult to read
 
-        你在描述 1996-2004 年這段時期時，一下說雪梨，一下又跳到墨爾本，然後又提到布里斯本，時間和城市之間的跳躍非常混亂，沒有遵循一個清晰的邏輯（例如，沒有按照時間順序或逐個城市來描述）。這嚴重影響了你的連貫性 (CC) 分數。
+#### **Problem 2: Chaotic Description Order**
 
-    問題三：慣性語言錯誤
+- **Issue:** When describing 1996-2004, you jumped between Sydney, Melbourne, and Brisbane without following clear logic
+- **Impact:** This severely affected your coherence (CC) score
 
-        Which shows minor influence. 這樣的句子碎片問題依然存在。
+#### **Problem 3: Habitual Language Errors**
 
-        major/minor influences 這個片語用在這裡語意不通，顯得非常生硬，像是為了使用而強行插入的。
+- **Sentence fragments:** "Which shows minor influence" still exists
+- **Awkward phrases:** "major/minor influences" doesn't make semantic sense here
 
-如何重回正軌：緊急作戰計畫
+---
 
-這次的練習就像一次壓力測試，它告訴我們，當圖表變得更複雜時，我們之前建立的良好習慣還不夠穩固。別擔心，這很正常。我們現在要做的，就是把它們重新鞏固起來。
+## 💡 **How to Get Back on Track: Emergency Battle Plan**
 
-    第一步：重讀「圖表身份證」筆記
+This practice is like a stress test, showing that when charts become more complex, our previously established good habits aren't stable enough. Don't worry, this is normal. We need to consolidate them again.
 
-        在下一次練習前，請務必重新閱讀我們關於「理解 Y 軸」的筆記。動筆前，一定要先問自己：「這個圖表衡量的到底是什麼？單位是什麼？」
+### **Step 1: Re-read "Chart ID Card" Notes**
 
-    第二步：無條件回歸「短句策略」
+Before your next practice, please re-read our notes about "Understanding Y-axis." Before writing, always ask yourself: "What exactly is this chart measuring? What is the unit?"
 
-        這是沒有商量餘地的。在你的下一次練習中，請你無條件地、嚴格地遵守「每句話不超過 25 個單字」的規則。這是讓你文章保持清晰、減少錯誤的生命線。
+### **Step 2: Unconditionally Return to "Short Sentence Strategy"**
 
-    第三步：選擇一個清晰的結構並堅持到底
+This is non-negotiable. In your next practice, please unconditionally and strictly follow the rule of "no more than 25 words per sentence." This is your lifeline for keeping articles clear and reducing errors.
 
-        對於多條線的線圖，你有兩個選擇：
+### **Step 3: Choose One Clear Structure and Stick to It**
 
-            A) 按時間分段：描述 1992-2004 年所有城市的變化，然後再描述 2004-2016 年所有城市的變化。
+For multi-line charts, you have two choices:
 
-            B) 按對象分段：先完整描述墨爾本 24 年的完整趨勢，然後描述雪梨，最後描述布里斯本。
+| Option | Description | Structure |
+|--------|-------------|-----------|
+| **A) Time-based segmentation** | Describe changes for all cities from 1992-2004, then describe 2004-2016 | Period 1: All cities, Period 2: All cities |
+| **B) Object-based segmentation** | Complete description of Melbourne's 24-year trend, then Sydney, finally Brisbane | City 1: Complete trend, City 2: Complete trend, City 3: Complete trend |
 
-        選擇一個，然後從頭到尾堅持下去，絕對不要在段落中間混雜不同的描述對象。
+**Choose one and stick to it from beginning to end. Never mix different description objects in the middle of paragraphs.**
+
+---
+
+## 📝 **Key Learning Points**
+
+- **Chart comprehension is fundamental** - always understand what you're measuring
+- **Short sentences are your lifeline** - don't abandon them under pressure
+- **Structure consistency is crucial** - choose one approach and maintain it throughout
+
+---
+
+*Remember: This is a learning opportunity. You have the skills, now you need to apply them consistently under pressure.* 🚀✨
