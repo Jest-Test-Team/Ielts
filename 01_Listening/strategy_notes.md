@@ -120,7 +120,7 @@
 
 ---
 
-## ⚠️ Common Pitfalls
+## ⚠️ Common Pitfalls.
 
 ### **1. Getting Lost** 🚫
 
@@ -187,7 +187,7 @@
 
 ---
 
-_Remember: Practice makes perfect! Focus on one skill at a time and build gradually._ 🚀
+
 
 ---
 
@@ -573,3 +573,4 @@ graph TD
         F5 --> F5a[將計畫付諸實踐，按優先順序執行任務]
         F5 --> F5b[持續追蹤進度，定期檢討與調整]
 ```
+
