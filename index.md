@@ -6,7 +6,7 @@ title: IELTS 學習中心
 <div class="hero-section">
   <h1>🎯 歡迎來到 IELTS 學習中心</h1>
   <p>這是一個專為 IELTS 備考者設計的學習平台，提供系統化的學習筆記、練習資源和錯誤分析，幫助您在備考路上事半功倍！</p>
-  
+
   <div class="hero-buttons">
     <a href="#study-resources" class="btn">探索學習資源</a>
     <a href="#daily-update" class="btn btn-outline">學習方法</a>
@@ -109,8 +109,8 @@ title: IELTS 學習中心
 <div class="practice-grid">
   <div class="practice-item">
     <div class="date">2025-08-16</div>
-    <h4><a href="03_Writing/Task_1/2_practice_log/2025-08-16_Maps-Practice.html">地圖變化描述練習</a></h4>
-    <div class="tag">地圖</div>
+    <h4><a href="03_Writing/Task_1/2_practice_log/2025-08-16_Mix-Charts.html">混合圖表練習</a></h4>
+    <div class="tag">混合圖表</div>
   </div>
   
   <div class="practice-item">
@@ -137,13 +137,13 @@ title: IELTS 學習中心
 <div class="practice-grid">
   <div class="practice-item">
     <div class="date">2025-08-26</div>
-    <h4><a href="03_Writing/Task_2/2_practice_log/2025-08-26-Problem and Solution Topics.html">問題與解決方案論文</a></h4>
-    <div class="tag">問題解決</div>
+    <h4><a href="03_Writing/Task_2/2_practice_log/2025-08-26-advantages-disadvantages.html">優缺點分析論文</a></h4>
+    <div class="tag">優缺點</div>
   </div>
   
   <div class="practice-item">
     <div class="date">2025-08-18</div>
-    <h4><a href="03_Writing/Task_2/2_practice_log/2025-08-18_Discussion-Essay-Practice.html">討論型議論文練習</a></h4>
+    <h4><a href="03_Writing/Task_2/2_practice_log/2025-08-18-discussion.html">討論型議論文練習</a></h4>
     <div class="tag">討論型</div>
   </div>
   
