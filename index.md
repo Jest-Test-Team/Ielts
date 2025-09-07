@@ -13,6 +13,106 @@ title: IELTS 學習中心
   </div>
 </div>
 
+<div class="profile-analysis-section">
+  <h2 id="profile-analysis" class="section-title">📊 IELTS 能力分析報告</h2>
+  
+  <div class="analysis-intro">
+    <p>根據您所有練習記錄的分析，您的 IELTS 能力呈現出清晰且一致的輪廓：您是一位具有高潛力的考生（峰值能力達 Band 8.0+），表現會因對特定技術錯誤的控制而有所波動。您最大的優勢是精密的分析思維；最大的挑戰是確保技術執行始終與您想法的品質相匹配。</p>
+  </div>
+  
+  <div class="skill-analysis-grid">
+    <div class="skill-card writing-task1">
+      <div class="skill-header">
+        <h3>✍️ Writing Task 1</h3>
+        <div class="band-scores">
+          <span class="current-band">當前穩定分數: 7.0 - 7.5</span>
+          <span class="peak-band">峰值潛力: 8.5+</span>
+        </div>
+      </div>
+      
+      <div class="analysis-content">
+        <h4>優勢分析</h4>
+        <p>您的 Task 1 文章結構能力已達完美水準，句子控制優秀，高階分析技能是主要優勢，經常能發現其他考生會忽略的深刻數學比較。</p>
+        
+        <h4>主要弱點</h4>
+        <p>表現有時會被數據準確性的"致命錯誤"所影響。這些不是理解問題，而是在壓力下對細節注意力的疏忽：</p>
+        <ul>
+          <li><strong>Y軸誤讀：</strong>混淆"參與人數"與"百分比"</li>
+          <li><strong>數據與日期錯誤：</strong>誤讀日期或計算錯誤</li>
+          <li><strong>圖例混淆：</strong>交換兩個不同國家的數據</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="skill-card writing-task2">
+      <div class="skill-header">
+        <h3>✍️ Writing Task 2</h3>
+        <div class="band-scores">
+          <span class="current-band">當前穩定分數: 7.5</span>
+          <span class="peak-band">峰值潛力: 9.0</span>
+        </div>
+      </div>
+      
+      <div class="analysis-content">
+        <h4>優勢分析</h4>
+        <p>這是您最強的領域。您產生精緻、原創且論證充分的論點能力非常出色。使用具體現代例子（如 Nuxt3、Kobe Bryant 職業生涯、少林寺歷史）是 Band 9.0 的技能。</p>
+        
+        <h4>主要弱點</h4>
+        <p>最持久且具破壞性的錯誤是在非自覺專注時缺乏語法紀律：</p>
+        <ul>
+          <li><strong>句子片段：</strong>錯誤使用 Which 或 By which 開始句子</li>
+          <li><strong>回歸"怪物句子"：</strong>失去對"25字上限"規則的專注時，傾向寫出長且失控的句子</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="skill-card listening">
+      <div class="skill-header">
+        <h3>🎧 Listening</h3>
+        <div class="band-scores">
+          <span class="current-band">當前穩定分數: 6.5 - 7.0</span>
+          <span class="peak-band">峰值潛力: 8.0+</span>
+        </div>
+      </div>
+      
+      <div class="analysis-content">
+        <h4>優勢分析</h4>
+        <p>您的核心理解能力強，策略規劃完善，持續處於更高分數段的邊緣。</p>
+        
+        <h4>主要弱點</h4>
+        <p>錯誤不是由於理解不足，而是缺乏對細節的細緻關注：</p>
+        <ul>
+          <li><strong>拼寫和複數：</strong>簡單但可避免的錯誤</li>
+          <li><strong>粗心大意：</strong>記錄中的"粗心兩題"</li>
+          <li><strong>特定題型：</strong>地圖題需要對空間語言的高度專注</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="skill-card speaking">
+      <div class="skill-header">
+        <h3>🗣️ Speaking</h3>
+        <div class="band-scores">
+          <span class="current-band">當前穩定分數: 7.0 - 7.5</span>
+          <span class="peak-band">峰值潛力: 8.5+</span>
+        </div>
+      </div>
+      
+      <div class="analysis-content">
+        <h4>優勢分析</h4>
+        <p>您是一位"分析型溝通者"。在討論您熱情且知識豐富的話題時（技術、音樂、哲學），表現達到 Band 8.5+ 水準，特徵是高流暢度、精緻詞彙和複雜語法。</p>
+        
+        <h4>主要弱點</h4>
+        <p>在更一般或純描述性話題上表現變得不穩定，這種"認知負荷"導致回歸到根深蒂固的錯誤：</p>
+        <ul>
+          <li><strong>語法一致性：</strong>主謂一致和冠詞使用的小但頻繁錯誤</li>
+          <li><strong>自然表達：</strong>偶爾使用尷尬或不自然的措辭</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="study-schedule-section">
   <h2 id="study-schedule" class="section-title">📅 學習時程安排</h2>
   
@@ -606,6 +706,121 @@ title: IELTS 學習中心
     padding-bottom: 10px;
   }
   
+  /* Profile Analysis Styles */
+  .profile-analysis-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 2em 0;
+    color: white;
+  }
+  
+  .profile-analysis-section .section-title {
+    color: white;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+  }
+  
+  .analysis-intro {
+    background: rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .analysis-intro p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .skill-analysis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+  }
+  
+  .skill-card {
+    background: rgba(255,255,255,0.95);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+  
+  .skill-header {
+    border-bottom: 2px solid #E9ECEF;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-header h3 {
+    margin: 0 0 10px;
+    color: #2A7DE1;
+    font-size: 1.3rem;
+  }
+  
+  .band-scores {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .current-band {
+    background: #FF6B6B;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .peak-band {
+    background: #4ECDC4;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .analysis-content h4 {
+    color: #2A7DE1;
+    margin: 20px 0 10px;
+    font-size: 1.1rem;
+  }
+  
+  .analysis-content h4:first-child {
+    margin-top: 0;
+  }
+  
+  .analysis-content p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .analysis-content ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .analysis-content li {
+    color: #666;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  
+  .analysis-content strong {
+    color: #2A7DE1;
+  }
+
   /* Study Schedule Styles */
   .study-schedule-section {
     background: #F8F9FA;
@@ -722,12 +937,32 @@ title: IELTS 學習中心
       grid-template-columns: 1fr;
     }
     
-    .study-schedule-section {
+    .skill-analysis-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .study-schedule-section,
+    .profile-analysis-section {
       padding: 20px;
     }
     
     .schedule-phase {
       padding: 20px;
+    }
+    
+    .skill-card {
+      padding: 20px;
+    }
+    
+    .band-scores {
+      flex-direction: row;
+      gap: 10px;
+    }
+    
+    .current-band,
+    .peak-band {
+      flex: 1;
+      text-align: center;
     }
   }
 </style>
