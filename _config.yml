@@ -16,7 +16,7 @@ email: your-email@example.com
 markdown: kramdown
 highlighter: rouge
 show_excerpts: true
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:path/
 relative_links:
   enabled: true
   collections: true
@@ -66,6 +66,9 @@ collections:
   posts:
     output: true
     permalink: /:collection/:name/
+
+# Custom permalink structure for practice logs
+permalink: /:path/
 
 # Defaults
 defaults:

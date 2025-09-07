@@ -6,10 +6,75 @@ title: IELTS 學習中心
 <div class="hero-section">
   <h1>🎯 歡迎來到 IELTS 學習中心</h1>
   <p>這是一個專為 IELTS 備考者設計的學習平台，提供系統化的學習筆記、練習資源和錯誤分析，幫助您在備考路上事半功倍！</p>
-  
+
   <div class="hero-buttons">
     <a href="#study-resources" class="btn">探索學習資源</a>
     <a href="#daily-update" class="btn btn-outline">學習方法</a>
+  </div>
+</div>
+
+<div class="study-schedule-section">
+  <h2 id="study-schedule" class="section-title">📅 學習時程安排</h2>
+  
+  <div class="schedule-container">
+    <div class="schedule-phase">
+      <h3>🚀 第一階段：衝刺期 (現在 - 9月21日 | 14天)</h3>
+      <p><strong>目標：</strong>高強度訓練，修正技術缺陷，提升基礎分數</p>
+      <p><strong>建議每日時間：</strong>2-2.5小時</p>
+      
+      <div class="schedule-grid">
+        <div class="schedule-item">
+          <div class="time-slot">0-30分鐘</div>
+          <h4>🎧 聽力練習</h4>
+          <p>專注準確性。完成一個劍橋聽力部分，重點練習地圖/配對題型，並進行深度錯誤分析。</p>
+        </div>
+        
+        <div class="schedule-item">
+          <div class="time-slot">30-70分鐘</div>
+          <h4>✍️ 寫作練習</h4>
+          <p>專注紀律性。Task 1 和 Task 2 輪流練習，嚴格遵循結構和流程指南。</p>
+        </div>
+        
+        <div class="schedule-item">
+          <div class="time-slot">70-90分鐘</div>
+          <h4>🗣️ 口說練習</h4>
+          <p>專注一致性。選擇弱勢話題進行 Part 2 練習，錄音並分析特定錯誤。</p>
+        </div>
+        
+        <div class="schedule-item">
+          <div class="time-slot">90-120+分鐘</div>
+          <h4>📖 閱讀練習</h4>
+          <p>專注策略。完成一個完整的劍橋閱讀段落，分析表現並識別耗時題型。</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="schedule-phase">
+      <h3>🔄 第二階段：維持期 (9月22日 - 10月2日 | 11天)</h3>
+      <p><strong>目標：</strong>維持巔峰狀態，適應新工作，避免倦怠</p>
+      <p><strong>建議每日時間：</strong>30-45分鐘 (平日)，約3小時 (週末)</p>
+      
+      <div class="maintenance-schedule">
+        <div class="weekday-schedule">
+          <h4>平日 (週一至週五)</h4>
+          <p>選擇以下其中一項活動：</p>
+          <ul>
+            <li><strong>快速寫作：</strong>寫一個完美的 Task 1 或 Task 2 段落 (15分鐘)</li>
+            <li><strong>快速口說：</strong>隨機話題 Part 2 練習 (15分鐘)</li>
+            <li><strong>主動複習：</strong>複習錯誤筆記本 (20分鐘)</li>
+          </ul>
+        </div>
+        
+        <div class="weekend-schedule">
+          <h4>週末 (週六、週日)</h4>
+          <p>模擬真實考試：</p>
+          <ul>
+            <li><strong>完整模擬：</strong>完成一個完整的劍橋練習測試 (聽力、閱讀、寫作)</li>
+            <li><strong>分析檢討：</strong>花一小時分析表現並更新所有錯誤記錄</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -109,8 +174,8 @@ title: IELTS 學習中心
 <div class="practice-grid">
   <div class="practice-item">
     <div class="date">2025-08-16</div>
-    <h4><a href="03_Writing/Task_1/2_practice_log/2025-08-16_Maps-Practice.html">地圖變化描述練習</a></h4>
-    <div class="tag">地圖</div>
+    <h4><a href="03_Writing/Task_1/2_practice_log/2025-08-16_Mix-Charts.html">混合圖表練習</a></h4>
+    <div class="tag">混合圖表</div>
   </div>
   
   <div class="practice-item">
@@ -137,13 +202,13 @@ title: IELTS 學習中心
 <div class="practice-grid">
   <div class="practice-item">
     <div class="date">2025-08-26</div>
-    <h4><a href="03_Writing/Task_2/2_practice_log/2025-08-26-Problem and Solution Topics.html">問題與解決方案論文</a></h4>
-    <div class="tag">問題解決</div>
+    <h4><a href="03_Writing/Task_2/2_practice_log/2025-08-26-advantages-disadvantages.html">優缺點分析論文</a></h4>
+    <div class="tag">優缺點</div>
   </div>
   
   <div class="practice-item">
     <div class="date">2025-08-18</div>
-    <h4><a href="03_Writing/Task_2/2_practice_log/2025-08-18_Discussion-Essay-Practice.html">討論型議論文練習</a></h4>
+    <h4><a href="03_Writing/Task_2/2_practice_log/2025-08-18-discussion.html">討論型議論文練習</a></h4>
     <div class="tag">討論型</div>
   </div>
   
@@ -167,18 +232,18 @@ title: IELTS 學習中心
   <tbody>
     <tr>
       <td>2025-08-26</td>
-      <td><a href="03_Writing/Task_2/2_practice_log/2025-08-26-Problem and Solution Topics.html">問題與解決方案論文</a></td>
-      <td>問題與解決方案型議論文練習</td>
+      <td><a href="03_Writing/Task_2/2_practice_log/2025-08-26-advantages-disadvantages.html">優缺點分析論文</a></td>
+      <td>優缺點分析型議論文練習</td>
     </tr>
     <tr>
       <td>2025-08-18</td>
-      <td><a href="03_Writing/Task_2/2_practice_log/2025-08-18_Discussion-Essay-Practice.html">討論型議論文練習</a></td>
+      <td><a href="03_Writing/Task_2/2_practice_log/2025-08-18-discussion.html">討論型議論文練習</a></td>
       <td>討論型題目寫作練習</td>
     </tr>
     <tr>
       <td>2025-08-16</td>
-      <td><a href="03_Writing/Task_1/2_practice_log/2025-08-16_Maps-Practice.html">地圖練習</a></td>
-      <td>地圖變化描述練習</td>
+      <td><a href="03_Writing/Task_1/2_practice_log/2025-08-16_Mix-Charts.html">混合圖表練習</a></td>
+      <td>混合圖表寫作練習</td>
     </tr>
     <tr>
       <td>2025-08-13</td>
@@ -541,6 +606,104 @@ title: IELTS 學習中心
     padding-bottom: 10px;
   }
   
+  /* Study Schedule Styles */
+  .study-schedule-section {
+    background: #F8F9FA;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 2em 0;
+  }
+  
+  .schedule-container {
+    margin-top: 20px;
+  }
+  
+  .schedule-phase {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .schedule-phase h3 {
+    color: #2A7DE1;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E9ECEF;
+    padding-bottom: 10px;
+  }
+  
+  .schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .schedule-item {
+    background: #F8F9FA;
+    border-radius: 6px;
+    padding: 20px;
+    border-left: 4px solid #2A7DE1;
+  }
+  
+  .time-slot {
+    background: #2A7DE1;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-item h4 {
+    margin: 10px 0 8px;
+    color: #333;
+  }
+  
+  .schedule-item p {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .maintenance-schedule {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+  }
+  
+  .weekday-schedule,
+  .weekend-schedule {
+    background: #F8F9FA;
+    border-radius: 6px;
+    padding: 20px;
+    border-left: 4px solid #28A745;
+  }
+  
+  .weekday-schedule h4,
+  .weekend-schedule h4 {
+    color: #28A745;
+    margin-bottom: 15px;
+  }
+  
+  .weekday-schedule ul,
+  .weekend-schedule ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .weekday-schedule li,
+  .weekend-schedule li {
+    margin-bottom: 8px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
   @media screen and (max-width: 768px) {
     .strategy-container,
     .goals-container {
@@ -549,6 +712,22 @@ title: IELTS 學習中心
     
     .practice-grid {
       grid-template-columns: 1fr;
+    }
+    
+    .schedule-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .maintenance-schedule {
+      grid-template-columns: 1fr;
+    }
+    
+    .study-schedule-section {
+      padding: 20px;
+    }
+    
+    .schedule-phase {
+      padding: 20px;
     }
   }
 </style>
