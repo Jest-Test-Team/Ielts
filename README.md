@@ -1,117 +1,127 @@
-# IELTS 學習筆記 📚
+# IELTS Study Notes
 
-我的 IELTS 考試準備筆記和資源集合，使用 GitHub Pages 建立。
+A comprehensive collection of IELTS preparation materials, practice logs, and study resources built with Jekyll and deployed on GitHub Pages.
 
-## 🚀 功能特色
+## 📚 Contents
 
-- **完整的 IELTS 準備資源**：涵蓋聽力、閱讀、寫作、口說四大技能
-- **結構化學習筆記**：策略指南、練習記錄、錯誤分析
-- **互動式圖表**：使用 Mermaid 繪製的寫作結構圖
-- **響應式設計**：支援各種設備瀏覽
+This repository contains organized study materials for all four IELTS components:
 
-## 📁 專案結構
+- **01_Listening** - Listening strategies, practice tests, and error logs
+- **02_Reading** - Reading techniques, vocabulary, and practice materials
+- **03_Writing** - Task 1 & Task 2 strategies, practice essays, and feedback
+- **04_Speaking** - Speaking practice logs, vocabulary, and improvement notes
+
+## 🚀 Live Site
+
+Visit the live site: [https://ielts-prepare.dennisleehappy.org](https://ielts-prepare.dennisleehappy.org)
+
+## 🛠️ Local Development
+
+### Prerequisites
+
+- Ruby 3.1+
+- Bundler
+- Git
+
+### Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dennisleehappy/ielts-prepare.git
+   cd ielts-prepare
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   bundle install
+   ```
+
+3. Serve the site locally:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Open your browser to `http://localhost:4000`
+
+## 📝 Adding Content
+
+### Practice Logs
+
+Practice logs follow a consistent format with:
+
+- Clear metadata headers (date, task type, topic)
+- Structured student responses
+- Detailed feedback and analysis
+- Band score assessments
+- Vocabulary notes
+- Action plans for improvement
+
+### File Structure
 
 ```
-Ielts/
-├── 01_Listening/          # 聽力練習
-│   ├── error_log.md       # 錯誤記錄
-│   └── strategy_notes.md  # 策略筆記
-├── 02_Reading/            # 閱讀練習
-│   ├── error_log.md       # 錯誤記錄
-│   ├── strategy_notes.md  # 策略筆記
-│   └── vocabulary.md      # 詞彙庫
-├── 03_Writing/            # 寫作練習
-│   ├── Task_1/            # 圖表寫作
-│   │   ├── 1_strategy/    # 策略指南
-│   │   ├── 2_practice_log/# 練習記錄
-│   │   └── 3_error_notebook/# 錯誤筆記
-│   └── Task_2/            # 議論文寫作
-│       ├── 1_strategy/    # 策略指南
-│       ├── 2_practice_log/# 練習記錄
-│       └── 3_error_notebook/# 錯誤筆記
-├── 04_Speaking/           # 口說練習
-│   ├── phrases_and_idioms.md    # 短語和慣用語
-│   └── topic_practice_log.md   # 話題練習記錄
-├── _config.yml            # Jekyll 配置
-├── Gemfile                # Ruby 依賴
-└── index.md               # 主頁
+├── 01_Listening/
+│   ├── index.md
+│   ├── strategy_notes.md
+│   └── error_log.md
+├── 02_Reading/
+│   ├── index.md
+│   ├── strategy_notes.md
+│   └── vocabulary.md
+├── 03_Writing/
+│   ├── Task_1/
+│   │   ├── 1_strategy/
+│   │   ├── 2_practice_log/
+│   │   └── 3_error_notebook/
+│   └── Task_2/
+│       ├── 1_strategy/
+│       ├── 2_practice_log/
+│       └── 3_error_notebook/
+└── 04_Speaking/
+    ├── index.md
+    ├── practice_logs/
+    └── topic_practice_log.md
 ```
 
-## 🔧 技術設定
+## 🔧 Configuration
 
-### Mermaid 圖表支援
+The site uses Jekyll with the following key configurations:
 
-本專案使用 Mermaid 來繪製 IELTS 寫作結構圖。Mermaid 是一個基於 JavaScript 的圖表繪製工具，可以將文字描述轉換為各種圖表。
+- **Theme**: Minima (GitHub Pages compatible)
+- **Markdown**: Kramdown with GitHub Flavored Markdown
+- **Syntax Highlighting**: Rouge
+- **Plugins**: SEO, Sitemap, Feed, Mentions, Pagination
 
-#### 啟用方式
+## 📊 Analytics & SEO
 
-1. **CDN 載入**：使用 CDN 載入 Mermaid JavaScript 庫
-2. **自定義樣式**：在 `_includes/head.html` 中配置樣式和初始化
-3. **兼容性**：無需額外 Jekyll 插件，完全兼容 GitHub Pages
+The site includes:
 
-#### 使用語法
+- Jekyll SEO Tag for meta tags and Open Graph
+- Sitemap generation
+- RSS feed
+- Social media integration
+- Search engine optimization
 
-```mermaid
-flowchart TD
-    A[開始] --> B[過程]
-    B --> C[結束]
-```
+## 🤝 Contributing
 
-### 本地開發
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test locally with `bundle exec jekyll serve`
+5. Submit a pull request
 
-```bash
-# 安裝依賴
-bundle install
+## 📄 License
 
-# 啟動本地服務器
-bundle exec jekyll serve
+This project is open source and available under the [MIT License](LICENSE).
 
-# 訪問 http://localhost:4000
-```
+## 🔗 Links
 
-## 📊 學習進度追蹤
-
-### 當前狀態
-
-- **聽力** ✅ 策略制定完成，開始錯誤分析
-- **閱讀** ✅ 基礎策略建立，詞彙庫完善
-- **寫作 Task 1** ✅ 完整策略體系，持續練習改進
-- **寫作 Task 2** 🔄 核心概念建立，論點庫擴充中
-- **口說** 🔄 短語庫建立，開始話題練習
-
-### 下階段目標
-
-- 完成所有 Task 2 練習記錄
-- 建立完整的錯誤分析體系
-- 開始口說 Part 2 和 Part 3 練習
-- 進行模擬考試和成績分析
-
-## 🎯 使用指南
-
-### 每日更新流程
-
-1. **練習歸檔**：記錄當天的練習內容
-2. **錯誤提煉**：分析並記錄關鍵錯誤
-3. **策略更新**：根據新發現更新學習策略
-
-### 學習建議
-
-- 定期複習錯誤筆記
-- 使用策略指南規劃練習
-- 追蹤學習進度和改進情況
-
-## 🤝 貢獻
-
-歡迎提出建議和改進意見！如果您發現任何問題或有新的想法，請：
-
-1. 開啟 Issue 描述問題
-2. 提交 Pull Request 提供改進
-3. 分享您的學習心得和技巧
-
-## 📝 授權
-
-本專案採用 MIT 授權條款。詳見 [LICENSE](LICENSE) 檔案。
+- [IELTS Official Website](https://www.ielts.org/)
+- [Cambridge IELTS Practice Tests](https://www.cambridge.org/)
+- [British Council IELTS Resources](https://www.britishcouncil.org/)
 
 ---
 
-_Remember: Consistent practice and systematic improvement are the keys to IELTS success!_ 🎯✨
+**Note**: This is a personal study repository. All practice materials and feedback are for educational purposes only.
