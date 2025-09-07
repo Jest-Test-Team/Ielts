@@ -1,12 +1,24 @@
 source "https://rubygems.org"
 
+# GitHub Pages compatible gems
 gem "github-pages", group: :jekyll_plugins
 gem "webrick", "~> 1.7"
+
+# Jekyll plugins for enhanced functionality
 gem "jekyll-feed", "~> 0.12"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-mentions"
 gem "jekyll-paginate"
+gem "jekyll-relative-links"
+gem "jekyll-optional-front-matter"
+gem "jekyll-readme-index"
+gem "jekyll-default-layout"
+gem "jekyll-titles-from-headings"
+
+# Additional useful gems
+gem "kramdown-parser-gfm"
+gem "rouge"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
