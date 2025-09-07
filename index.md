@@ -274,25 +274,25 @@ title: IELTS 學習中心
 <div class="practice-grid">
   <div class="practice-item">
     <div class="date">2025-08-16</div>
-    <h4><a href="03_Writing/Task_1/2_practice_log/2025-08-16_Mix-Charts.html">混合圖表練習</a></h4>
+    <h4><a href="03_Writing/Task_1/2_practice_log/2025-08-16-mix-charts.html">混合圖表練習</a></h4>
     <div class="tag">混合圖表</div>
   </div>
   
   <div class="practice-item">
     <div class="date">2025-08-13</div>
-    <h4><a href="03_Writing/Task_1/2_practice_log/2025-08-13_Line-Chart-Practice.html">線圖寫作練習</a></h4>
+    <h4><a href="03_Writing/Task_1/2_practice_log/2025-08-13-line-chart-practice.html">線圖寫作練習</a></h4>
     <div class="tag">線圖</div>
   </div>
   
   <div class="practice-item">
     <div class="date">2023-10-20</div>
-    <h4><a href="03_Writing/Task_1/2_practice_log/2023-10-20_Pie-Chart-Analysis.html">社交媒體使用者年齡分佈分析</a></h4>
+    <h4><a href="03_Writing/Task_1/2_practice_log/2023-10-20-pie-chart-analysis.html">社交媒體使用者年齡分佈分析</a></h4>
     <div class="tag">餅圖</div>
   </div>
   
   <div class="practice-item">
     <div class="date">2023-10-15</div>
-    <h4><a href="03_Writing/Task_1/2_practice_log/2023-10-15_Bar-Chart-Analysis.html">城市人口變化分析</a></h4>
+    <h4><a href="03_Writing/Task_1/2_practice_log/2023-10-15-bar-chart-analysis.html">城市人口變化分析</a></h4>
     <div class="tag">柱狀圖</div>
   </div>
 </div>
@@ -342,17 +342,17 @@ title: IELTS 學習中心
     </tr>
     <tr>
       <td>2025-08-16</td>
-      <td><a href="03_Writing/Task_1/2_practice_log/2025-08-16_Mix-Charts.html">混合圖表練習</a></td>
+      <td><a href="03_Writing/Task_1/2_practice_log/2025-08-16-mix-charts.html">混合圖表練習</a></td>
       <td>混合圖表寫作練習</td>
     </tr>
     <tr>
       <td>2025-08-13</td>
-      <td><a href="03_Writing/Task_1/2_practice_log/2025-08-13_Line-Chart-Practice.html">線圖練習</a></td>
+      <td><a href="03_Writing/Task_1/2_practice_log/2025-08-13-line-chart-practice.html">線圖練習</a></td>
       <td>線圖寫作練習</td>
     </tr>
     <tr>
       <td>2023-10-20</td>
-      <td><a href="03_Writing/Task_1/2_practice_log/2023-10-20_Pie-Chart-Analysis.html">餅圖分析</a></td>
+      <td><a href="03_Writing/Task_1/2_practice_log/2023-10-20-pie-chart-analysis.html">餅圖分析</a></td>
       <td>社交媒體使用者年齡分佈的餅圖分析</td>
     </tr>
   </tbody>
