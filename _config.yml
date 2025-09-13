@@ -1,6 +1,8 @@
+# IELTS Study Notes - Jekyll Configuration
 theme: minima
 title: IELTS 學習筆記 | 準備指南
 description: 完整的 IELTS 考試準備筆記、策略和資源集合
+tagline: Comprehensive IELTS Preparation Resources
 
 # Site settings
 url: "https://ielts-prepare.dennisleehappy.org"
@@ -8,11 +10,32 @@ baseurl: ""
 lang: zh-TW
 author: IELTS Learner
 timezone: Asia/Taipei
+email: your-email@example.com
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 show_excerpts: true
+permalink: /:categories/:path/
+relative_links:
+  enabled: true
+  collections: true
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# Rouge syntax highlighting
+rouge:
+  theme: github
 
 # Navigation Menu
 header_pages:
@@ -44,6 +67,9 @@ collections:
     output: true
     permalink: /:collection/:name/
 
+# Custom permalink structure for practice logs
+permalink: /:path/
+
 # Defaults
 defaults:
   - scope:
@@ -55,6 +81,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+      author: "IELTS Learner"
+      show_excerpts: true
 
 # Plugins
 plugins:
@@ -63,10 +91,23 @@ plugins:
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
 
 # Paginate
 paginate: 10
 paginate_path: "/blog/page:num/"
+
+# SEO and Social
+seo:
+  type: "WebSite"
+  name: "IELTS Study Notes"
+  description: "Complete IELTS preparation resources and study guides"
+  url: "https://ielts-prepare.dennisleehappy.org"
+  image: "/assets/images/ielts-logo.png"
 
 # Exclude from processing
 exclude:
@@ -80,3 +121,12 @@ exclude:
   - README.md
   - gh-conflict.sh
   - cli.txt
+  - .github/
+  - .gitignore
+  - .DS_Store
+  - Thumbs.db
+
+# Include files that should be processed
+include:
+  - _pages
+  - _data

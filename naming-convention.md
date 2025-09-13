@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# IELTS File Naming Convention Script
+
+# This script helps maintain consistent file naming for GitHub Pages compatibility
+
+echo "IELTS File Naming Convention Helper"
+echo "=================================="
+echo ""
+echo "Current naming convention:"
+echo "- Use lowercase letters"
+echo "- Replace spaces with hyphens"
+echo "- Use consistent date format: YYYY-MM-DD"
+echo "- Use descriptive task types:"
+echo " _ agree-disagree"
+echo " _ discussion"
+echo " _ problem-solution"
+echo " _ advantages-disadvantages"
+echo " _ line-graphs"
+echo " _ bar-charts"
+echo " _ pie-charts"
+echo " _ tables"
+echo " _ maps"
+echo " _ process-diagrams"
+echo ""
+echo "Examples:"
+echo "✅ 2025-08-26-advantages-disadvantages.md"
+echo "✅ 2025-08-27-problem-solution.md"
+echo "✅ 2025-08-28-line-graphs.md"
+echo ""
+echo "❌ 2025-08-26-Advantages and disadvantages.md"
+echo "❌ 2025-08-27-Problem and Solution.md"
+echo "❌ 2025-08-28-Line Graphs.md"
+echo ""
+echo "To rename a file with spaces:"
+echo "mv \"old filename with spaces.md\" \"new-filename-without-spaces.md\""
