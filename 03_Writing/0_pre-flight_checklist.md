@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 0_pre-flight_checklist
+---
+
 # 🚀 IELTS Writing: Pre-Flight Checklist (Read Before Every Timed Practice)
 
 _Use this checklist before every timed writing practice to prevent common errors and maintain consistency._
