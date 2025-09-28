@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-18-Discussion
+---
+
 # IELTS Writing Task 2: Animal Testing - Discussion 🐭🔬
 
 ## 📋 **Task Information**

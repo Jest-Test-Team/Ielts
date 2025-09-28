@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-30-mix-charts
+---
+
 The chart below shows what History graduates did after completing their undergradudate degree course from a
 university in the UK.
  The table shows the sectors these graduates were employed in within six years of graduating and their average incomes.

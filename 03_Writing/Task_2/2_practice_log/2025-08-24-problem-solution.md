@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-24-problem-solution
+---
+
 # IELTS Writing Task 2: Work-Life Balance - Problem & Solution ⚖️💼
 
 ## 📋 **Task Information**

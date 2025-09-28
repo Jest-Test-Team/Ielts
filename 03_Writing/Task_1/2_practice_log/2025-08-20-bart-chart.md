@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-20-bart-chart
+---
+
 Academic Writing Task 1
 
 

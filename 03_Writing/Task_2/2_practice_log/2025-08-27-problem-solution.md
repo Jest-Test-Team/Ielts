@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-27-problem-solution
+---
+
 # IELTS Writing Task 2: Museums & Historic Sites - Problem & Solution 📚🏛️
 
 ## 📋 **Task Information**

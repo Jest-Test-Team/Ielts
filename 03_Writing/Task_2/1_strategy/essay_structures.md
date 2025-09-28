@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - essay_structures
+---
+
 # IELTS Writing Task 2: 核心概念與策略 🎯
 
 本指南涵蓋了 IELTS Writing Task 2 高分作文的基本要素，從句子結構到高級寫作技巧。

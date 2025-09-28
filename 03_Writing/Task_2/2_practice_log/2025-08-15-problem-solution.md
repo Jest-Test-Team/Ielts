@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-15-problem-solution
+---
+
 # IELTS Writing Task 2: Computer Games - Problem & Solution 🎮💻
 
 ## 📋 **Task Information**

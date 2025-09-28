@@ -1,3 +1,8 @@
+---
+layout: default
+title: 閱讀詞彙庫
+---
+
 # IELTS Writing Task 1: 同義詞與句型指南 📊
 
 ## **1. 開頭句型結構** 🏗️

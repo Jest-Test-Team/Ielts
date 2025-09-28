@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-29-agree-disagree
+---
+
 # IELTS Writing Task 2 Practice
 
 **Date:** August 29, 2025  

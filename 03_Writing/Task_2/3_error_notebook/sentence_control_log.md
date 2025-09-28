@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - sentence_control_log
+---
+
 # IELTS Writing Task 2: Sentence Control Log 🎯
 
 ## 📊 Sentence Analysis Overview

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-08-progress-diagram
+---
+
 # IELTS Writing Task 1: Brick Manufacturing Process
 
 ## 📊 Task Description

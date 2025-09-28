@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-01-chart-data
+---
+
 # IELTS Writing Task 1: Chart Data Analysis
 
 ## 📊 Task Description

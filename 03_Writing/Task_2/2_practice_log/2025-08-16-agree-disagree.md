@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-16-agree-disagree
+---
+
 # IELTS Writing Task 2: School Goals - Agree/Disagree 🏫👨‍🎓
 
 ## 📋 **Task Information**

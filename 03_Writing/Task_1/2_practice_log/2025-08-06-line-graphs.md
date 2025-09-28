@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-06-line-graphs
+---
+
 # IELTS Writing Task 1: Acid Production Analysis
 
 ## 📊 Task Description

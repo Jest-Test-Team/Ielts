@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作錯誤 - common_errors
+---
+
 # IELTS Task 1 Error Notebook 📝
 
 ## 🎯 Usage Guide

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-19-Discussion
+---
+
 # IELTS Writing Task 2: Technology & Human Intelligence - Discussion 💻🧠
 
 ## 📋 **Task Information**

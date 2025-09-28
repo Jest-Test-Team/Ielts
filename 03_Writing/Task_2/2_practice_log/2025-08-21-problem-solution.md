@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-21-problem-solution
+---
+
 # IELTS Writing Task 2: Physical Exercise - Problem & Solution 🏃‍♂️💪
 
 ## 📋 **Task Information**

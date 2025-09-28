@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-19-problem-solution
+---
+
 # IELTS Writing Task 2: Food Waste - Problem & Solution 🍽️♻️
 
 ## 📋 **Task Information**

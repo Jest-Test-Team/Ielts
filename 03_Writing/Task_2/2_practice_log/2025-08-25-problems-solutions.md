@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-25-problems-solutions
+---
+
 # IELTS Writing Task 2: Museums & Local Visitors - Problem & Solution 🏛️👥
 
 ## 📋 **Task Information**

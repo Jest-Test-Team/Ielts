@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-01-agree-disagree
+---
+
 # IELTS Writing Task 2: Entertainers' Salaries - Agree/Disagree 💰🎭
 
 ## 📋 **Task Information**
