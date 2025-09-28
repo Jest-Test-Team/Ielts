@@ -1,3 +1,8 @@
+---
+layout: default
+title: 聽力錯誤記錄
+---
+
 # IELTS Listening Error Log 📝
 
 ## 📊 Error Tracking Overview

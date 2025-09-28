@@ -1,3 +1,8 @@
+---
+layout: default
+title: 聽力策略指南
+---
+
 # IELTS Listening Strategy Guide 🎧
 
 ## 🎯 Test Overview
