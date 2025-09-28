@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-12-line-graph
+---
+
 Line Graph Question: 
 
 The charts below show the percentage of food budget the average Australian family spent on restaurant meals in different years. 

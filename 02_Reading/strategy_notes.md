@@ -1,3 +1,8 @@
+---
+layout: default
+title: 閱讀策略指南
+---
+
 # IELTS Reading Strategy Guide 📖
 
 ## 🎯 Test Overview

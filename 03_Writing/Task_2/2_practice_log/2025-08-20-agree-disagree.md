@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-20-agree-disagree
+---
+
 # IELTS Writing Task 2: Science Students Support - Agree/Disagree 🔬🎓
 
 ## 📋 **Task Information**

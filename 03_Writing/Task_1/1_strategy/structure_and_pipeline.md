@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - structure_and_pipeline
+---
+
 # IELTS Writing Task 1: Structure and Pipeline Guide 📊
 
 ## 🎯 General Chart Writing Pipeline

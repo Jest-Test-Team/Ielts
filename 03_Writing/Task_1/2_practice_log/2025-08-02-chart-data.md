@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-02-chart-data
+---
+
 # IELTS Writing Task 1: Social Media Usage Analysis
 
 ## 📊 Task Description

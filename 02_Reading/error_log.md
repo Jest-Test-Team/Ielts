@@ -1,3 +1,8 @@
+---
+layout: default
+title: 閱讀錯誤記錄
+---
+
 # IELTS Reading Error Log 📚
 
 ## 📊 Error Tracking Overview

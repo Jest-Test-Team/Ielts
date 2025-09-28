@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-15-line-graph
+---
+
 # IELTS Writing Task 1: Metal Price Changes Analysis 📊
 
 ## 📊 Task Description

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-05-line-graphs
+---
+
 # IELTS Writing Task 1: Vehicle Theft Trends Analysis
 
 ## 📊 Task Description

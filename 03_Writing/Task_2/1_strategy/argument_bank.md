@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - argument_bank
+---
+
 # IELTS Writing Task 2: Argument Bank 💭
 
 ## 🎯 Argument Categories

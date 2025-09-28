@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-16-mix-charts
+---
+
 # IELTS Writing Task 1: Arrest Data Analysis 📊
 
 ## 📊 Task Description

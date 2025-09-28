@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-07-line-graphs
+---
+
 # IELTS Writing Task 1: Fast Food Consumption Analysis
 
 ## 📊 Task Description

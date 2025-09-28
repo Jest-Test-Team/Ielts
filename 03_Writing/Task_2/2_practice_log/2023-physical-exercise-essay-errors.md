@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作錯誤 - 2023-physical-exercise-essay-errors
+---
+
 # Error and Improvement Notebook: Physical Exercise Essay
 This notebook targets specific, recurring errors in your Band 8.0 essay on physical exercise.
 Category,Specific Error / Area for Improvement,❌ My Common Mistake (Example),✅ The Fix (Correction & Rule)

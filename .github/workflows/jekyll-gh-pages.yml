@@ -59,7 +59,7 @@ jobs:
         with:
           source: ./
           destination: ./_site
-          jekyll_build_args: "--verbose --trace"
+          jekyll_build_args: "--verbose --trace --incremental"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

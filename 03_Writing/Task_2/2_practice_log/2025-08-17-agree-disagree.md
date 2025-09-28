@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-17-agree-disagree
+---
+
 # IELTS Writing Task 2: Urban Development - Agree/Disagree 🏙️🌳
 
 ## 📋 **Task Information**

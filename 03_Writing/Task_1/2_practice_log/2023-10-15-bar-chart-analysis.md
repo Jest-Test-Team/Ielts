@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2023-10-15-bar-chart-analysis
+---
+
 IELTS Writing Task 1
 You should spend about 20 minutes on this task.
 The chart below shows the main reasons why students chose to study at a particular university in the UK in 2021.

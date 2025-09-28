@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作練習 - 2025-08-13-line-chart-practice
+---
+
 # IELTS Writing Task 1: Population Growth Analysis 📊
 
 ## 📊 Task Description

@@ -1,4 +1,9 @@
-IELTS Writing Task 1: Destinations of History Graduates - Mixed Charts 📊
+---
+layout: default
+title: 寫作 - 2025-08-30-mix-charts
+---
+
+# IELTS Writing Task 1: Destinations of History Graduates - Mixed Charts 📊
 
 📋 Task Information
 

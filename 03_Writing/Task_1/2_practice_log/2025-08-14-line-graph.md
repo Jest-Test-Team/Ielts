@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-14-line-graph
+---
+
 # IELTS Writing Task 1: Elderly Free Time Activities Analysis 📊
 
 ## 📊 Task Description
