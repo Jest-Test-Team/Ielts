@@ -51,8 +51,8 @@ linkedin_username:
 
 # Collections - removed to avoid conflicts with numbered directories
 
-# Custom permalink structure 
-permalink: /:path/
+# Custom permalink structure - ensure .html extension
+permalink: /:path.html
 
 # Defaults for different directories
 defaults:
@@ -142,3 +142,10 @@ include:
   - 02_Reading
   - 03_Writing
   - 04_Speaking
+
+# Ensure all markdown files are processed as pages
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
