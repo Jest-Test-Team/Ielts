@@ -1,3 +1,8 @@
+---
+layout: default
+title: 主動回想練習
+---
+
 # 🗣️ Speaking: Active Recall Drills (5 Minutes Daily)
 
 _Instructions: Cover the "Correct Form" column with your hand or another window. Read the prompt phrase out loud, completing it correctly. Then, uncover the answer to check. Say the correct version three times._
