@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IELTS 寫作測試中心</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        line-height: 1.6;
+      }
+
+      .container {
+        background: white;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 40px;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 10px;
+      }
+
+      .test-section {
+        margin-bottom: 40px;
+        border: 2px solid #e9ecef;
+        border-radius: 8px;
+        padding: 25px;
+        background-color: #f8f9fa;
+      }
+
+      .test-title {
+        color: #2c3e50;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .test-icon {
+        margin-right: 10px;
+        font-size: 1.2em;
+      }
+
+      .question-area {
+        background: white;
+        padding: 20px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        border-left: 4px solid #3498db;
+      }
+
+      .chinese-word {
+        font-size: 1.3em;
+        color: #e74c3c;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .error-example {
+        background: #fff3cd;
+        padding: 15px;
+        border-radius: 4px;
+        border-left: 4px solid #ffc107;
+        margin-bottom: 15px;
+        font-family: "Courier New", monospace;
+      }
+
+      .error-text {
+        color: #e74c3c;
+        font-weight: bold;
+      }
+
+      .input-area {
+        margin-bottom: 20px;
+      }
+
+      .input-label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #2c3e50;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        font-size: 1em;
+        transition: border-color 0.3s;
+      }
+
+      input[type="text"]:focus {
+        outline: none;
+        border-color: #3498db;
+      }
+
+      .btn {
+        background: #3498db;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1em;
+        margin-right: 10px;
+        transition: background-color 0.3s;
+      }
+
+      .btn:hover {
+        background: #2980b9;
+      }
+
+      .btn-success {
+        background: #27ae60;
+      }
+
+      .btn-success:hover {
+        background: #229954;
+      }
+
+      .btn-danger {
+        background: #e74c3c;
+      }
+
+      .btn-danger:hover {
+        background: #c0392b;
+      }
+
+      .result {
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+
+      .result.correct {
+        background: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+      }
+
+      .result.incorrect {
+        background: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+      }
+
+      .stats {
+        background: #e9ecef;
+        padding: 15px;
+        border-radius: 4px;
+        margin-top: 20px;
+      }
+
+      .stats h4 {
+        margin-top: 0;
+        color: #2c3e50;
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 20px;
+        background: #e9ecef;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 10px 0;
+      }
+
+      .progress-fill {
+        height: 100%;
+        background: #27ae60;
+        transition: width 0.3s ease;
+      }
+
+      .correct-answer {
+        background: #d1ecf1;
+        color: #0c5460;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 10px;
+        border-left: 4px solid #17a2b8;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .rule-info {
+        background: #f8f9fa;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #6c757d;
+        border-left: 3px solid #6c757d;
+      }
+
+      .navigation {
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .nav-link {
+        color: #3498db;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+
+      .nav-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>📝 IELTS 寫作測試中心</h1>
+
+      <!-- 拼寫測試 -->
+      <div class="test-section">
+        <div class="test-title">
+          <span class="test-icon">🔤</span>
+          <span>拼寫測試 (Spelling Test)</span>
+        </div>
+
+        <div class="question-area" id="spelling-question">
+          <div class="chinese-word" id="chinese-word">
+            點擊「開始測試」開始練習
+          </div>
+          <div class="rule-info" id="spelling-rule"></div>
+        </div>
+
+        <div class="input-area">
+          <label class="input-label" for="spelling-input"
+            >請輸入正確的英文拼寫：</label
+          >
+          <input
+            type="text"
+            id="spelling-input"
+            placeholder="輸入英文單詞..."
+          />
+        </div>
+
+        <button class="btn" onclick="startSpellingTest()">開始測試</button>
+        <button
+          class="btn btn-success"
+          onclick="checkSpelling()"
+          id="spelling-check-btn"
+          disabled
+        >
+          檢查答案
+        </button>
+        <button class="btn btn-danger" onclick="resetSpellingTest()">
+          重新開始
+        </button>
+
+        <div id="spelling-result"></div>
+
+        <div class="stats">
+          <h4>📊 拼寫測試統計</h4>
+          <div>總練習次數: <span id="spelling-total">0</span></div>
+          <div>正確次數: <span id="spelling-correct">0</span></div>
+          <div>正確率: <span id="spelling-accuracy">0%</span></div>
+          <div class="progress-bar">
+            <div
+              class="progress-fill"
+              id="spelling-progress"
+              style="width: 0%"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 語法錯誤測試 -->
+      <div class="test-section">
+        <div class="test-title">
+          <span class="test-icon">📝</span>
+          <span>語法錯誤測試 (Grammar Test)</span>
+        </div>
+
+        <div class="question-area" id="grammar-question">
+          <div class="error-example">
+            <div>錯誤句子：</div>
+            <div class="error-text" id="grammar-error">
+              點擊「開始測試」開始練習
+            </div>
+          </div>
+          <div class="rule-info" id="grammar-rule"></div>
+        </div>
+
+        <div class="input-area">
+          <label class="input-label" for="grammar-input"
+            >請輸入修正後的句子：</label
+          >
+          <input
+            type="text"
+            id="grammar-input"
+            placeholder="輸入修正後的句子..."
+          />
+        </div>
+
+        <button class="btn" onclick="startGrammarTest()">開始測試</button>
+        <button
+          class="btn btn-success"
+          onclick="checkGrammar()"
+          id="grammar-check-btn"
+          disabled
+        >
+          檢查答案
+        </button>
+        <button class="btn btn-danger" onclick="resetGrammarTest()">
+          重新開始
+        </button>
+
+        <div id="grammar-result"></div>
+
+        <div class="stats">
+          <h4>📊 語法測試統計</h4>
+          <div>總練習次數: <span id="grammar-total">0</span></div>
+          <div>正確次數: <span id="grammar-correct">0</span></div>
+          <div>正確率: <span id="grammar-accuracy">0%</span></div>
+          <div class="progress-bar">
+            <div
+              class="progress-fill"
+              id="grammar-progress"
+              style="width: 0%"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 整體錯誤測試 -->
+      <div class="test-section">
+        <div class="test-title">
+          <span class="test-icon">🎯</span>
+          <span>整體錯誤測試 (Overall Errors Test)</span>
+        </div>
+
+        <div class="question-area" id="overall-question">
+          <div class="error-example">
+            <div>錯誤類型: <span id="overall-category"></span></div>
+            <div>錯誤句子：</div>
+            <div class="error-text" id="overall-error">
+              點擊「開始測試」開始練習
+            </div>
+          </div>
+          <div class="rule-info" id="overall-rule"></div>
+        </div>
+
+        <div class="input-area">
+          <label class="input-label" for="overall-input"
+            >請輸入修正後的內容：</label
+          >
+          <input
+            type="text"
+            id="overall-input"
+            placeholder="輸入修正後的內容..."
+          />
+        </div>
+
+        <button class="btn" onclick="startOverallTest()">開始測試</button>
+        <button
+          class="btn btn-success"
+          onclick="checkOverall()"
+          id="overall-check-btn"
+          disabled
+        >
+          檢查答案
+        </button>
+        <button class="btn btn-danger" onclick="resetOverallTest()">
+          重新開始
+        </button>
+
+        <div id="overall-result"></div>
+
+        <div class="stats">
+          <h4>📊 整體測試統計</h4>
+          <div>總練習次數: <span id="overall-total">0</span></div>
+          <div>正確次數: <span id="overall-correct">0</span></div>
+          <div>正確率: <span id="overall-accuracy">0%</span></div>
+          <div class="progress-bar">
+            <div
+              class="progress-fill"
+              id="overall-progress"
+              style="width: 0%"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <a href="index.html" class="nav-link">← 返回寫作學習中心</a>
+      </div>
+    </div>
+
+    <script>
+      // 數據定義
+      const spellingErrors = [
+        {
+          chinese: "同事",
+          english: "colleagues",
+          rule: "College 是教育場所；colleagues 是同事",
+        },
+        {
+          chinese: "所有格",
+          english: "its",
+          rule: "it's 永遠只表示 it is；所有格不加撇號",
+        },
+        {
+          chinese: "企業",
+          english: "corporations",
+          rule: "Cooperation = 合作；corporation = 企業",
+        },
+        { chinese: "有吸引力的", english: "attractive", rule: "拼寫錯誤修正" },
+        { chinese: "第一", english: "first", rule: "拼寫錯誤修正" },
+        { chinese: "痠痛", english: "sore", rule: "Sore 是痠痛；soar 是飛高" },
+        { chinese: "政府", english: "government", rule: "拼寫錯誤修正" },
+        { chinese: "有效率的", english: "efficient", rule: "拼寫錯誤修正" },
+        { chinese: "工作", english: "working", rule: "拼寫錯誤修正" },
+        { chinese: "極度地", english: "extremely", rule: "拼寫錯誤修正" },
+        { chinese: "人口", english: "population", rule: "拼寫錯誤修正" },
+        { chinese: "最大的", english: "largest", rule: "拼寫錯誤修正" },
+        {
+          chinese: "沙漠",
+          english: "desert",
+          rule: "Dessert 有兩個 's' 因為你總想要更多",
+        },
+        { chinese: "武術", english: "martial arts", rule: "拼寫錯誤修正" },
+        { chinese: "非理性的", english: "irrational", rule: "拼寫錯誤修正" },
+        { chinese: "有益的", english: "beneficial", rule: "拼寫錯誤修正" },
+        { chinese: "必要性", english: "necessity", rule: "拼寫錯誤修正" },
+        { chinese: "技術", english: "technologies", rule: "拼寫錯誤修正" },
+        { chinese: "融合", english: "fusion", rule: "拼寫錯誤修正" },
+        { chinese: "農業", english: "agriculture", rule: "拼寫錯誤修正" },
+        { chinese: "經常", english: "often", rule: "拼寫錯誤修正" },
+        { chinese: "池塘", english: "ponds", rule: "拼寫錯誤修正" },
+        { chinese: "災難", english: "disasters", rule: "拼寫錯誤修正" },
+        { chinese: "住宿", english: "accommodations", rule: "拼寫錯誤修正" },
+        { chinese: "不方便的", english: "inconvenient", rule: "拼寫錯誤修正" },
+        { chinese: "最後", english: "lastly", rule: "拼寫錯誤修正" },
+        { chinese: "三倍", english: "triple", rule: "拼寫錯誤修正" },
+        { chinese: "貫穿", english: "throughout", rule: "拼寫錯誤修正" },
+        { chinese: "泵", english: "pumps", rule: "拼寫錯誤修正" },
+        { chinese: "具體地", english: "specifically", rule: "拼寫錯誤修正" },
+      ];
+
+      const grammarErrors = [
+        {
+          error: "Which may result in...",
+          correct: "..., which may result in...",
+          rule: "The 'Train Hook.' Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence.",
+        },
+        {
+          error: "By which, they saved...",
+          correct: "..., by which they saved...",
+          rule: "The 'Train Hook.' Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence.",
+        },
+        {
+          error: "Showing major influence...",
+          correct: "..., showing major influence...",
+          rule: "The 'Train Hook.' Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence.",
+        },
+        {
+          error: "Results in new food type...",
+          correct: "..., resulting in new food type...",
+          rule: "The 'Train Hook.' Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence.",
+        },
+        {
+          error: "...was accounted for...",
+          correct: "...accounted for...",
+          rule: "accounted for is an active verb. The passive requires be + past participle.",
+        },
+        {
+          error: "will be shift to...",
+          correct: "will be shifted to...",
+          rule: "The passive requires be + past participle (e.g., will be shifted, are sent).",
+        },
+        {
+          error: "...and being sent to...",
+          correct: "...and are sent to...",
+          rule: "The passive requires be + past participle (e.g., will be shifted, are sent).",
+        },
+        {
+          error: "the reason... were due to...",
+          correct: "the reason... was due to...",
+          rule: "Ensure the verb matches its subject (singular vs. plural).",
+        },
+        {
+          error: "users... was accounted for...",
+          correct: "users... accounted for...",
+          rule: "Ensure the verb matches its subject (singular vs. plural).",
+        },
+        {
+          error: "cannot be remove",
+          correct: "cannot be removed",
+          rule: "Check passive forms, past participles, and verb tenses.",
+        },
+        {
+          error: "had exceed",
+          correct: "had exceeded",
+          rule: "Check passive forms, past participles, and verb tenses.",
+        },
+        {
+          error: "keep rising (in past context)",
+          correct: "kept rising",
+          rule: "Check passive forms, past participles, and verb tenses.",
+        },
+        {
+          error: "instead of went",
+          correct: "instead of going",
+          rule: "Check passive forms, past participles, and verb tenses.",
+        },
+        {
+          error: "spend great amount of time...",
+          correct: "spend a great amount of time...",
+          rule: "Pay attention to the use of a/an/the, especially with common nouns.",
+        },
+        {
+          error: "there some houses...",
+          correct: "there were some houses...",
+          rule: "When describing a map from a past year (e.g., 1986), use the past simple tense.",
+        },
+      ];
+
+      const overallErrors = [
+        {
+          category: "Sentence Fragment",
+          error: "Which may result in...",
+          correct: "..., which may result in...",
+          rule: "The 'Train Hook.' Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence.",
+        },
+        {
+          category: "Data Misinterpretation",
+          error: "Misreading the Y-Axis (e.g., 'Number' vs. 'Percentage')",
+          correct:
+            "Before writing, confirm the Topic, Unit, and Time/Categories of the chart",
+          rule: "The 'Chart ID Card.' Before writing, you MUST confirm the Topic, Unit, and Time/Categories of the chart.",
+        },
+        {
+          category: "Incorrect Essay Structure",
+          error:
+            "Using a 5-paragraph structure with a separate 'Overall' in Task 2",
+          correct: "Task 2 is four paragraphs (Intro, B1, B2, Con)",
+          rule: "Task 2 is four paragraphs (Intro, B1, B2, Con). Task 1 process diagrams should be split into two body paragraphs for clarity.",
+        },
+        {
+          category: "Calculation & Fact Errors",
+          error: "Incorrect math (e.g., 4.6x vs. 7x)",
+          correct: "Double-check any number you calculate or fact you state",
+          rule: "Trust, but Verify. Your analysis is great, but you must double-check any number you calculate or fact you state.",
+        },
+        {
+          category: "Monster Sentences",
+          error:
+            "Writing single sentences over 40-50 words that contain multiple, loosely connected ideas",
+          correct: "Break complex ideas into shorter, clearer sentences",
+          rule: "The '25-Word Max Iron Law.' Break complex ideas into shorter, clearer sentences.",
+        },
+        {
+          category: "Persistent Spelling/Choice Errors",
+          error:
+            "Cooper vs. Copper, colleges vs. colleagues, it's vs. its, amount vs. number",
+          correct:
+            "These must be memorized and added to your proofreading checklist",
+          rule: "These must be memorized and added to your proofreading checklist.",
+        },
+      ];
+
+      // 全局變量
+      let currentSpellingIndex = -1;
+      let currentGrammarIndex = -1;
+      let currentOverallIndex = -1;
+
+      // 統計數據
+      let spellingStats = { total: 0, correct: 0 };
+      let grammarStats = { total: 0, correct: 0 };
+      let overallStats = { total: 0, correct: 0 };
+
+      // 載入統計數據
+      function loadStats() {
+        const savedStats = localStorage.getItem("writingTestStats");
+        if (savedStats) {
+          const stats = JSON.parse(savedStats);
+          spellingStats = stats.spelling || { total: 0, correct: 0 };
+          grammarStats = stats.grammar || { total: 0, correct: 0 };
+          overallStats = stats.overall || { total: 0, correct: 0 };
+          updateStats();
+        }
+      }
+
+      // 保存統計數據
+      function saveStats() {
+        const stats = {
+          spelling: spellingStats,
+          grammar: grammarStats,
+          overall: overallStats,
+        };
+        localStorage.setItem("writingTestStats", JSON.stringify(stats));
+      }
+
+      // 更新統計顯示
+      function updateStats() {
+        // 拼寫統計
+        document.getElementById("spelling-total").textContent =
+          spellingStats.total;
+        document.getElementById("spelling-correct").textContent =
+          spellingStats.correct;
+        const spellingAccuracy =
+          spellingStats.total > 0
+            ? Math.round((spellingStats.correct / spellingStats.total) * 100)
+            : 0;
+        document.getElementById("spelling-accuracy").textContent =
+          spellingAccuracy + "%";
+        document.getElementById("spelling-progress").style.width =
+          spellingAccuracy + "%";
+
+        // 語法統計
+        document.getElementById("grammar-total").textContent =
+          grammarStats.total;
+        document.getElementById("grammar-correct").textContent =
+          grammarStats.correct;
+        const grammarAccuracy =
+          grammarStats.total > 0
+            ? Math.round((grammarStats.correct / grammarStats.total) * 100)
+            : 0;
+        document.getElementById("grammar-accuracy").textContent =
+          grammarAccuracy + "%";
+        document.getElementById("grammar-progress").style.width =
+          grammarAccuracy + "%";
+
+        // 整體統計
+        document.getElementById("overall-total").textContent =
+          overallStats.total;
+        document.getElementById("overall-correct").textContent =
+          overallStats.correct;
+        const overallAccuracy =
+          overallStats.total > 0
+            ? Math.round((overallStats.correct / overallStats.total) * 100)
+            : 0;
+        document.getElementById("overall-accuracy").textContent =
+          overallAccuracy + "%";
+        document.getElementById("overall-progress").style.width =
+          overallAccuracy + "%";
+      }
+
+      // 拼寫測試函數
+      function startSpellingTest() {
+        currentSpellingIndex = Math.floor(
+          Math.random() * spellingErrors.length
+        );
+        const item = spellingErrors[currentSpellingIndex];
+
+        document.getElementById("chinese-word").textContent = item.chinese;
+        document.getElementById("spelling-rule").textContent =
+          "規則: " + item.rule;
+        document.getElementById("spelling-input").value = "";
+        document.getElementById("spelling-input").disabled = false;
+        document.getElementById("spelling-check-btn").disabled = false;
+        document.getElementById("spelling-result").innerHTML = "";
+      }
+
+      function checkSpelling() {
+        const userAnswer = document
+          .getElementById("spelling-input")
+          .value.trim();
+        const correctAnswer = spellingErrors[currentSpellingIndex].english;
+
+        spellingStats.total++;
+
+        if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+          spellingStats.correct++;
+          showSpellingResult(true, correctAnswer, "");
+        } else {
+          showSpellingResult(false, correctAnswer, userAnswer);
+        }
+
+        updateStats();
+        saveStats();
+        document.getElementById("spelling-check-btn").disabled = true;
+        document.getElementById("spelling-input").disabled = true;
+      }
+
+      function showSpellingResult(isCorrect, correctAnswer, userAnswer) {
+        const resultDiv = document.getElementById("spelling-result");
+        const className = isCorrect ? "correct" : "incorrect";
+        const message = isCorrect ? "✅ 正確！" : "❌ 錯誤！";
+
+        let html = `<div class="result ${className}">${message}</div>`;
+        if (!isCorrect) {
+          html += `<div class="correct-answer">正確答案: ${correctAnswer}</div>`;
+        }
+
+        resultDiv.innerHTML = html;
+      }
+
+      function resetSpellingTest() {
+        spellingStats = { total: 0, correct: 0 };
+        updateStats();
+        saveStats();
+        document.getElementById("spelling-result").innerHTML = "";
+        document.getElementById("chinese-word").textContent =
+          "點擊「開始測試」開始練習";
+        document.getElementById("spelling-rule").textContent = "";
+      }
+
+      // 語法測試函數
+      function startGrammarTest() {
+        currentGrammarIndex = Math.floor(Math.random() * grammarErrors.length);
+        const item = grammarErrors[currentGrammarIndex];
+
+        document.getElementById("grammar-error").textContent = item.error;
+        document.getElementById("grammar-rule").textContent =
+          "規則: " + item.rule;
+        document.getElementById("grammar-input").value = "";
+        document.getElementById("grammar-input").disabled = false;
+        document.getElementById("grammar-check-btn").disabled = false;
+        document.getElementById("grammar-result").innerHTML = "";
+      }
+
+      function checkGrammar() {
+        const userAnswer = document
+          .getElementById("grammar-input")
+          .value.trim();
+        const correctAnswer = grammarErrors[currentGrammarIndex].correct;
+
+        grammarStats.total++;
+
+        if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+          grammarStats.correct++;
+          showGrammarResult(true, correctAnswer, "");
+        } else {
+          showGrammarResult(false, correctAnswer, userAnswer);
+        }
+
+        updateStats();
+        saveStats();
+        document.getElementById("grammar-check-btn").disabled = true;
+        document.getElementById("grammar-input").disabled = true;
+      }
+
+      function showGrammarResult(isCorrect, correctAnswer, userAnswer) {
+        const resultDiv = document.getElementById("grammar-result");
+        const className = isCorrect ? "correct" : "incorrect";
+        const message = isCorrect ? "✅ 正確！" : "❌ 錯誤！";
+
+        let html = `<div class="result ${className}">${message}</div>`;
+        if (!isCorrect) {
+          html += `<div class="correct-answer">正確答案: ${correctAnswer}</div>`;
+        }
+
+        resultDiv.innerHTML = html;
+      }
+
+      function resetGrammarTest() {
+        grammarStats = { total: 0, correct: 0 };
+        updateStats();
+        saveStats();
+        document.getElementById("grammar-result").innerHTML = "";
+        document.getElementById("grammar-error").textContent =
+          "點擊「開始測試」開始練習";
+        document.getElementById("grammar-rule").textContent = "";
+      }
+
+      // 整體錯誤測試函數
+      function startOverallTest() {
+        currentOverallIndex = Math.floor(Math.random() * overallErrors.length);
+        const item = overallErrors[currentOverallIndex];
+
+        document.getElementById("overall-category").textContent = item.category;
+        document.getElementById("overall-error").textContent = item.error;
+        document.getElementById("overall-rule").textContent =
+          "規則: " + item.rule;
+        document.getElementById("overall-input").value = "";
+        document.getElementById("overall-input").disabled = false;
+        document.getElementById("overall-check-btn").disabled = false;
+        document.getElementById("overall-result").innerHTML = "";
+      }
+
+      function checkOverall() {
+        const userAnswer = document
+          .getElementById("overall-input")
+          .value.trim();
+        const correctAnswer = overallErrors[currentOverallIndex].correct;
+
+        overallStats.total++;
+
+        if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+          overallStats.correct++;
+          showOverallResult(true, correctAnswer, "");
+        } else {
+          showOverallResult(false, correctAnswer, userAnswer);
+        }
+
+        updateStats();
+        saveStats();
+        document.getElementById("overall-check-btn").disabled = true;
+        document.getElementById("overall-input").disabled = true;
+      }
+
+      function showOverallResult(isCorrect, correctAnswer, userAnswer) {
+        const resultDiv = document.getElementById("overall-result");
+        const className = isCorrect ? "correct" : "incorrect";
+        const message = isCorrect ? "✅ 正確！" : "❌ 錯誤！";
+
+        let html = `<div class="result ${className}">${message}</div>`;
+        if (!isCorrect) {
+          html += `<div class="correct-answer">正確答案: ${correctAnswer}</div>`;
+        }
+
+        resultDiv.innerHTML = html;
+      }
+
+      function resetOverallTest() {
+        overallStats = { total: 0, correct: 0 };
+        updateStats();
+        saveStats();
+        document.getElementById("overall-result").innerHTML = "";
+        document.getElementById("overall-category").textContent = "";
+        document.getElementById("overall-error").textContent =
+          "點擊「開始測試」開始練習";
+        document.getElementById("overall-rule").textContent = "";
+      }
+
+      // 鍵盤快捷鍵
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+          if (!document.getElementById("spelling-check-btn").disabled) {
+            checkSpelling();
+          } else if (!document.getElementById("grammar-check-btn").disabled) {
+            checkGrammar();
+          } else if (!document.getElementById("overall-check-btn").disabled) {
+            checkOverall();
+          }
+        }
+      });
+
+      // 頁面載入時初始化
+      window.onload = function () {
+        loadStats();
+      };
+    </script>
+  </body>
+</html>
