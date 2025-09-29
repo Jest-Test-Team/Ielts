@@ -95,3 +95,4 @@ jspm_packages/
 .dynamodb/
 cli.txt
 index.html
+*.zip
