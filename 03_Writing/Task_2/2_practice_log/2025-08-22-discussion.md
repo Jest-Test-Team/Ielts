@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-22-discussion
+---
+
 # IELTS Writing Task 2: Hard Work - Discussion 💼📚
 
 ## 📋 **Task Information**

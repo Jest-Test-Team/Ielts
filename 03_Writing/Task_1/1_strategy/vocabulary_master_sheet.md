@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - vocabulary_master_sheet
+---
+
 # IELTS Writing Task 1: Vocabulary Master Sheet 📊
 
 ## 🎯 Essential Vocabulary Categories

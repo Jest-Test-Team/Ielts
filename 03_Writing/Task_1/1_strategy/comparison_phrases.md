@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - comparison_phrases
+---
+
 # IELTS Task 1: Precision Comparison Phrases 📊
 
 ## 🎯 Essential Comparison Categories

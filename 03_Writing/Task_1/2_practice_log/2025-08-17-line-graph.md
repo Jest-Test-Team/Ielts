@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-17-line-graph
+---
+
 # IELTS Writing Task 1: Migration Reasons Analysis 📊
 
 ## 📊 Task Description

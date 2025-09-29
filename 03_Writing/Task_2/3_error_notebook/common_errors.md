@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作錯誤 - common_errors
+---
+
 # IELTS Writing Task 2: Common Errors Notebook 📝
 
 ## 📊 Error Tracking Overview

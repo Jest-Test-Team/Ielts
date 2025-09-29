@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - useful_vocabularies_phrases
+---
+
 Task 2 Vocabulary Enhancement Table
 
 This table is designed to replace common, repetitive, or slightly informal words with more sophisticated and precise academic vocabulary.

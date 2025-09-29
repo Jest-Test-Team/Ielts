@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-02-agree-disagree
+---
+
 # IELTS Writing Task 2: Gender Equality Progress - Agree/Disagree 👥⚖️
 
 ## 📋 **Task Information**

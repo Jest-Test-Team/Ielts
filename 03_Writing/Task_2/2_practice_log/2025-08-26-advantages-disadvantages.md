@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-26-advantages-disadvantages
+---
+
 # IELTS Writing Task 2: City vs Countryside - Advantages & Disadvantages 🏙️🌾
 
 ## 📋 **Task Information**

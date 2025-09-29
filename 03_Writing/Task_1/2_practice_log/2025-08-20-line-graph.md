@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-20-line-graph
+---
+
 task1
 
 The line graph depicts the number of the Galapagos Islands’  tourists  from 2015 to 2022.

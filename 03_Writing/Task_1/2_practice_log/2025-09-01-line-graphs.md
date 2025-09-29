@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-09-01-line-graphs
+---
+
 # IELTS Writing Task 1 Practice
 
 **Date:** September 1, 2025  

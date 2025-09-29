@@ -1,3 +1,8 @@
+---
+layout: default
+title: 口說話題練習記錄
+---
+
 # IELTS Speaking: Topic Practice Log 📝
 
 ## 📊 Practice Session Overview

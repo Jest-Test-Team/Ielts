@@ -49,34 +49,42 @@ twitter_username:
 github_username: dennisleehappy
 linkedin_username:
 
-# Collections
-collections:
-  listening:
-    output: true
-    permalink: /listening/:path/
-  reading:
-    output: true
-    permalink: /reading/:path/
-  writing:
-    output: true
-    permalink: /writing/:path/
-  speaking:
-    output: true
-    permalink: /speaking/:path/
-  posts:
-    output: true
-    permalink: /:collection/:name/
+# Collections - removed to avoid conflicts with numbered directories
 
-# Custom permalink structure for practice logs
-permalink: /:path/
+# Custom permalink structure - ensure .html extension
+permalink: /:path.html
 
-# Defaults
+# Defaults for different directories
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: "01_Listening"
+    values:
+      layout: "default"
+      author: "IELTS Learner"
+      show_excerpts: true
+  - scope:
+      path: "02_Reading"
+    values:
+      layout: "default"
+      author: "IELTS Learner"
+      show_excerpts: true
+  - scope:
+      path: "03_Writing"
+    values:
+      layout: "default"
+      author: "IELTS Learner"
+      show_excerpts: true
+  - scope:
+      path: "04_Speaking"
+    values:
+      layout: "default"
+      author: "IELTS Learner"
+      show_excerpts: true
   - scope:
       path: ""
     values:
@@ -130,3 +138,14 @@ exclude:
 include:
   - _pages
   - _data
+  - 01_Listening
+  - 02_Reading
+  - 03_Writing
+  - 04_Speaking
+
+# Ensure all markdown files are processed as pages
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings

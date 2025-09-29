@@ -1,3 +1,8 @@
+---
+layout: default
+title: 聽力練習流程
+---
+
 # IELTS Listening Practice Pipeline (SOP)
 
 This document outlines the standard operating procedure for every listening practice session to ensure maximum effectiveness and consistent improvement.

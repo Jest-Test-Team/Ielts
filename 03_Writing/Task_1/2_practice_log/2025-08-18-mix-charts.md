@@ -1,3 +1,8 @@
+---
+layout: default
+title: 寫作 - 2025-08-18-mix-charts
+---
+
 # IELTS Writing Task 1: UK Tourism Analysis - Mixed Charts 📊
 
 ## 📊 Task Description
