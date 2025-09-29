@@ -31,7 +31,7 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 
 - [常見錯誤筆記](Task_1/3_error_notebook/common_errors.html) - Task 1 寫作中的常見錯誤和改進方法
 ___
-Overall Errors
+## Overall Errors
 
 | Urgency     | Error Category   | Specific Error             | ❌ Your Common Mistake(s)                                                                 | ✅ Correction & Rule                                                                 | Frequency  |
 |-------------|------------------|----------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------|
