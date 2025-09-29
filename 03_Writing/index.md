@@ -94,12 +94,14 @@ flowchart TD
 #### 🔴 Critical - 句子片段 (Sentence Fragment)
 
 **錯誤範例：**
+
 - "Which may result in..."
 - "By which, they saved..."
 - "Showing major influence..."
 - "Results in new food type..."
 
 **修正方法：**
+
 - **Rule: The "Train Hook"** - Which and -ing clauses are train cars, not engines
 - They must be hooked to a main sentence with a comma
 - Example: "...their assets are untraceable, which can deeply infect..."
@@ -108,18 +110,21 @@ flowchart TD
 
 **問題：** Writing single sentences over 40-50 words that combine too many loosely connected ideas
 
-**解決方案：** 
+**解決方案：**
+
 - **Rule: The "25-Word Iron Law"** - Break complex ideas into 2-3 shorter, clearer sentences
 - This is your most important discipline for improving clarity and accuracy
 
 #### 🟡 High - 被動語態錯誤 (Incorrect Passive Voice)
 
 **錯誤範例：**
+
 - "...was accounted for..." (accounted for is active)
 - "will be shift to..." (missing past particulate)
 - "...and being sent to..." (incorrect form)
 
 **修正：**
+
 - Remember: passive requires "be + past participle"
 - Examples: "will be shifted", "are sent"
 - **Rule:** Memorize correct patterns for common Task 1 verbs
@@ -130,24 +135,24 @@ flowchart TD
 
 ### 🔴 Critical 錯誤（最高優先級）
 
-| 錯誤單詞 | 正確拼寫 | 規則說明 |
-|----------|----------|----------|
-| colleges | colleagues | College 是教育場所；colleagues 是同事 |
-| it's (所有格) | its | it's 永遠只表示 it is；所有格不加撇號 |
-| cooperations | corporations | Cooperation = 合作；corporation = 企業 |
+| 錯誤單詞      | 正確拼寫     | 規則說明                               |
+| ------------- | ------------ | -------------------------------------- |
+| colleges      | colleagues   | College 是教育場所；colleagues 是同事  |
+| it's (所有格) | its          | it's 永遠只表示 it is；所有格不加撇號  |
+| cooperations  | corporations | Cooperation = 合作；corporation = 企業 |
 
 ### 🟡 High 錯誤（高優先級）
 
-| 錯誤類型 | 常見錯誤範例 | 正確拼寫 |
-|----------|--------------|----------|
-| 重複字母 | extremelly, efficent | extremely, efficient |
-| 單詞組合 | through out, new built | throughout, newly built |
+| 錯誤類型 | 常見錯誤範例                    | 正確拼寫                   |
+| -------- | ------------------------------- | -------------------------- |
+| 重複字母 | extremelly, efficent            | extremely, efficient       |
+| 單詞組合 | through out, new built          | throughout, newly built    |
 | 詞性混淆 | can recovered, loss motivations | can recover, lose momentum |
 
 ### 📊 錯誤頻率統計
 
 - **Very High Frequency (🔥)**: Sentence fragments, "Monster" sentences
-- **High Frequency (⭐)**: Passive voice errors, calculation mistakes  
+- **High Frequency (⭐)**: Passive voice errors, calculation mistakes
 - **Medium Frequency**: Spelling errors, verb form mistakes
 - **Low Frequency**: Article usage, tense errors
 
@@ -157,12 +162,12 @@ flowchart TD
 
 IELTS 寫作考試根據四個標準評分：
 
-| 評分標準                                              | Task 1 重點                          | Task 2 重點                                            |
-| ----------------------------------------------------- | ------------------------------------ | -------------------:---------- |
-| **任務回應 (Task Achievement/Response)**              | 準確描述圖表主要特徵，包括趨勢和比較 | 完全回應所有題目要求，立場清晰，觀點全面發展           |
+| 評分標準                                              | Task 1 重點                          |                                            Task 2 重點 |
+| ----------------------------------------------------- | ------------------------------------ | -----------------------------------------------------: |
+| **任務回應 (Task Achievement/Response)**              | 準確描述圖表主要特徵，包括趨勢和比較 |           完全回應所有題目要求，立場清晰，觀點全面發展 |
 | **連貫與銜接 (Coherence & Cohesion)**                 | 邏輯組織段落，使用合適的連接詞       | 清晰的段落結構，連貫的論點發展，恰當使用指代詞和連接詞 |
-| **詞彙資源 (Lexical Resource)**                       | 使用多樣的詞彙描述數據和趨勢         | 豐富多樣的詞彙，精確和靈活的用詞                       |
-| **語法多樣性與準確性 (Grammatical Range & Accuracy)** | 正確使用各種句型，控制語法錯誤       | 靈活使用複雜句型，保持語法準確性                       |
+| **詞彙資源 (Lexical Resource)**                       | 使用多樣的詞彙描述數據和趨勢         |                       豐富多樣的詞彙，精確和靈活的用詞 |
+| **語法多樣性與準確性 (Grammatical Range & Accuracy)** | 正確使用各種句型，控制語法錯誤       |                       靈活使用複雜句型，保持語法準確性 |
 
 ## 🔍 常見問題
 
