@@ -1,6 +1,9 @@
 ---
 layout: default
 title: 寫作學習中心
+description: IELTS 寫作考試的全面指南、策略資源和練習記錄，幫助提高寫作技巧並獲得理想分數
+nav_order: 3
+has_children: true
 ---
 
 # 寫作學習中心 ✍️
@@ -75,313 +78,340 @@ flowchart TD
     G --> H[檢查修改 剩餘時間]
 ```
 
-## overall errors
-Urgency	Error Category	Specific Error	❌ Your Common Mistake(s)	✅ Correction & Rule	Frequency		
-🔴 Critical	Grammar	Sentence Fragment	"Which may result in...
+## 📊 整體錯誤分析
+
+| 緊急程度    | 錯誤類型         | 具體錯誤                          | ❌ 常見錯誤範例                                                                                                                                                                               | ✅ 修正與規則                                                                                                                                                                                                                                                     | 頻率      |
+| ----------- | ---------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| 🔴 Critical | Grammar          | Sentence Fragment                 | "Which may result in...<br/>By which, they saved...<br/>Showing major influence...<br/>Results in new food type..."                                                                           | "Attach the clause to the previous sentence with a comma.<br/>e.g., ...their assets are untraceable, which can deeply infect...<br/><br/>**Rule: The "Train Hook."** Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence." | Very High |
+| 🔴 Critical | Task Achievement | Data Misinterpretation            | "- Misreading the Y-Axis (e.g., "Number" vs. "Percentage")<br/>- Confusing lines on a graph (e.g., Philippines vs. Indonesia)<br/>- Assuming total numbers increased from a percentage chart" | "**Rule: The "Chart ID Card."** Before writing, you MUST confirm the Topic, Unit, and Time/Categories of the chart."                                                                                                                                              | Medium    |
+| 🔴 Critical | Cohesion         | Incorrect Essay Structure         | "- Using a 5-paragraph structure with a separate "Overall" in Task 2<br/>- Using a single body paragraph for a long Task 1 process"                                                           | "**Rule:** Task 2 is four paragraphs (Intro, B1, B2, Con). Task 1 process diagrams should be split into two body paragraphs for clarity."                                                                                                                         | Medium    |
+| 🟡 High     | Task Achievement | Calculation & Fact Errors         | "- Incorrect math (e.g., 4.6x vs. 7x)<br/>- Incorrect dates/names (e.g., 1900 vs. 1990; Dolly vs. Dorothy)"                                                                                   | "**Rule: Trust, but Verify.** Your analysis is great, but you must double-check any number you calculate or fact you state."                                                                                                                                      | High      |
+| 🟡 High     | Grammar          | "Monster" Sentences               | Writing single sentences over 40-50 words that contain multiple, loosely connected ideas                                                                                                      | "**Rule: The "25-Word Max Iron Law."** Break complex ideas into shorter, clearer sentences."                                                                                                                                                                      | High      |
+| 🟡 High     | Vocabulary       | Persistent Spelling/Choice Errors | "- Cooper vs. Copper<br/>- colleges vs. colleagues<br/>- it's vs. its<br/>- amount vs. number"                                                                                                | These must be memorized and added to your proofreading checklist.                                                                                                                                                                                                 | Very High |
+
+## 🔍 語法錯誤總結
+
+#### 🔴 Critical - 句子片段 (Sentence Fragment)
+
+**錯誤範例：**
+- "Which may result in..."
+- "By which, they saved..."
+- "Showing major influence..."
+- "Results in new food type..."
+
+**修正方法：**
+- **Rule: The "Train Hook"** - Which and -ing clauses are train cars, not engines
+- They must be hooked to a main sentence with a comma
+- Example: "...their assets are untraceable, which can deeply infect..."
+
+#### 🔴 Critical - "怪物句子" (Monster Sentences)
+
+**問題：** Writing single sentences over 40-50 words that combine too many loosely connected ideas
+
+**解決方案：** 
+- **Rule: The "25-Word Iron Law"** - Break complex ideas into 2-3 shorter, clearer sentences
+- This is your most important discipline for improving clarity and accuracy
+
+#### 🟡 High - 被動語態錯誤 (Incorrect Passive Voice)
+
+**錯誤範例：**
+- "...was accounted for..." (accounted for is active)
+- "will be shift to..." (missing past particulate)
+- "...and being sent to..." (incorrect form)
+
+**修正：**
+- Remember: passive requires "be + past participle"
+- Examples: "will be shifted", "are sent"
+- **Rule:** Memorize correct patterns for common Task 1 verbs
+
+---
+
+## 📝 拼寫錯誤摘要
 By which, they saved...
 Showing major influence...
-Results in new food type..."	"Attach the clause to the previous sentence with a comma.
+Results in new food type..." "Attach the clause to the previous sentence with a comma.
 e.g., ...their assets are untraceable, which can deeply infect...
 
-Rule: The ""Train Hook."" Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence."	Very High		
-🔴 Critical	Task Achievement	Data Misinterpretation	"- Misreading the Y-Axis (e.g., ""Number"" vs. ""Percentage"").
-- Confusing lines on a graph (e.g., Philippines vs. Indonesia).
-- Assuming total numbers increased from a percentage chart."	Rule: The "Chart ID Card." Before writing, you MUST confirm the Topic, Unit, and Time/Categories of the chart.	Medium		
-🔴 Critical	Cohesion	Incorrect Essay Structure	"- Using a 5-paragraph structure with a separate ""Overall"" in Task 2.
-- Using a single body paragraph for a long Task 1 process."	Rule: Task 2 is four paragraphs (Intro, B1, B2, Con). Task 1 process diagrams should be split into two body paragraphs for clarity.	Medium		
-🟡 High	Task Achievement	Calculation & Fact Errors	"- Incorrect math (e.g., 4.6x vs. 7x).
-- Incorrect dates/names (e.g., 1900 vs. 1990; Dolly vs. Dorothy)."	Rule: Trust, but Verify. Your analysis is great, but you must double-check any number you calculate or fact you state.	High		
-🟡 High	Grammar	"Monster" Sentences	Writing single sentences over 40-50 words that contain multiple, loosely connected ideas.	Rule: The "25-Word Max Iron Law." Break complex ideas into shorter, clearer sentences.	High		
-🟡 High	Vocabulary	Persistent Spelling/Choice Errors	"- Cooper vs. Copper
-- colleges vs. colleagues
-- it's vs. its
-- amount vs. number"	These must be memorized and added to your proofreading checklist.	Very High		
+Rule: The ""Train Hook."" Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence." Very High
+🔴 Critical Sentence Structure "Monster" Sentences Writing single sentences over 40-50 words that combine too many loosely connected ideas, leading to confusion and errors. "Break the idea into 2-3 shorter, clearer sentences.
 
-## grammar error logs
-Urgency	Error Category	Specific Error	❌ My Common Mistake (Example)	✅ The Fix (Correction & Rule)	Frequency																				
-🔴 Critical	Sentence Structure	Sentence Fragment	"Which may result in... 
- By which, they saved... 
- Showing major influence... 
- Results in new food type..."	"Attach the clause to the previous sentence with a comma.
-e.g., ...their assets are untraceable, which can deeply infect...
-
-Rule: The ""Train Hook."" Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence."	Very High																				
-🔴 Critical	Sentence Structure	"Monster" Sentences	Writing single sentences over 40-50 words that combine too many loosely connected ideas, leading to confusion and errors.	"Break the idea into 2-3 shorter, clearer sentences.
-
-Rule: The ""25-Word Iron Law."" This is your most important discipline for improving clarity and accuracy."	High																				
-🟡 High	Grammar Pattern	Incorrect Passive Voice	"...was accounted for...
+Rule: The ""25-Word Iron Law."" This is your most important discipline for improving clarity and accuracy." High
+🟡 High Grammar Pattern Incorrect Passive Voice "...was accounted for...
 will be shift to...
-...and being sent to..."	"- accounted for is an active verb.
+...and being sent to..." "- accounted for is an active verb.
+
 - The passive requires be + past participle (e.g., will be shifted, are sent).
 
-Rule: Memorize the correct patterns for common Task 1 verbs."	Medium																				
-🟡 High	Grammar	Subject-Verb Agreement	"the reason... were due to...
+Rule: Memorize the correct patterns for common Task 1 verbs." Medium
+🟡 High Grammar Subject-Verb Agreement "the reason... were due to...
 users... was accounted for...
 the area... were constructed...
-new apartments has been constructed..."	"the reason... was...
+new apartments has been constructed..." "the reason... was...
 users... accounted for...
 the area... was...
 new apartments have been...
 
-Rule: Ensure the verb matches its subject, especially with plural subjects or when the subject is far from the verb."	Medium																				
-🟢 Medium	Grammar	Incorrect Verb Forms	"cannot be remove
+Rule: Ensure the verb matches its subject, especially with plural subjects or when the subject is far from the verb." Medium
+🟢 Medium Grammar Incorrect Verb Forms "cannot be remove
 had exceed
 keep rising (in past context)
-instead of went"	"cannot be removed
+instead of went" "cannot be removed
 had exceeded
 kept rising
 instead of going
 
-Rule: Check passive forms, past participles, and verb tenses."	Medium																				
-🔴 Critical	Sentence Structure	Sentence Fragment	"Which may result in... 
+Rule: Check passive forms, past participles, and verb tenses." Medium
+🔴 Critical Sentence Structure Sentence Fragment "Which may result in...
  By which, they saved... 
  Showing major influence... 
- Resulting in new food type..."	"Attach the clause to the previous sentence with a comma.
+Resulting in new food type..." "Attach the clause to the previous sentence with a comma.
 e.g., ...their assets are untraceable, which can deeply infect...
 
-Rule: The ""Train Hook."" Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence."	Very High																				
-🔴 Critical	Sentence Structure	"Monster" Sentences	Writing single sentences over 40-50 words that combine too many loosely connected ideas, leading to confusion and errors.	"Break the idea into 2-3 shorter, clearer sentences.
+Rule: The ""Train Hook."" Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence." Very High
+🔴 Critical Sentence Structure "Monster" Sentences Writing single sentences over 40-50 words that combine too many loosely connected ideas, leading to confusion and errors. "Break the idea into 2-3 shorter, clearer sentences.
 
-Rule: The ""25-Word Iron Law."" This is your most important discipline for improving clarity and accuracy."	High																				
-🟡 High	Grammar Pattern	Incorrect Passive Voice	"...was accounted for...
+Rule: The ""25-Word Iron Law."" This is your most important discipline for improving clarity and accuracy." High
+🟡 High Grammar Pattern Incorrect Passive Voice "...was accounted for...
 will be shift to...
-...and being sent to..."	"- accounted for is an active verb.
+...and being sent to..." "- accounted for is an active verb.
+
 - The passive requires be + past participle (e.g., will be shifted, are sent).
 
-Rule: Memorize the correct patterns for common Task 1 verbs."	Medium																				
-🟡 High	Grammar	Subject-Verb Agreement	"the reason... were due to...
+Rule: Memorize the correct patterns for common Task 1 verbs." Medium
+🟡 High Grammar Subject-Verb Agreement "the reason... were due to...
 users... was accounted for...
 the area... were constructed...
-new apartments has been constructed..."	"the reason... was...
+new apartments has been constructed..." "the reason... was...
 users... accounted for...
 the area... was...
 new apartments have been...
 
-Rule: Ensure the verb matches its subject (singular vs. plural), especially when the subject is far from the verb."	Medium																				
-🟢 Medium	Grammar	Incorrect Verb Forms	"cannot be remove
+Rule: Ensure the verb matches its subject (singular vs. plural), especially when the subject is far from the verb." Medium
+🟢 Medium Grammar Incorrect Verb Forms "cannot be remove
 had exceed
 keep rising (in past context)
-instead of went"	"cannot be removed
+instead of went" "cannot be removed
 had exceeded
 kept rising
 instead of going
 
-Rule: Check passive forms, past participles, and verb tenses."	Medium																				
-🟢 Medium	Grammar	Article Usage	spend great amount of time...	"spend **a** great amount of time...
+Rule: Check passive forms, past participles, and verb tenses." Medium
+🟢 Medium Grammar Article Usage spend great amount of time... "spend **a** great amount of time...
 
-Rule: Pay attention to the use of a/an/the, especially with common nouns."	Low																				
-🟢 Medium	Grammar	Incorrect Tense	Using the present tense to describe a past event on a map (there some houses...).	"there **were** some houses...
+Rule: Pay attention to the use of a/an/the, especially with common nouns." Low
+🟢 Medium Grammar Incorrect Tense Using the present tense to describe a past event on a map (there some houses...). "there **were** some houses...
 
-Rule: When describing a map from a past year (e.g., 1986), use the past simple tense."	Low																				
-🔴 Critical	Sentence Structure	Sentence Fragment	"Which may result in... 
+Rule: When describing a map from a past year (e.g., 1986), use the past simple tense." Low
+🔴 Critical Sentence Structure Sentence Fragment "Which may result in...
  By which, they saved... 
  Showing major influence... 
- Resulting in new food type..."	"Attach the clause to the previous sentence with a comma.
+Resulting in new food type..." "Attach the clause to the previous sentence with a comma.
 e.g., ...their assets are untraceable, which can deeply infect...
 
-Rule: The ""Train Hook."" Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence."	Very High																				
-🔴 Critical	Sentence Structure	"Monster" Sentences	Writing single sentences over 40-50 words that combine too many loosely connected ideas, leading to confusion and errors.	"Break the idea into 2-3 shorter, clearer sentences.
+Rule: The ""Train Hook."" Which and -ing clauses are train cars, not engines. They must be hooked to a main sentence." Very High
+🔴 Critical Sentence Structure "Monster" Sentences Writing single sentences over 40-50 words that combine too many loosely connected ideas, leading to confusion and errors. "Break the idea into 2-3 shorter, clearer sentences.
 
-Rule: The ""25-Word Iron Law."" This is your most important discipline for improving clarity and accuracy."	High																				
-🟡 High	Grammar Pattern	Incorrect Passive Voice	"...was accounted for...
+Rule: The ""25-Word Iron Law."" This is your most important discipline for improving clarity and accuracy." High
+🟡 High Grammar Pattern Incorrect Passive Voice "...was accounted for...
 will be shift to...
-...and being sent to..."	"- accounted for is an active verb.
+...and being sent to..." "- accounted for is an active verb.
+
 - The passive requires be + past participle (e.g., will be shifted, are sent).
 
-Rule: Memorize the correct patterns for common Task 1 verbs."	Medium																				
-🟡 High	Grammar	Subject-Verb Agreement	"the reason... were due to...
+Rule: Memorize the correct patterns for common Task 1 verbs." Medium
+🟡 High Grammar Subject-Verb Agreement "the reason... were due to...
 users... was accounted for...
 the area... were constructed...
-new apartments has been constructed..."	"the reason... was...
+new apartments has been constructed..." "the reason... was...
 users... accounted for...
 the area... was...
 new apartments have been...
 
-Rule: Ensure the verb matches its subject (singular vs. plural), especially when the subject is far from the verb."	Medium																				
-🟢 Medium	Grammar	Incorrect Verb Forms	"cannot be remove
+Rule: Ensure the verb matches its subject (singular vs. plural), especially when the subject is far from the verb." Medium
+🟢 Medium Grammar Incorrect Verb Forms "cannot be remove
 had exceed
 keep rising (in past context)
-instead of went"	"cannot be removed
+instead of went" "cannot be removed
 had exceeded
 kept rising
 instead of going
 
-Rule: Check passive forms, past participles, and verb tenses."	Medium																				
-🟢 Medium	Grammar	Article Usage	spend great amount of time...	"spend **a** great amount of time...
+Rule: Check passive forms, past participles, and verb tenses." Medium
+🟢 Medium Grammar Article Usage spend great amount of time... "spend **a** great amount of time...
 
-Rule: Pay attention to the use of a/an/the, especially with common nouns."	Low																				
-🟢 Medium	Grammar	Incorrect Tense	Using the present tense to describe a past event on a map (there some houses...).	"there **were** some houses...
+Rule: Pay attention to the use of a/an/the, especially with common nouns." Low
+🟢 Medium Grammar Incorrect Tense Using the present tense to describe a past event on a map (there some houses...). "there **were** some houses...
 
-Rule: When describing a map from a past year (e.g., 1986), use the past simple tense."	Low																				
-___
+Rule: When describing a map from a past year (e.g., 1986), use the past simple tense." Low
+
+---
+
 ## spelling errors
-Date	Error Type	❌ My Error (Example)	✅ The Fix (Correction & Rule)	Urgency	Frequency
-Frequent	Persistent Spelling	colleges	"colleagues (同事)
 
-Rule: ""College"" is a place of education. ""Colleagues"" are people you work with."	🔴 Critical	High
-2025-09-06	Persistent Spelling	it's (for possessive)	"its (所有格)
+Date Error Type ❌ My Error (Example) ✅ The Fix (Correction & Rule) Urgency Frequency
+Frequent Persistent Spelling colleges "colleagues (同事)
 
-Rule: It's only ever means it is. The possessive form has no apostrophe."	🔴 Critical	High
-2025-09-03	Persistent Spelling	cooperations	"corporations (企業)
+Rule: ""College"" is a place of education. ""Colleagues"" are people you work with." 🔴 Critical High
+2025-09-06 Persistent Spelling it's (for possessive) "its (所有格)
 
-Rule: A common false friend. ""Cooperation"" means working together; ""corporation"" is a business."	🔴 Critical	Medium
-2025-08-15	Spelling	atractive	attractive	🟡 High	Medium
-2025-08-18	Spelling	fist	first	🟡 High	Low
-2025-08-18	Spelling	soar (for pain)	"sore (痠痛)
+Rule: It's only ever means it is. The possessive form has no apostrophe." 🔴 Critical High
+2025-09-03 Persistent Spelling cooperations "corporations (企業)
 
-Rule: Sore is for pain; soar is to fly high."	🟡 High	Low
-2025-08-19	Spelling	govenment	government	🟡 High	Medium
-2025-08-19	Spelling	efficent	efficient	🟡 High	Medium
-2025-08-16	Spelling	woking	working	🟢 Medium	Low
-2025-08-15	Word Form	gaming addition	"gaming addiction (成癮)
+Rule: A common false friend. ""Cooperation"" means working together; ""corporation"" is a business." 🔴 Critical Medium
+2025-08-15 Spelling atractive attractive 🟡 High Medium
+2025-08-18 Spelling fist first 🟡 High Low
+2025-08-18 Spelling soar (for pain) "sore (痠痛)
 
-Rule: Use the correct noun form for the concept."	🔴 Critical	Low
-2025-08-16	Word Form	loosing	losing	🟢 Medium	Low
-2025-08-21	Word Form	can recovered	"can recover
+Rule: Sore is for pain; soar is to fly high." 🟡 High Low
+2025-08-19 Spelling govenment government 🟡 High Medium
+2025-08-19 Spelling efficent efficient 🟡 High Medium
+2025-08-16 Spelling woking working 🟢 Medium Low
+2025-08-15 Word Form gaming addition "gaming addiction (成癮)
 
-Rule: After a modal verb (can, should, will), use the base form of the verb."	🟡 High	High
-2025-08-17	Word Form	loss motivations	"lose motivation
+Rule: Use the correct noun form for the concept." 🔴 Critical Low
+2025-08-16 Word Form loosing losing 🟢 Medium Low
+2025-08-21 Word Form can recovered "can recover
 
-Rule: Loss is a noun; lose is the verb."	🟢 Medium	Medium
-2025-08-27	Word Form	fleshing	fresh	🟢 Medium	Low
-Date	Error Type	❌ My Error (Example)	✅ The Fix (Correction & Rule)	Urgency	Frequency
-Frequent	Persistent Spelling	cooperations	"corporations (企業)
+Rule: After a modal verb (can, should, will), use the base form of the verb." 🟡 High High
+2025-08-17 Word Form loss motivations "lose motivation
 
-Rule: A common false friend. ""Cooperation"" means working together; ""corporation"" is a business."	🔴 Critical	High
-Frequent	Persistent Spelling	colleges	"colleagues (同事)
+Rule: Loss is a noun; lose is the verb." 🟢 Medium Medium
+2025-08-27 Word Form fleshing fresh 🟢 Medium Low
+Date Error Type ❌ My Error (Example) ✅ The Fix (Correction & Rule) Urgency Frequency
+Frequent Persistent Spelling cooperations "corporations (企業)
 
-Rule: ""College"" is a place of education. ""Colleagues"" are people you work with."	🔴 Critical	High
-Frequent	Persistent Spelling	it's (for possessive)	"its (所有格)
+Rule: A common false friend. ""Cooperation"" means working together; ""corporation"" is a business." 🔴 Critical High
+Frequent Persistent Spelling colleges "colleagues (同事)
 
-Rule: It's only ever means it is. The possessive form has no apostrophe."	🔴 Critical	High
-2025-09-21	Spelling	extremelly	extremely	🟡 High	Medium
-2025-09-11	Spelling	populaution	population	🟡 High	Medium
-2025-09-11	Spelling	largestest	largest	🟡 High	Medium
-2025-09-25	Spelling	dessert	"desert (沙漠)
+Rule: ""College"" is a place of education. ""Colleagues"" are people you work with." 🔴 Critical High
+Frequent Persistent Spelling it's (for possessive) "its (所有格)
 
-Rule: Dessert has two 's' because you always want more."	🟡 High	Low
-2025-09-21	Word Form	prisoning	"imprisonment (監禁)
+Rule: It's only ever means it is. The possessive form has no apostrophe." 🔴 Critical High
+2025-09-21 Spelling extremelly extremely 🟡 High Medium
+2025-09-11 Spelling populaution population 🟡 High Medium
+2025-09-11 Spelling largestest largest 🟡 High Medium
+2025-09-25 Spelling dessert "desert (沙漠)
 
-Rule: Use the correct noun form for the concept."	🟢 Medium	Low
-2025-09-21	Word Choice	gun fires	"firearms (槍支)
+Rule: Dessert has two 's' because you always want more." 🟡 High Low
+2025-09-21 Word Form prisoning "imprisonment (監禁)
 
-Rule: ""Firearms"" is the more precise and common term for weapons."	🟢 Medium	Low
-2025-09-25	Spelling	disastrs	disasters	🟢 Medium	Low
-2025-09-25	Spelling	accomodations	accommodations	🟢 Medium	Low
-2025-09-17	Spelling	inconvinent	inconvenient	🟢 Medium	Low
-2025-09-16	Spelling	lasly	lastly	🟢 Medium	Low
-2025-09-13	Spelling	tripple	triple	🟢 Medium	Low
-2025-09-13	Spelling	through out	throughout	🟢 Medium	Low
-2025-08-31	Spelling	material arts	martial arts	🟡 High	Low
-2025-08-28	Spelling	inrational	irrational	🟡 High	Low
-2025-08-25	Word Form	new built	"newly built
+Rule: Use the correct noun form for the concept." 🟢 Medium Low
+2025-09-21 Word Choice gun fires "firearms (槍支)
 
-Rule: Use the adverb newly to modify the adjective built."	🟢 Medium	Medium
-2025-08-24	Word Form	soxes	socks	🟢 Medium	Low
-2025-08-24	Word Form	spins / weaved	"yarn / woven
+Rule: ""Firearms"" is the more precise and common term for weapons." 🟢 Medium Low
+2025-09-25 Spelling disastrs disasters 🟢 Medium Low
+2025-09-25 Spelling accomodations accommodations 🟢 Medium Low
+2025-09-17 Spelling inconvinent inconvenient 🟢 Medium Low
+2025-09-16 Spelling lasly lastly 🟢 Medium Low
+2025-09-13 Spelling tripple triple 🟢 Medium Low
+2025-09-13 Spelling through out throughout 🟢 Medium Low
+2025-08-31 Spelling material arts martial arts 🟡 High Low
+2025-08-28 Spelling inrational irrational 🟡 High Low
+2025-08-25 Word Form new built "newly built
 
-Rule: Spin creates yarn. Weave creates fabric. The past participle of weave is woven."	🟢 Medium	Low
-2025-08-16	Word Form	graduated form	graduated from	🟢 Medium	Low
-2025-08-15	Word Form	strategies thinking	strategic thinking	🟢 Medium	Low
-2025-08-01	Word Form	Gooding	Good	🟢 Medium	Low
-2025-10-01	Spelling	extremelly	extremely	🟡 High	Medium
-2025-09-25	Spelling	accomodations	accommodations	🟢 Medium	Low
-2025-09-25	Spelling	disastrs	disasters	🟢 Medium	Low
-2025-09-25	Spelling	dessert	desert	🟡 High	Low
-2025-09-25	Spelling	plumps	pumps	🟢 Medium	Low
-2025-09-25	Spelling	specificly	specifically	🟢 Medium	Low
-2025-09-23	Spelling	lasly	lastly	🟢 Medium	Low
-2025-09-21	Spelling	inrational	irrational	🟡 High	Low
-2025-09-17	Spelling	inconvinent	inconvenient	🟢 Medium	Low
-2025-09-13	Spelling	tripple	triple	🟢 Medium	Low
-2025-09-13	Spelling	through out	throughout	🟢 Medium	Low
-2025-09-11	Spelling	populaution	population	🟡 High	Medium
-2025-09-11	Spelling	largestest	largest	🟡 High	Medium
-2025-09-08	Spelling	benificial	beneficial	🟡 High	Low
-2025-09-08	Spelling	necesissty	necessity	🟡 High	Low
-2025-09-08	Spelling	tenologies	technologies	🟡 High	Low
-2025-09-08	Spelling	fussion	fusion	🟡 High	Low
-2025-09-08	Spelling	drining palnet	draining our planet	🟡 High	Low
-2025-09-08	Spelling	argriculture	agriculture	🟡 High	Low
-2025-08-31	Spelling	material arts	martial arts	🟡 High	Low
-2025-08-22	Spelling	woking	working	🟢 Medium	Low
-2025-08-19	Spelling	govenment	government	🟡 High	Medium
-2025-08-19	Spelling	efficent	efficient	🟡 High	Medium
-2025-08-18	Spelling	fist	first	🟡 High	Low
-2025-08-18	Spelling	soar (for pain)	sore	🟡 High	Low
-2025-08-15	Spelling	atractive	attractive	🟢 Medium	Low
-2025-09-21	Word Form	prisoning	imprisonment	🟢 Medium	Low
-2025-09-21	Word Form	gun fires	firearms	🟢 Medium	Low
-2025-09-17	Word Form	dis advantages	disadvantages	🟢 Medium	Low
-2025-09-17	Word Form	lossing	losing	🟢 Medium	Medium
-2025-09-07	Word Form	especial	especially	🟢 Medium	Low
-2025-09-07	Word Form	fiats	fiat	🟢 Medium	Low
-2025-08-27	Word Form	fleshing	fresh	🟢 Medium	Low
-2025-08-25	Word Form	new built	newly built	🟢 Medium	Medium
-2025-08-24	Word Form	soxes	socks	🟢 Medium	Low
-2025-08-24	Word Form	spins / weaved	yarn / woven	🟢 Medium	Low
-2025-08-22	Word Form	graduated form	graduated from	🟢 Medium	Low
-2025-08-21	Word Form	can recovered	can recover	🟡 High	High
-2025-08-17	Word Form	loss motivations	lose motivation	🟢 Medium	Medium
-2025-08-16	Word Form	loosing	losing	🟢 Medium	Low
-2025-08-15	Word Form	gaming addition	gaming addiction	🔴 Critical	Low
-2025-08-15	Word Form	strategies thinking	strategic thinking	🟢 Medium	Low
-2023-10-15	Word Form	Gooding	Good	🟢 Medium	Low
-2025-10-01	Spelling	extremelly	extremely	🟡 High	Medium
-2025-09-25	Spelling	accomodations	accommodations	🟢 Medium	Low
-2025-09-25	Spelling	disastrs	disasters	🟢 Medium	Low
-2025-09-25	Spelling	dessert	desert	🟡 High	Low
-2025-09-25	Spelling	plumps	pumps	🟢 Medium	Low
-2025-09-25	Spelling	specificly	specifically	🟢 Medium	Low
-2025-09-23	Spelling	lasly	lastly	🟢 Medium	Low
-2025-09-21	Spelling	inrational	irrational	🟡 High	Low
-2025-09-17	Spelling	inconvinent	inconvenient	🟢 Medium	Low
-2025-09-13	Spelling	tripple	triple	🟢 Medium	Low
-2025-09-13	Spelling	through out	throughout	🟢 Medium	Low
-2025-09-11	Spelling	populaution	population	🟡 High	Medium
-2025-09-11	Spelling	largestest	largest	🟡 High	Medium
-2025-09-08	Spelling	benificial	beneficial	🟡 High	Low
-2025-09-08	Spelling	necesissty	necessity	🟡 High	Low
-2025-09-08	Spelling	tenologies	technologies	🟡 High	Low
-2025-09-08	Spelling	fussion	fusion	🟡 High	Low
-2025-09-08	Spelling	argriculture	agriculture	🟡 High	Low
-2025-09-06	Spelling	oftenly	often	🟢 Medium	High
-2025-08-31	Spelling	material arts	martial arts	🟡 High	Low
-2025-08-22	Spelling	woking	working	🟢 Medium	Low
-2025-08-19	Spelling	govenment	government	🟡 High	Medium
-2025-08-19	Spelling	efficent	efficient	🟡 High	Medium
-2025-08-18	Spelling	fist	first	🟡 High	Low
-2025-08-18	Spelling	soar (for pain)	sore	🟡 High	Low
-2025-08-17	Spelling	pounds (for ponds)	ponds	🟢 Medium	Low
-2025-08-15	Spelling	atractive	attractive	🟢 Medium	Low
-2025-09-21	Word Form	prisoning	imprisonment	🟢 Medium	Low
-2025-09-21	Word Form	gun fires	firearms	🟢 Medium	Low
-2025-09-17	Word Form	dis advantages	disadvantages	🟢 Medium	Low
-2025-09-17	Word Form	lossing	losing	🟢 Medium	Medium
-2025-09-07	Word Form	especial	especially	🟢 Medium	Low
-2025-09-07	Word Form	fiats	fiat	🟢 Medium	Low
-2025-08-27	Word Form	fleshing	fresh	🟢 Medium	Low
-2025-08-26	Word Form	complete removed	completely removed	🟢 Medium	Low
-2025-08-25	Word Form	new built	newly built	🟢 Medium	Medium
-2025-08-24	Word Form	soxes	socks	🟢 Medium	Low
-2025-08-24	Word Form	spins / weaved	yarn / woven	🟢 Medium	Low
-2025-08-22	Word Form	graduated form	graduated from	🟢 Medium	Low
-2025-08-21	Word Form	can recovered	can recover	🟡 High	High
-2025-08-17	Word Form	loss motivations	lose motivation	🟢 Medium	Medium
-2025-08-16	Word Form	loosing	losing	🟢 Medium	Low
-2025-08-16	Word Form	edge-cutting	cutting-edge	🟢 Medium	Low
-2025-08-15	Word Form	gaming addition	gaming addiction	🔴 Critical	Low
-2025-08-15	Word Form	strategies thinking	strategic thinking	🟢 Medium	Low
-2023-10-15	Word Form	Gooding	Good	🟢 Medium	Low
-2023-10-15	Word Form	Following by	Followed by	🟡 High	Low
-2023-10-01	Word Form	thought (for teach)	taught	🟡 High	Low
-2023-10-01	Word Form	nosies	noises	🟢 Medium	Low
-2023-10-01	Word Form	to dead	to death	🟡 High	Low
+Rule: Use the adverb newly to modify the adjective built." 🟢 Medium Medium
+2025-08-24 Word Form soxes socks 🟢 Medium Low
+2025-08-24 Word Form spins / weaved "yarn / woven
 
-													
-																									
-																		
-___
+Rule: Spin creates yarn. Weave creates fabric. The past participle of weave is woven." 🟢 Medium Low
+2025-08-16 Word Form graduated form graduated from 🟢 Medium Low
+2025-08-15 Word Form strategies thinking strategic thinking 🟢 Medium Low
+2025-08-01 Word Form Gooding Good 🟢 Medium Low
+2025-10-01 Spelling extremelly extremely 🟡 High Medium
+2025-09-25 Spelling accomodations accommodations 🟢 Medium Low
+2025-09-25 Spelling disastrs disasters 🟢 Medium Low
+2025-09-25 Spelling dessert desert 🟡 High Low
+2025-09-25 Spelling plumps pumps 🟢 Medium Low
+2025-09-25 Spelling specificly specifically 🟢 Medium Low
+2025-09-23 Spelling lasly lastly 🟢 Medium Low
+2025-09-21 Spelling inrational irrational 🟡 High Low
+2025-09-17 Spelling inconvinent inconvenient 🟢 Medium Low
+2025-09-13 Spelling tripple triple 🟢 Medium Low
+2025-09-13 Spelling through out throughout 🟢 Medium Low
+2025-09-11 Spelling populaution population 🟡 High Medium
+2025-09-11 Spelling largestest largest 🟡 High Medium
+2025-09-08 Spelling benificial beneficial 🟡 High Low
+2025-09-08 Spelling necesissty necessity 🟡 High Low
+2025-09-08 Spelling tenologies technologies 🟡 High Low
+2025-09-08 Spelling fussion fusion 🟡 High Low
+2025-09-08 Spelling drining palnet draining our planet 🟡 High Low
+2025-09-08 Spelling argriculture agriculture 🟡 High Low
+2025-08-31 Spelling material arts martial arts 🟡 High Low
+2025-08-22 Spelling woking working 🟢 Medium Low
+2025-08-19 Spelling govenment government 🟡 High Medium
+2025-08-19 Spelling efficent efficient 🟡 High Medium
+2025-08-18 Spelling fist first 🟡 High Low
+2025-08-18 Spelling soar (for pain) sore 🟡 High Low
+2025-08-15 Spelling atractive attractive 🟢 Medium Low
+2025-09-21 Word Form prisoning imprisonment 🟢 Medium Low
+2025-09-21 Word Form gun fires firearms 🟢 Medium Low
+2025-09-17 Word Form dis advantages disadvantages 🟢 Medium Low
+2025-09-17 Word Form lossing losing 🟢 Medium Medium
+2025-09-07 Word Form especial especially 🟢 Medium Low
+2025-09-07 Word Form fiats fiat 🟢 Medium Low
+2025-08-27 Word Form fleshing fresh 🟢 Medium Low
+2025-08-25 Word Form new built newly built 🟢 Medium Medium
+2025-08-24 Word Form soxes socks 🟢 Medium Low
+2025-08-24 Word Form spins / weaved yarn / woven 🟢 Medium Low
+2025-08-22 Word Form graduated form graduated from 🟢 Medium Low
+2025-08-21 Word Form can recovered can recover 🟡 High High
+2025-08-17 Word Form loss motivations lose motivation 🟢 Medium Medium
+2025-08-16 Word Form loosing losing 🟢 Medium Low
+2025-08-15 Word Form gaming addition gaming addiction 🔴 Critical Low
+2025-08-15 Word Form strategies thinking strategic thinking 🟢 Medium Low
+2023-10-15 Word Form Gooding Good 🟢 Medium Low
+2025-10-01 Spelling extremelly extremely 🟡 High Medium
+2025-09-25 Spelling accomodations accommodations 🟢 Medium Low
+2025-09-25 Spelling disastrs disasters 🟢 Medium Low
+2025-09-25 Spelling dessert desert 🟡 High Low
+2025-09-25 Spelling plumps pumps 🟢 Medium Low
+2025-09-25 Spelling specificly specifically 🟢 Medium Low
+2025-09-23 Spelling lasly lastly 🟢 Medium Low
+2025-09-21 Spelling inrational irrational 🟡 High Low
+2025-09-17 Spelling inconvinent inconvenient 🟢 Medium Low
+2025-09-13 Spelling tripple triple 🟢 Medium Low
+2025-09-13 Spelling through out throughout 🟢 Medium Low
+2025-09-11 Spelling populaution population 🟡 High Medium
+2025-09-11 Spelling largestest largest 🟡 High Medium
+2025-09-08 Spelling benificial beneficial 🟡 High Low
+2025-09-08 Spelling necesissty necessity 🟡 High Low
+2025-09-08 Spelling tenologies technologies 🟡 High Low
+2025-09-08 Spelling fussion fusion 🟡 High Low
+2025-09-08 Spelling argriculture agriculture 🟡 High Low
+2025-09-06 Spelling oftenly often 🟢 Medium High
+2025-08-31 Spelling material arts martial arts 🟡 High Low
+2025-08-22 Spelling woking working 🟢 Medium Low
+2025-08-19 Spelling govenment government 🟡 High Medium
+2025-08-19 Spelling efficent efficient 🟡 High Medium
+2025-08-18 Spelling fist first 🟡 High Low
+2025-08-18 Spelling soar (for pain) sore 🟡 High Low
+2025-08-17 Spelling pounds (for ponds) ponds 🟢 Medium Low
+2025-08-15 Spelling atractive attractive 🟢 Medium Low
+2025-09-21 Word Form prisoning imprisonment 🟢 Medium Low
+2025-09-21 Word Form gun fires firearms 🟢 Medium Low
+2025-09-17 Word Form dis advantages disadvantages 🟢 Medium Low
+2025-09-17 Word Form lossing losing 🟢 Medium Medium
+2025-09-07 Word Form especial especially 🟢 Medium Low
+2025-09-07 Word Form fiats fiat 🟢 Medium Low
+2025-08-27 Word Form fleshing fresh 🟢 Medium Low
+2025-08-26 Word Form complete removed completely removed 🟢 Medium Low
+2025-08-25 Word Form new built newly built 🟢 Medium Medium
+2025-08-24 Word Form soxes socks 🟢 Medium Low
+2025-08-24 Word Form spins / weaved yarn / woven 🟢 Medium Low
+2025-08-22 Word Form graduated form graduated from 🟢 Medium Low
+2025-08-21 Word Form can recovered can recover 🟡 High High
+2025-08-17 Word Form loss motivations lose motivation 🟢 Medium Medium
+2025-08-16 Word Form loosing losing 🟢 Medium Low
+2025-08-16 Word Form edge-cutting cutting-edge 🟢 Medium Low
+2025-08-15 Word Form gaming addition gaming addiction 🔴 Critical Low
+2025-08-15 Word Form strategies thinking strategic thinking 🟢 Medium Low
+2023-10-15 Word Form Gooding Good 🟢 Medium Low
+2023-10-15 Word Form Following by Followed by 🟡 High Low
+2023-10-01 Word Form thought (for teach) taught 🟡 High Low
+2023-10-01 Word Form nosies noises 🟢 Medium Low
+2023-10-01 Word Form to dead to death 🟡 High Low
+
+---
 
 ## 📈 評分標準
 

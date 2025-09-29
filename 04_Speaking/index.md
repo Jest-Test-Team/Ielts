@@ -1,6 +1,9 @@
 ---
 layout: default
 title: 口說學習中心
+description: IELTS 口說考試的策略指南、常用表達和練習記錄，幫助提升英語口說能力和考試表現
+nav_order: 4
+has_children: true
 ---
 
 # 口說學習中心 🗣️
