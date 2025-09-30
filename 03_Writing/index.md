@@ -35,6 +35,45 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 | **討論型** <br> (Discuss Both Views) | 轉述一個存在爭議的社會議題。 | 清晰地轉述對立的雙方觀點。 這是此題型的任務重點。 | **公式：** 表明您自己的立場，通常是傾向其中一方，或是提出一個更中立的綜合觀點。<br>*(e.g., "While I acknowledge the logic behind the former view, I personally lean towards the latter.")* |
 | **原因與解決方案型** <br> (Problem/Solution) | 轉述一個負面的社會現象或問題。 | 點出需要分析原因並提出解方的任務。 | **公式：** 清晰的「大綱句」，預告文章結構。<br>*(e.g., "This essay will first analyze the root causes of this problem before proposing several viable solutions.")* |
 | **雙問題型** <br> (Two-Part Questions) | 轉述題目設定的背景。 | 點出有兩個獨立的問題需要回答。 | **公式：** 清晰的「大綱句」，預告將會依序回答兩個問題。<br>*(e.g., "This essay will address both of these questions in turn.")* |
+## TTP - 2
+### 關鍵的問題：「引言是否不一定要有三個句子？」
+
+### 答案：完全不必。
+
+### 目標是高效地完成 TTP 三個步驟，而不是刻意湊滿三句話。
+
+### 以下是常見且高效的結構：
+
+### 1. 「兩句式」引言 (最常見、最高效)
+### - 這是最推薦的結構。
+## *通常第一句完成 T+T (主題+任務)，第二句完成 P (立場)。*
+
+- 範例 (利弊分析型):
+
+- (Sentence 1 - T+T): The global trend of urban migration, driven by the pursuit of better employment, has raised questions about its overall impact on society. (Sentence 2 - P): In my view, the significant long-term disadvantages of this trend, such as strained public services, ultimately outweigh any short-term economic advantages.
+
+### 2. 「三句式」引言 (清晰、穩健)
+### 當題目背景比較複雜時，用三句話分開處理 T、T、P 也是一個非常好的選擇。
+
+- 範例 (討論型):
+
+- (Sentence 1 - T): The responsibility for maintaining public health is a contentious modern issue. (Sentence 2 - T): Some argue it is a matter of personal choice, while others contend that governments must play a leading role. (Sentence 3 - P): While individual accountability is important, I believe that governments hold the primary responsibility for creating a healthy society.
+
+## 結論：
+
+- 不要執著於三句話。 目標是寫出一個 40 到 60 個單詞、功能完整的引言。
+
+-「兩句式」引言通常更簡潔有力，是大部分高分作文的選擇。
+
+- 最重要的是，確保引言清晰地轉述了主題、點明了任務、並給出了明確的立場或大綱。完成了這三件事，無論是兩句還是三句，都是一個完美的引言。
+
+| 題型 (Question Type) | "T" (主題) 處理方式 - Parapharse | "T" (任務) 處理方式 | "P" (立場) 處理公式 |
+| :--- | :--- | :--- | :--- |
+| 意見型 (Agree/Disagree)	| 表明立場	|Some people believe that with the rise of technology, teachers will no longer be needed... To what extent do you agree or disagree?	 | The integration of technology into the classroom has fundamentally altered the landscape of modern education. (科技與教室的整合已根本性地改變了現代教育的面貌。)	|This has sparked a significant debate about whether the role of the human teacher is becoming obsolete. (這引發了一場關於人類教師的角色是否正被淘汰的激烈辯論。)| 
+| 利弊分析型 (Advantages/Disadvantages)	| 做出權衡	|...people moving from rural areas to large cities... Do the advantages of this trend outweigh the disadvantages?|	Urban migration, the large-scale movement of populations from the countryside to cities, has become a defining feature of the 21st century. (城市遷移，即人口從鄉村到城市的大規模流動，已成為21世紀的一個決定性特徵。)	|Consequently, it is crucial to assess whether the opportunities presented by this phenomenon are worth the significant social and environmental costs. (因此，評估此現象帶來的機遇是否值得付出巨大的社會與環境代價，是至關重要的。)| 
+| 討論型 (Discuss Both Views)	| 呈現辯論 + 表態	|...individuals are responsible for their own health... Others argue that it is the government's duty... Discuss both these views...	|Achieving and maintaining public health is a primary goal for societies worldwide. (達成並維持公眾健康是全球社會的首要目標。)|	However, a contentious debate exists regarding whether the primary responsibility for this lies with individual citizens or with the state. (然而，關於此事的主要責任在於公民個人還是國家，存在著一個充滿爭議的辯論。)
+| 原因與解決方案型 (Problem/Solution)	| 設定藍圖	|...people today live in a "throw-away" society... What are the causes of this phenomenon, and what solutions can be taken...?|	The modern 'throw-away' culture, characterized by rampant consumerism and excessive waste, is posing a severe threat to global environmental stability. (以猖獗的消費主義和過度浪費為特徵的現代「拋棄型」文化，正對全球環境穩定構成嚴重威脅。)|	Therefore, it is essential to understand the root causes of this issue in order to propose effective countermeasures. (因此，為了提出有效的對策，理解此問題的根本原因至關重要。)| 
+| 雙問題型 (Two-Part Questions)	| 設定藍圖	|...many people enjoy watching foreign films... Why is this the case? Should governments provide financial support to the local film industry?|	The global film landscape has been transformed by the increasing popularity and accessibility of foreign movies. (全球電影版圖已被日益普及和易於接觸的外國電影所改變。)	|This phenomenon raises two important questions: what are the reasons behind this trend, and what is the role of government in supporting its domestic film industry? (此現象引出了兩個重要問題：此趨勢背後的原因是什麼，以及政府在支持其國內電影產業上應扮演何種角色？)| 
 
 ### Para body 1 section  - cd1e(Concept,D(Deeper Concept),1E)
 
