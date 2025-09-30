@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IELTS Writing Error Tester v3</title>
+    <style>
+      :root {
+        --main-blue: #3498db;
+        --light-blue: #ecf0f1;
+        --dark-text: #2c3e50;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        background-color: #f4f7f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        color: var(--dark-text);
+        text-align: center;
+      }
+      .container {
+        width: 100%;
+        max-width: 800px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        padding: 25px;
+        box-sizing: border-box;
+      }
+      h2 {
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 10px;
+        color: #34495e;
+        margin-top: 0;
+      }
+      .prompt {
+        font-size: 1.2em;
+        font-weight: 500;
+        color: #555;
+        margin: 20px 0;
+        padding: 15px;
+        background-color: var(--light-blue);
+        border-left: 5px solid var(--main-blue);
+        border-radius: 4px;
+      }
+      .input-area {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+      }
+      input[type="text"] {
+        flex-grow: 1;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1em;
+      }
+      button {
+        padding: 12px 20px;
+        font-size: 1em;
+        background-color: var(--main-blue);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      button:hover {
+        background-color: #2980b9;
+      }
+      .feedback {
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: bold;
+        display: none;
+      }
+      .feedback.correct {
+        background-color: #e8f5e9;
+        color: #2e7d32;
+      }
+      .feedback.incorrect {
+        background-color: #ffebee;
+        color: #c62828;
+      }
+      .stats {
+        margin-top: 15px;
+        font-size: 0.95em;
+        color: #7f8c8d;
+        text-align: right;
+      }
+      .options-container {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .option-btn {
+        background-color: var(--light-blue);
+        color: #34495e;
+        border: 1px solid #bdc3c7;
+        padding: 8px 15px;
+      }
+      .option-btn:hover {
+        background-color: #e0e6e8;
+      }
+
+      /* Modal Styles */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 8px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        max-height: 80vh;
+        overflow-y: auto;
+      }
+      .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+      }
+      .modal-header h3 {
+        margin: 0;
+        color: var(--dark-text);
+      }
+      .close-button {
+        color: #aaa;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .close-button:hover,
+      .close-button:focus {
+        color: black;
+      }
+      .report-body {
+        margin-top: 15px;
+      }
+      .report-errors {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 10px;
+      }
+      .report-errors li {
+        background: #f9f9f9;
+        border: 1px solid #eee;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 8px;
+      }
+      .report-errors strong {
+        color: #c0392b;
+      }
+      .report-errors code {
+        background-color: #e8f5e9;
+        color: #2e7d32;
+        padding: 2px 4px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>IELTS Writing Error Practice</h1>
+
+    <div class="container">
+      <h2>1. Spelling Test ✍️</h2>
+      <p>
+        A hint for a commonly misspelled word will appear. Type the correct
+        English spelling.
+      </p>
+      <div id="spelling-prompt" class="prompt">Loading...</div>
+      <div class="input-area">
+        <input
+          type="text"
+          id="spelling-input"
+          placeholder="Type the correct word here..."
+        />
+        <button id="spelling-button">Check</button>
+      </div>
+      <div id="spelling-feedback" class="feedback"></div>
+      <div id="spelling-stats" class="stats"></div>
+      <p>
+        Constructed: This word means to build or make something, typically a
+        physical object or an abstract idea. It's about creation. Synonyms:
+        built, created, erected, made.
+      </p>
+      <br />
+      <p>
+        Accounted for: This is a phrasal verb that means to form a part of a
+        total or to explain the reason for something. It's about explanation,
+        data, or proportions. Synonyms: comprised, made up, represented,
+        explained.
+      </p>
+    </div>
+
+    <div class="container">
+      <h2>2. Grammar Errors Test 🧐</h2>
+      <p>
+        A phrase with a grammatical error will be shown. Fill in the blank with
+        the corrected word(s).
+      </p>
+      <div id="grammar-prompt" class="prompt">Loading...</div>
+      <div class="input-area">
+        <input
+          type="text"
+          id="grammar-input"
+          placeholder="Type only the missing part..."
+        />
+        <button id="grammar-button">Check</button>
+      </div>
+      <div id="grammar-feedback" class="feedback"></div>
+      <div id="grammar-stats" class="stats"></div>
+    </div>
+
+    <div class="container">
+      <h2>3. Overall Errors & Rules Test 🧠</h2>
+      <p>
+        A question about a key writing rule will be shown. Select an option and
+        check your answer.
+      </p>
+      <div id="overall-prompt" class="prompt">Loading...</div>
+      <div id="overall-options" class="options-container"></div>
+      <div class="input-area" style="margin-top: 15px">
+        <input
+          type="text"
+          id="overall-input"
+          placeholder="Click an option above to fill..."
+        />
+        <button id="overall-button">Check</button>
+      </div>
+      <div id="overall-feedback" class="feedback"></div>
+      <div id="overall-stats" class="stats"></div>
+    </div>
+
+    <div id="report-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="report-title">Session Report</h3>
+          <span id="modal-close-button" class="close-button">&times;</span>
+        </div>
+        <div id="report-body" class="report-body"></div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // --- DATA (v3) ---
+        const spellingData = [
+          { prompt: "同事", answer: "colleagues", hint: "複數" },
+          { prompt: "所有格 (its/it's)", answer: "its", hint: "單數" },
+          { prompt: "企業", answer: "corporations", hint: "複數" },
+          { prompt: "Correct: atractive", answer: "attractive" },
+          { prompt: "Correct: fist(rank top)", answer: "first" },
+          { prompt: "痠痛", answer: "sore", hint: "單數" },
+          { prompt: "翱翔", answer: "soar", hint: "單數" },
+          { prompt: "政府", answer: "government", hint: "單數" },
+          { prompt: "效率高的", answer: "efficient", hint: "單數" },
+          { prompt: "Correct: woking", answer: "working" },
+          { prompt: "Correct: extremelly", answer: "extremely" },
+          { prompt: "Correct: populaution", answer: "population" },
+          { prompt: "Correct: largestest", answer: "largest" },
+          { prompt: "沙漠", answer: "desert", hint: "單數" },
+          { prompt: "甜點 ", answer: "desert", hint: "單數" },
+          { prompt: "Correct: material arts", answer: "martial arts" },
+          { prompt: "Correct: inrational", answer: "irrational" },
+          { prompt: "有益的", answer: "beneficial", hint: "單數" },
+          { prompt: "Correct: necesissty", answer: "necessity" },
+          {
+            prompt: "Correct: tenologies",
+            answer: "technologies",
+            hint: "複數",
+          },
+          { prompt: "Correct: fussion", answer: "fusion" },
+          {
+            prompt: "Correct: drining our palnet",
+            answer: "draining our planet",
+          },
+          { prompt: "農業", answer: "agriculture", hint: "單數" },
+          { prompt: "Correct: oftenly", answer: "often" },
+          { prompt: "Correct: pounds (for ponds)", answer: "ponds" },
+          { prompt: "災害", answer: "disasters", hint: "複數" },
+          { prompt: "住宿", answer: "accommodations", hint: "複數" },
+          { prompt: "Correct: inconvinent", answer: "inconvenient" },
+          { prompt: "Correct: lasly", answer: "lastly" },
+          { prompt: "Correct: tripple", answer: "triple" },
+          { prompt: "Correct: through out", answer: "throughout" },
+          { prompt: "Correct: plumps", answer: "pumps" },
+          { prompt: "Correct: specificly", answer: "specifically" },
+          { prompt: "成癮", answer: "addiction", hint: "單數" },
+          { prompt: "Correct: loosing", answer: "losing" },
+          { prompt: "Correct: can recovered", answer: "can recover" },
+          { prompt: "Correct: loss motivations", answer: "lose motivation" },
+          { prompt: "Correct: fleshing", answer: "fresh" },
+          { prompt: "監禁", answer: "imprisonment", hint: "單數" },
+          { prompt: "槍支", answer: "firearms", hint: "複數" },
+          { prompt: "Correct: new built", answer: "newly built" },
+          { prompt: "Correct: soxes", answer: "socks" },
+          { prompt: "Correct: 編織的", answer: "woven" },
+          { prompt: "Correct: 紡紗", answer: "yarn" },
+          { prompt: "Correct: graduated form", answer: "graduated from" },
+          {
+            prompt: "Correct: strategies thinking",
+            answer: "strategic thinking",
+          },
+          { prompt: "Correct: Gooding", answer: "Good" },
+          { prompt: "Correct: dis advantages", answer: "disadvantages" },
+          { prompt: "Correct: lossing", answer: "losing" },
+          { prompt: "Correct: especial", answer: "especially" },
+          { prompt: "Correct: fiats", answer: "fiat" },
+          { prompt: "Correct: complete removed", answer: "completely removed" },
+          { prompt: "Correct: edge-cutting", answer: "cutting-edge" },
+          { prompt: "Correct: Following by", answer: "Followed by" },
+          { prompt: "Correct: thought (for teach)", answer: "taught" },
+          { prompt: "Correct: nosies", answer: "noises" },
+          { prompt: "Correct: to dead", answer: "to death" },
+          { prompt: "Correct: belive", answer: "believe" },
+          { prompt: "Correct: secrect", answer: "secret" },
+          { prompt: "Correct: vulnerbilities", answer: "vulnerabilities" },
+          { prompt: "Correct: bnenefit", answer: "benefit" },
+          { prompt: "Correct: envolvementof", answer: "involvement of" },
+          { prompt: "Correct: constrainted", answer: "constrained" },
+          { prompt: "Correct: manage-level", answer: "management-level" },
+          { prompt: "Correct: rely on", answer: "reliance on" },
+          {
+            prompt: "Correct: industrial big whales",
+            answer: "industry giants",
+          },
+          { prompt: "Correct: full with jagors", answer: "full of jargon" },
+        ];
+
+        const grammarData = [
+          { prompt: "the reason... [? 是] due to... (verb)", answer: "was" },
+          {
+            prompt: "new apartments [?] been constructed... (verb)",
+            answer: "have",
+          },
+          { prompt: "the area... [?] constructed... (verb)", answer: "was" },
+          {
+            prompt:
+              "users... [?] for the majority. (active verb)（組成）, account for 40%",
+            answer: "accounted",
+          },
+          {
+            prompt:
+              "The goods will be [?] to the warehouse. (運送到 passive form)",
+            answer: "shifted",
+          },
+          { prompt: "cannot be [?]. (被移除 passive form)", answer: "removed" },
+          {
+            prompt: "The total had [?]. (超出 verb tense)",
+            answer: "exceeded",
+          },
+          {
+            prompt: "The number kept [?上升] (in past context). (verb form)",
+            answer: "rising",
+          },
+          { prompt: "instead of [? 前往]. (verb form)", answer: "going" },
+          {
+            prompt: "spend [?量詞] great amount of time... (article)",
+            answer: "a",
+          },
+          {
+            prompt: "In 1986, there [?] some houses... (past tense)",
+            answer: "were",
+          },
+        ];
+
+        const overallData = [
+          {
+            prompt:
+              "Rule: Attach clauses starting with 'Which' or '-ing' to the main sentence. What is this rule informally called?",
+            answer: "The Train Hook",
+            options: [
+              "The Train Hook",
+              "The Chart ID Card",
+              "Monster Sentences",
+            ],
+          },
+          {
+            prompt:
+              "Rule: Break complex ideas into sentences shorter than about 25 words. What is this rule informally called?",
+            answer: "The 25-Word Max Iron Law",
+            options: [
+              "The 25-Word Max Iron Law",
+              "Trust, but Verify",
+              "Sentence Fragment",
+            ],
+          },
+          {
+            prompt:
+              "Before writing a Task 1 essay, you MUST confirm the Topic, Unit, and Time/Categories. What is this rule called?",
+            answer: "The Chart ID Card",
+            options: ["The Chart ID Card", "The Train Hook", "Cohesion Rule"],
+          },
+          {
+            prompt:
+              "This rule reminds you to double-check any number you calculate or fact you state.",
+            answer: "Trust, but Verify",
+            options: [
+              "Trust, but Verify",
+              "Data Misinterpretation",
+              "The 25-Word Max Iron Law",
+            ],
+          },
+          {
+            prompt:
+              "What error category describes writing a single sentence that is over 40-50 words long with too many ideas?",
+            answer: "Monster Sentences",
+            options: [
+              "Monster Sentences",
+              "Sentence Fragment",
+              "Incorrect Tense",
+            ],
+          },
+          {
+            prompt:
+              "What type of error is 'Which may result in...' when it's a standalone sentence?",
+            answer: "Sentence Fragment",
+            options: [
+              "Sentence Fragment",
+              "Incorrect Passive Voice",
+              "Monster Sentences",
+            ],
+          },
+        ];
+
+        class TestController {
+          constructor(type, data) {
+            this.type = type;
+            this.data = data;
+            this.currentQuestion = {};
+            this.sessionAttempts = 0;
+            this.sessionCorrect = 0;
+            this.sessionErrors = [];
+            this.promptEl = document.getElementById(`${type}-prompt`);
+            this.inputEl = document.getElementById(`${type}-input`);
+            this.buttonEl = document.getElementById(`${type}-button`);
+            this.feedbackEl = document.getElementById(`${type}-feedback`);
+            this.statsEl = document.getElementById(`${type}-stats`);
+            this.optionsEl = document.getElementById(`${type}-options`);
+            this.stats = JSON.parse(localStorage.getItem(`${type}Stats`)) || {
+              attempts: 0,
+              correct: 0,
+            };
+            this.init();
+          }
+
+          init() {
+            this.buttonEl.addEventListener("click", () => this.checkAnswer());
+            this.inputEl.addEventListener("keypress", (e) => {
+              if (e.key === "Enter") this.checkAnswer();
+            });
+            this.loadNewQuestion();
+            this.updateStatsDisplay();
+          }
+
+          loadNewQuestion() {
+            const randomIndex = Math.floor(Math.random() * this.data.length);
+            this.currentQuestion = this.data[randomIndex];
+            let promptText = this.currentQuestion.prompt;
+            if (this.type === "spelling" && this.currentQuestion.hint)
+              promptText += ` (${this.currentQuestion.hint})`;
+            this.promptEl.textContent = promptText;
+            this.inputEl.value = "";
+            this.inputEl.focus();
+            this.feedbackEl.style.display = "none";
+            if (this.type === "overall" && this.optionsEl) {
+              this.optionsEl.innerHTML = "";
+              const shuffledOptions = [...this.currentQuestion.options].sort(
+                () => Math.random() - 0.5
+              );
+              shuffledOptions.forEach((opt) => {
+                const btn = document.createElement("button");
+                btn.textContent = opt;
+                btn.className = "option-btn";
+                btn.onclick = () => {
+                  this.inputEl.value = opt;
+                };
+                this.optionsEl.appendChild(btn);
+              });
+            }
+          }
+
+          checkAnswer() {
+            const userAnswer = this.inputEl.value.trim();
+            if (userAnswer === "") return;
+            this.stats.attempts++;
+            this.sessionAttempts++;
+            this.feedbackEl.style.display = "block";
+            if (
+              userAnswer.toLowerCase() ===
+              this.currentQuestion.answer.toLowerCase()
+            ) {
+              this.stats.correct++;
+              this.sessionCorrect++;
+              this.feedbackEl.innerHTML = "✅ Correct!";
+              this.feedbackEl.className = "feedback correct";
+              setTimeout(() => this.loadNewQuestion(), 1200);
+            } else {
+              this.feedbackEl.innerHTML = `❌ Incorrect. The correct answer is: <strong>${this.currentQuestion.answer}</strong>`;
+              this.feedbackEl.className = "feedback incorrect";
+              this.sessionErrors.push({
+                prompt: this.promptEl.textContent,
+                userAnswer: userAnswer,
+                correctAnswer: this.currentQuestion.answer,
+              });
+            }
+            this.updateStatsDisplay();
+            this.saveStats();
+            if (this.sessionAttempts >= 40 && this.sessionAttempts % 40 === 0)
+              this.showReport();
+          }
+
+          showReport() {
+            const modal = document.getElementById("report-modal");
+            const title = document.getElementById("report-title");
+            const body = document.getElementById("report-body");
+            const rate = (
+              (this.sessionCorrect / this.sessionAttempts) *
+              100
+            ).toFixed(0);
+            title.textContent = `${
+              this.type.charAt(0).toUpperCase() + this.type.slice(1)
+            } Test Report`;
+            let errorHTML = this.sessionErrors
+              .map(
+                (e) =>
+                  `<li>Question: "${e.prompt}"<br>Your answer: <strong>${e.userAnswer}</strong><br>Correct answer: <code>${e.correctAnswer}</code></li>`
+              )
+              .join("");
+            body.innerHTML = `<p><b>Session Score: ${this.sessionCorrect} / ${this.sessionAttempts} (${rate}%)</b></p>`;
+            if (errorHTML)
+              body.innerHTML += `<h4>Mistakes in this session:</h4><ul class="report-errors">${errorHTML}</ul>`;
+            else
+              body.innerHTML += `<p>🎉 Great job! No mistakes in this session.</p>`;
+            modal.style.display = "flex";
+            this.sessionAttempts = 0;
+            this.sessionCorrect = 0;
+            this.sessionErrors = [];
+          }
+
+          updateStatsDisplay() {
+            const rate =
+              this.stats.attempts > 0
+                ? ((this.stats.correct / this.stats.attempts) * 100).toFixed(0)
+                : 0;
+            this.statsEl.textContent = `Total Attempts: ${this.stats.attempts} | Correct: ${this.stats.correct} | Rate: ${rate}%`;
+          }
+
+          saveStats() {
+            localStorage.setItem(
+              `${this.type}Stats`,
+              JSON.stringify(this.stats)
+            );
+          }
+        }
+
+        new TestController("spelling", spellingData);
+        new TestController("grammar", grammarData);
+        new TestController("overall", overallData);
+
+        // Modal close logic
+        const modal = document.getElementById("report-modal");
+        const closeBtn = document.getElementById("modal-close-button");
+        closeBtn.onclick = () => {
+          modal.style.display = "none";
+        };
+        window.onclick = (event) => {
+          if (event.target == modal) modal.style.display = "none";
+        };
+      });
+    </script>
+  </body>
+</html>
