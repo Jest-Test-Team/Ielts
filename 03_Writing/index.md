@@ -42,7 +42,7 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 | :--- | :--- | :--- | :--- |
 | **意見型** <br> (Agree/Disagree) | 以同意為例:說明同意的主要理由| 以同意為例:說明同意的次要理由 | **1E：** 支持以上兩個概念的範例。<br>*(e.g., "For instance, medical institutions in Japan had proved that 'main concept',......and medical institutions in German also had evidence regarding 'Second concept' " * |
 | **利弊分析型** <br> (Advantages/Disadvantages) | 有利的主要概念說明 | 有利的次要拓展概念說明。 | **1e：** 支持以上兩個概念的範例。<br>*(e.g., "It can increase enhance effiency largely for facilities via implementing....And, noteworthy, proper execution of ... can benefit mental health of employees in facilities.")* |
-| **討論型** <br> (Discuss Both Views) | Side 1 有利的主要概念說明 | Side 1 不利的主要概念說明 |  **1e：** 支持以上兩個概念的範例。<br>*(e.g.,"For instance, ... can indeed raise people's awareness on caring issues.However, ... can also consume much resources of people, like time.")* |
+| **討論型** <br> (Discuss Both Views) |C (Concept): 深入闡述 Side 1 的主要論點。 | D (Deeper Concept): 進一步延伸或解釋 Side 1 的第二個論點。 |  **1e：** 支持以上兩個概念的範例。<br>*(e.g.,"For instance, ... can indeed raise people's awareness on caring issues.However, ... can also consume much resources of people, like time.")* |
 | **原因與解決方案型** <br> (Problem/Solution) | 說明產生問題的主要理由| 拓寬產生問題的次要理由。 | **1e：** 支持以上兩個概念的範例。|
 | **雙問題型** <br> (Two-Part Questions) | 問題一主要概念 | 問題一拓展概念 |**1e：** 支持以上兩個概念的範例。|
 
@@ -52,8 +52,8 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 | :--- | :--- | :--- | :--- |
 | **意見型** <br> (Agree/Disagree) | 以同意為例:說明不同意反面的主要理由| 以同意為例:說明不同意反面的次要理由 | **1E：** 支持以上兩個理由的範例。<br>*(e.g., "For instance, medical institutions in Thailand had proved that 'antimain concept' was wrong,......and medical institutions in German also had evidence pointing out 'Second concept' need more reviews. " * |
 | **利弊分析型** <br> (Advantages/Disadvantages) | 不利的主要概念說明 | 不利的次要拓展概念說明。 | **1e：** 支持以上兩個概念的範例。<br>*(e.g., "It can increase expenditure e for facilities implementing....And transferm these costs by increasing prices of produts selling to customers or reducing payments for their own employees.")* |
-| **討論型** <br> (Discuss Both Views) | Side 2 有利的主要概念說明(可呼應Para body 1 section Side 1 不利的主要概念) | Side 2 不利的主要概念說明(可呼應Para body 1 section Side 1 有利主要概念) | * **1e：** 支持以上兩個概念的範例。<br>*(e.g.,"For example, ... requires less resources as well as expenditures, so it will be more affordable for individuals to execute.But,unfortunately, it's effective ranges are very limited due to ... ")* |
-| **原因與解決方案型** <br> (Problem/Solution) | 說明解決方法的好處一| 拓展解決方法的好處二 | **1e：** 支持以上兩個概念的範例。|
+| **討論型** <br> (Discuss Both Views) |C (Concept): 深入闡述 Side 2 的主要論點。 | D (Deeper Concept): 進一步延伸或解釋 Side 2 的第二個論點。 | * **1e：** 支持以上兩個概念的範例。<br>*(e.g.,"For example, ... requires less resources as well as expenditures, so it will be more affordable for individuals to execute.But,unfortunately, it's effective ranges are very limited due to ... ")* |
+| **原因與解決方案型** <br> (Problem/Solution) | C (Concept): 提出第一個解決方案，並解釋它如何運作、為何有效（此處可以包含它的好處）。| D (Deeper Concept): 提出第二個解決方案，並解釋其運作方式和有效性。 | **1e：** 舉一個例子說明這些方案在現實中如何被應用或可能帶來什麼結果。|
 | **雙問題型** <br> (Two-Part Questions) | 問題二主要概念 | 問題二拓展概念 |**1e：** 支持以上兩個概念的範例。|
 
 ### 錯誤分析
