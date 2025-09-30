@@ -42,9 +42,9 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 | :--- | :--- | :--- | :--- |
 | **意見型** <br> (Agree/Disagree) | 以同意為例:說明同意的主要理由| 以同意為例:說明同意的次要理由 | **1E：** 支持以上兩個概念的範例。<br>*(e.g., "For instance, medical institutions in Japan had proved that 'main concept',......and medical institutions in German also had evidence regarding 'Second concept' " * |
 | **利弊分析型** <br> (Advantages/Disadvantages) | 有利的主要概念說明 | 有利的次要拓展概念說明。 | **1e：** 支持以上兩個概念的範例。<br>*(e.g., "It can increase enhance effiency largely for facilities via implementing....And, noteworthy, proper execution of ... can benefit mental health of employees in facilities.")* |
-| **討論型** <br> (Discuss Both Views) | Side 1 有利的主要概念說明 | Side 1 不利的主要概念說明 | * **1e：** 支持以上兩個概念的範例。<br>*(e.g.,"For instance, ... can indeed raise people's awareness on caring issues.However, ... can also consume much resources of people, like time.")* |
-| **原因與解決方案型** <br> (Problem/Solution) | 轉述一個負面的社會現象或問題。 | 點出需要分析原因並提出解方的任務。 | **公式：** 清晰的「大綱句」，預告文章結構。<br>*(e.g., "This essay will first analyze the root causes of this problem before proposing several viable solutions.")* |
-| **雙問題型** <br> (Two-Part Questions) | 轉述題目設定的背景。 | 點出有兩個獨立的問題需要回答。 | **公式：** 清晰的「大綱句」，預告將會依序回答兩個問題。<br>*(e.g., "This essay will address both of these questions in turn.")* |
+| **討論型** <br> (Discuss Both Views) | Side 1 有利的主要概念說明 | Side 1 不利的主要概念說明 |  **1e：** 支持以上兩個概念的範例。<br>*(e.g.,"For instance, ... can indeed raise people's awareness on caring issues.However, ... can also consume much resources of people, like time.")* |
+| **原因與解決方案型** <br> (Problem/Solution) | 說明產生問題的主要理由| 拓寬產生問題的次要理由。 | **1e：** 支持以上兩個概念的範例。|
+| **雙問題型** <br> (Two-Part Questions) | 問題一主要概念 | 問題一拓展概念 |**1e：** 支持以上兩個概念的範例。|
 
 ### Para body 2 section - cd1e(Concept,D(Deeper Concept),1E)
 
@@ -53,8 +53,8 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 | **意見型** <br> (Agree/Disagree) | 以同意為例:說明不同意反面的主要理由| 以同意為例:說明不同意反面的次要理由 | **1E：** 支持以上兩個理由的範例。<br>*(e.g., "For instance, medical institutions in Thailand had proved that 'antimain concept' was wrong,......and medical institutions in German also had evidence pointing out 'Second concept' need more reviews. " * |
 | **利弊分析型** <br> (Advantages/Disadvantages) | 不利的主要概念說明 | 不利的次要拓展概念說明。 | **1e：** 支持以上兩個概念的範例。<br>*(e.g., "It can increase expenditure e for facilities implementing....And transferm these costs by increasing prices of produts selling to customers or reducing payments for their own employees.")* |
 | **討論型** <br> (Discuss Both Views) | Side 2 有利的主要概念說明(可呼應Para body 1 section Side 1 不利的主要概念) | Side 2 不利的主要概念說明(可呼應Para body 1 section Side 1 有利主要概念) | * **1e：** 支持以上兩個概念的範例。<br>*(e.g.,"For example, ... requires less resources as well as expenditures, so it will be more affordable for individuals to execute.But,unfortunately, it's effective ranges are very limited due to ... ")* |
-| **原因與解決方案型** <br> (Problem/Solution) | 轉述一個負面的社會現象或問題。 | 點出需要分析原因並提出解方的任務。 | **公式：** 清晰的「大綱句」，預告文章結構。<br>*(e.g., "This essay will first analyze the root causes of this problem before proposing several viable solutions.")* |
-| **雙問題型** <br> (Two-Part Questions) | 轉述題目設定的背景。 | 點出有兩個獨立的問題需要回答。 | **公式：** 清晰的「大綱句」，預告將會依序回答兩個問題。<br>*(e.g., "This essay will address both of these questions in turn.")* |
+| **原因與解決方案型** <br> (Problem/Solution) | 說明解決方法的好處一| 拓展解決方法的好處二 | **1e：** 支持以上兩個概念的範例。|
+| **雙問題型** <br> (Two-Part Questions) | 問題二主要概念 | 問題二拓展概念 |**1e：** 支持以上兩個概念的範例。|
 
 ### 錯誤分析
 
