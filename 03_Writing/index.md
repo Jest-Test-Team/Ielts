@@ -56,6 +56,15 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 | **原因與解決方案型** <br> (Problem/Solution) | C (Concept): 提出第一個解決方案，並解釋它如何運作、為何有效（此處可以包含它的好處）。| D (Deeper Concept): 提出第二個解決方案，並解釋其運作方式和有效性。 | **1e：** 舉一個例子說明這些方案在現實中如何被應用或可能帶來什麼結果。|
 | **雙問題型** <br> (Two-Part Questions) | 問題二主要概念 | 問題二拓展概念 |**1e：** 支持以上兩個概念的範例。|
 
+### Conclusion  section  - cd1e(Concept,D(Deeper Concept),1E)
+| 題型 (Question Type) | 結論陳述 (Concluding Statement) - 總結立場與要點  | 延伸思考/建議 (Final Thought/Recommendation) | 
+| :--- | :--- | :--- | 
+| 意見型 (Agree/Disagree) | 	重申明確立場 (同意或反對)，並簡要概括 Body 1 和 Body 2 中提出的核心理由。 | 	根據立場，提出一個建議或對未來的預測。 (e.g., "Therefore, it is recommended that schools focus on integrating voluntary community service rather than making it compulsory.") | 
+| 利弊分析型 (Advantages/Disadvantages)	| 再次陳述最終判斷 (利大於弊或弊大於利)，並簡單總結最重要的優點和缺點。| 提出一個建設性的建議，說明如何能「最大化其優點，同時最小化其缺點」。 (e.g., "To fully harness the benefits of this trend, measures must be taken to mitigate its potential drawbacks.") | 
+|  討論型 (Discuss Both Views) | 	簡要總結雙方的主要觀點，然後清晰地重申最終看法 (傾向哪一方，或綜合觀點)。 | 	提出一個具有前瞻性的看法，或者一個可能調和雙方觀點的折衷方案。 (e.g., "Ultimately, a balanced approach that combines insights from both perspectives is likely to yield the best results.") | 
+|  原因與解決方案型 (Problem/Solution) | 	簡要概括問題的主要成因，並再次強調解決方案是有效且必要的。 | 	發出一個呼籲或建議，強調採取行動的迫切性。 (e.g., "It is imperative that governments and individuals work collaboratively to implement these solutions before the problem escalates further.") | 
+|  雙問題型 (Two-Part Questions)	分別簡潔地對第一個問題和第二個問題的回答。 | 	根據第*二*個問題的答案（通常更具前瞻性），提出一個最終的評論或看法。  (e.g., "Moving forward, the success of this initiative will depend heavily on public cooperation and governmental support.")| 
+
 ### 錯誤分析
 
 - [常見錯誤筆記](Task_1/3_error_notebook/common_errors.html) - Task 1 寫作中的常見錯誤和改進方法
