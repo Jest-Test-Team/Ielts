@@ -345,3 +345,13 @@ Mistakes in this session:
     Question: "Correct: pounds (for ponds)"
     Your answer: pond
     Correct answer: ponds
+
+Session Score: 18 / 20 (90%)
+Mistakes in this session:
+
+    Question: "the area... [?] constructed... (verb)"
+    Your answer: were
+    Correct answer: was
+    Question: "new apartments [?] been constructed... (verb)"
+    Your answer: were
+    Correct answer: have
