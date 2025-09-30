@@ -8,11 +8,11 @@ has_children: true
 
 # 寫作學習中心 ✍️
 
-歡迎來到寫作學習中心！本頁面提供 IELTS 寫作考試的全面指南、策略資源和練習記錄，幫助您提高寫作技巧並獲得理想分數。
+歡迎來到寫作學習中心！本頁面提供 IELTS 寫作考試的全面指南、策略資源和練習記錄，幫助.提高寫作技巧並獲得理想分數。
 
 ## 📊 Task 1 - 圖表寫作
 
-IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格或流程圖。以下是幫助您掌握 Task 1 的資源：
+IELTS Academic 寫作的第一個任務要求.描述圖表、圖形、表格或流程圖。以下是幫助.掌握 Task 1 的資源：
 
 ### 策略資源
 
@@ -27,14 +27,7 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 - [線圖練習 (2025-08-13)](Task_1/2_practice_log/2025-08-13_Line-Chart-Practice.html) - 線圖寫作練習
 - [地圖練習 (2025-08-16)](Task_1/2_practice_log/2025-08-16_Maps-Practice.html) - 地圖變化描述練習
 
-### Intro section - TTP (Topic,Task,Position)
-| 題型 (Question Type) | "T" (主題) 處理方式 - Parapharse | "T" (任務) 處理方式 | "P" (立場) 處理公式 |
-| :--- | :--- | :--- | :--- |
-| **意見型** <br> (Agree/Disagree) | 轉述背景，可適度提升層次。 | 點出需要您表態的爭議點。 | **公式：** 清晰、直接地表明您的觀點。<br>*(e.g., "I completely agree/disagree..." or "While I accept that..., I still believe...")* |
-| **利弊分析型** <br> (Advantages/Disadvantages) | 轉述趨勢或現象的背景。 | 點出需要您衡量利弊的核心議題。 | **公式：** 清晰、直接地判斷利弊哪個更大。<br>*(e.g., "In my view, the advantages of this trend significantly outweigh the disadvantages.")* |
-| **討論型** <br> (Discuss Both Views) | 轉述一個存在爭議的社會議題。 | 清晰地轉述對立的雙方觀點。 這是此題型的任務重點。 | **公式：** 表明您自己的立場，通常是傾向其中一方，或是提出一個更中立的綜合觀點。<br>*(e.g., "While I acknowledge the logic behind the former view, I personally lean towards the latter.")* |
-| **原因與解決方案型** <br> (Problem/Solution) | 轉述一個負面的社會現象或問題。 | 點出需要分析原因並提出解方的任務。 | **公式：** 清晰的「大綱句」，預告文章結構。<br>*(e.g., "This essay will first analyze the root causes of this problem before proposing several viable solutions.")* |
-| **雙問題型** <br> (Two-Part Questions) | 轉述題目設定的背景。 | 點出有兩個獨立的問題需要回答。 | **公式：** 清晰的「大綱句」，預告將會依序回答兩個問題。<br>*(e.g., "This essay will address both of these questions in turn.")* |
+|
 ## TTP - 2
 ### 關鍵的問題：「引言是否不一定要有三個句子？」
 
@@ -74,6 +67,43 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 | 討論型 (Discuss Both Views)	| 呈現辯論 + 表態	|...individuals are responsible for their own health... Others argue that it is the government's duty... Discuss both these views...	|Achieving and maintaining public health is a primary goal for societies worldwide. (達成並維持公眾健康是全球社會的首要目標。)|	However, a contentious debate exists regarding whether the primary responsibility for this lies with individual citizens or with the state. (然而，關於此事的主要責任在於公民個人還是國家，存在著一個充滿爭議的辯論。)
 | 原因與解決方案型 (Problem/Solution)	| 設定藍圖	|...people today live in a "throw-away" society... What are the causes of this phenomenon, and what solutions can be taken...?|	The modern 'throw-away' culture, characterized by rampant consumerism and excessive waste, is posing a severe threat to global environmental stability. (以猖獗的消費主義和過度浪費為特徵的現代「拋棄型」文化，正對全球環境穩定構成嚴重威脅。)|	Therefore, it is essential to understand the root causes of this issue in order to propose effective countermeasures. (因此，為了提出有效的對策，理解此問題的根本原因至關重要。)| 
 | 雙問題型 (Two-Part Questions)	| 設定藍圖	|...many people enjoy watching foreign films... Why is this the case? Should governments provide financial support to the local film industry?|	The global film landscape has been transformed by the increasing popularity and accessibility of foreign movies. (全球電影版圖已被日益普及和易於接觸的外國電影所改變。)	|This phenomenon raises two important questions: what are the reasons behind this trend, and what is the role of government in supporting its domestic film industry? (此現象引出了兩個重要問題：此趨勢背後的原因是什麼，以及政府在支持其國內電影產業上應扮演何種角色？)| 
+
+.的總結非常到位，完全抓住了不同題型在引言「P (立場)」部分的核心差異。.的理解是100% 正確的。
+
+我來為.逐點確認並做個總結，讓這個觀念更加鞏固。
+
+1. 關於「原因解決型」與「雙問題型」
+.的總結：ttp,的p的部分其實就是first...then...(解釋essay structure)的固定格式
+
+確認：完全正確。
+
+這兩類題型我們可以稱之為**「結構預告型」或「任務導向型」。題目的指令非常明確（e.g., "What are the causes and solutions?", "What are the factors and is it realistic?"），考官期待在引言的結尾看到一個清晰的「路線圖 (Roadmap)」或「大綱句 (Outline Sentence)」**，告訴他.將如何依序完成這些任務。
+
+P 的功能： 預告文章結構。
+
+常用句式：
+
+"This essay will first analyze... before proposing..."
+
+"This essay will address these two questions in turn, starting with..."
+
+2. 關於「討論型」
+的總結：必須要提到兩邊(關鍵字:Some,others)跟個人傾向
+
+確認：非常精準。
+
+「討論型」題目的指令有兩個："Discuss both these views" 和 "give your own opinion"。一個高分的引言必須同時回應這兩個指令。
+
+回應 "Discuss both views"： 在「T (任務)」部分，清晰地轉述對立的雙方觀點。使用 Some people argue... while others contend... 這樣的句式效果最好。
+
+回應 "give your own opinion"： 在「P (立場)」部分，明確表達.自己的看法。這不是預告結構，而是直接表態。
+
+3. 關於「其餘題型」(意見型 & 利弊分析型)
+的總結：其餘題型沒有結構上的問題(多為文法改善)，另外我想確認其餘題型也不用first...then...(解釋essay structure)的固定格式?
+
+確認：是的，.的理解完全正確。
+
+「意見型 (Agree/Disagree)」和「利弊分析型 (Advantages/Disadvantages)」我們稱之為**「立場導向型」**。
 
 ### Para body 1 section  - cd1e(Concept,D(Deeper Concept),1E)
 
@@ -319,7 +349,7 @@ ___
 
 ## 📝 Task 2 - 議論文寫作
 
-IELTS 寫作的第二個任務要求您就給定主題撰寫議論文。以下資源將幫助您提高 Task 2 的寫作能力：
+IELTS 寫作的第二個任務要求.就給定主題撰寫議論文。以下資源將幫助.提高 Task 2 的寫作能力：
 
 ### 策略資源
 
@@ -368,7 +398,7 @@ flowchart TD
 
 ### 📝 [寫作測試中心](writing_tests.html) 🎯
 
-透過互動式測試來強化您的寫作技能！我們提供三種專門的測試模式：
+透過互動式測試來強化.的寫作技能！我們提供三種專門的測試模式：
 
 #### 🔤 拼寫測試 (Spelling Test)
 
