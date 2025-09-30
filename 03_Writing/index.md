@@ -60,6 +60,14 @@ IELTS Academic 寫作的第一個任務要求.描述圖表、圖形、表格或�
 
 - 最重要的是，確保引言清晰地轉述了主題、點明了任務、並給出了明確的立場或大綱。完成了這三件事，無論是兩句還是三句，都是一個完美的引言。
 
+|立場導向型 (Position-Oriented) | 結構預告型 (Structure-Foretelling)|
+| :--- | :--- |
+| 意見型 (Agree/Disagree) • 利弊分析型 (Advantages/Disadvantages) • 討論型 (Discuss Both Views) | • 原因與解決方案型 (Problem/Solution) • 雙問題型 (Two-Part Questions) |
+ |"P":直接陳述觀點、判斷或傾向。 | "P":解釋essay結構和順序，不可在引言中提前給出具體的原因、方案或答案。|
+  |補充: Discuss Both Views - 必須要提到兩邊(關鍵字:Some,others)跟個人傾向 (While I acknowledge... I am convinced that...)<br/>  Some argue that investing in the arts is crucial for a nation's cultural vitality. Conversely, others contend that this money should be prioritized for essential public services like healthcare and education. <br/>While I acknowledge the value of the arts, I am convinced that fundamental services impacting daily well-being must take precedence.| |
+
+
+
 | 題型 (Question Type) | "T" (主題) 處理方式 - Parapharse | "T" (任務) 處理方式 | "P" (立場) 處理公式 |
 | :--- | :--- | :--- | :--- |
 | 意見型 (Agree/Disagree)	| 表明立場	|Some people believe that with the rise of technology, teachers will no longer be needed... To what extent do you agree or disagree?	 | The integration of technology into the classroom has fundamentally altered the landscape of modern education. (科技與教室的整合已根本性地改變了現代教育的面貌。)	|This has sparked a significant debate about whether the role of the human teacher is becoming obsolete. (這引發了一場關於人類教師的角色是否正被淘汰的激烈辯論。)| 
