@@ -51,7 +51,7 @@ IELTS Academic 寫作的第一個任務要求您描述圖表、圖形、表格�
 | 題型 (Question Type) | "C" (CONCEPT)  | "D" (Deeper Concept-拓展概念) | "1E" (1個範例說明以上兩個概念) |
 | :--- | :--- | :--- | :--- |
 | **意見型** <br> (Agree/Disagree) | 以同意為例:說明不同意反面的主要理由| 以同意為例:說明不同意反面的次要理由 | **1E：** 支持以上兩個理由的範例。<br>*(e.g., "For instance, medical institutions in Thailand had proved that 'antimain concept' was wrong,......and medical institutions in German also had evidence pointing out 'Second concept' need more reviews. " * |
-| **利弊分析型** <br> (Advantages/Disadvantages) | 轉述趨勢或現象的背景。 | 點出需要您衡量利弊的核心議題。 | **公式：** 清晰、直接地判斷利弊哪個更大。<br>*(e.g., "In my view, the advantages of this trend significantly outweigh the disadvantages.")* |
+| **利弊分析型** <br> (Advantages/Disadvantages) | 不利的主要概念說明 | 不利的次要拓展概念說明。 | **1e：** 支持以上兩個概念的範例。<br>*(e.g., "It can increase expenditure e for facilities implementing....And transferm these costs by increasing prices of produts selling to customers or reducing payments for their own employees.")* |
 | **討論型** <br> (Discuss Both Views) | 轉述一個存在爭議的社會議題。 | 清晰地轉述對立的雙方觀點。 這是此題型的任務重點。 | **公式：** 表明您自己的立場，通常是傾向其中一方，或是提出一個更中立的綜合觀點。<br>*(e.g., "While I acknowledge the logic behind the former view, I personally lean towards the latter.")* |
 | **原因與解決方案型** <br> (Problem/Solution) | 轉述一個負面的社會現象或問題。 | 點出需要分析原因並提出解方的任務。 | **公式：** 清晰的「大綱句」，預告文章結構。<br>*(e.g., "This essay will first analyze the root causes of this problem before proposing several viable solutions.")* |
 | **雙問題型** <br> (Two-Part Questions) | 轉述題目設定的背景。 | 點出有兩個獨立的問題需要回答。 | **公式：** 清晰的「大綱句」，預告將會依序回答兩個問題。<br>*(e.g., "This essay will address both of these questions in turn.")* |
