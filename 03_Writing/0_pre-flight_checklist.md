@@ -9,6 +9,15 @@ _Use this checklist before every timed writing practice to prevent common errors
 
 ---
 
+---
+## **Task 2 monster error hint**
+ - Introduction (`Using TTP`,2-3 sentences,Opinion/Discussion/Advantages-Disadvantages usually 2, others can be 3.)
+  - Body Paragraph 1 (`*Using C-C-E Strategy*`: main concept+ supportive expanding concept + *one* example proving them , 4-5 sentences)
+  - Body Paragraph 2 (`*Using C-C-E Strategy*`,4-5 sentences)
+  -  `Discuss both these views must include "one side/others..."similar key phrases`
+- NOT start any sentence with `Which` or `By which `or `Verb+ing`
+---
+
 ## ☐ **Task 1: The Data Sniper's Code**
 
 ### **Pre-Writing Analysis (2 minutes)**
