@@ -60,13 +60,18 @@ _Use this checklist before every timed writing practice to prevent common errors
 ### **Structure Discipline**
 
 - **2. Four Paragraphs. No More, No Less.**
-  - Introduction (2-3 sentences)
+  - Introduction (Using TTP,2-3 sentences,Opinion/Discussion/Advantages-Disadvantages usually 2, others can be 3.)
   - Body Paragraph 1 (4-5 sentences)
   - Body Paragraph 2 (4-5 sentences)
   - Conclusion (2-3 sentences)
+ #### warning
   - _I will NOT write a separate "Overall" paragraph_
   - _This prevents the "Museums" essay structural flaw_
-
+    
+  - - Useful phrases for Introduction:
+    - Present stand grounds:"Wile I acknowledge..., I strongly agree/disagree..." , "While I acknowledge..." or "While acknowledging...").
+    - "I believe..." is more powerful than "In my personal point of view, I consider that..."
+    - **Last sentence for "我認為是正面/負面的" -> it(the eaasy) will argue that this is ultimately a negative/positive o
 ### **Sentence Control (Critical)**
 
 - **3. The 25-Word Iron Law.**
@@ -77,7 +82,7 @@ _Use this checklist before every timed writing practice to prevent common errors
   - _This is your most important discipline_
 
 - **4. Hunt the Fragment.**
-  - I will NOT start any sentence with `Which` or `By which`
+  - I will NOT start any sentence with `Which` or `By which `or `Verb+ing`
   - I will check every sentence for completeness
   - _This targets your most persistent grammatical error_
 
