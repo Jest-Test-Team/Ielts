@@ -235,7 +235,7 @@ _Last Updated: Aug 28, 2025_
 |               | especial            | especially              | Low    |
 |               | fiats               | fiat                    | Low    |
 |               | complete removed    | completely removed      | Low    |
-|               | edge-cutting        | cutting-edge            | Low    |
+|               | edge-cutting        | cutting-edge   (最前沿的/領先的)         | Low    |
 
 ### 📊 錯誤頻率統計
 
