@@ -60,13 +60,14 @@ _Use this checklist before every timed writing practice to prevent common errors
 ### **Structure Discipline**
 
 - **2. Four Paragraphs. No More, No Less.**
-  - Introduction (Using TTP,2-3 sentences,Opinion/Discussion/Advantages-Disadvantages usually 2, others can be 3.)
-  - Body Paragraph 1 (*Using C-C-E Strategy*: main concept+ supportive expanding concept + *one* example proving them , 4-5 sentences)
-  - Body Paragraph 2 (*Using C-C-E Strategy*,4-5 sentences)
+  - Introduction (`Using TTP`,2-3 sentences,Opinion/Discussion/Advantages-Disadvantages usually 2, others can be 3.)
+  - Body Paragraph 1 (`*Using C-C-E Strategy*`: main concept+ supportive expanding concept + *one* example proving them , 4-5 sentences)
+  - Body Paragraph 2 (`*Using C-C-E Strategy*`,4-5 sentences)
   - Conclusion (summurise+ opnion+personal agree-disagree,2-3 sentences)
  #### warning
   - _I will NOT write a separate "Overall" paragraph_
   - _This prevents the "Museums" essay structural flaw_
+  - `_Discuss both these views must include "one side/others..."similar key phrases`
     
   - - Useful phrases for Introduction:
     - Present stand grounds:"Wile I acknowledge..., I strongly agree/disagree..." , "While I acknowledge..." or "While acknowledging...").
@@ -89,7 +90,7 @@ _Use this checklist before every timed writing practice to prevent common errors
 ### **Content Strategy**
 
 - **5. Clear Position:**
-  - *Body 1: C-C-E Strategy*: main concept+ supportive expanding concept + *one* example proving them 
+  - `*Body 1: C-C-E Strategy*`: main concept+ supportive expanding concept + *one* example proving them 
   - Do I have a clear, consistent position throughout?
   - Is my stance obvious from the introduction?
   - _This prevents waffling and confusion_
