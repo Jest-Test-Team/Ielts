@@ -61,9 +61,9 @@ _Use this checklist before every timed writing practice to prevent common errors
 
 - **2. Four Paragraphs. No More, No Less.**
   - Introduction (Using TTP,2-3 sentences,Opinion/Discussion/Advantages-Disadvantages usually 2, others can be 3.)
-  - Body Paragraph 1 (4-5 sentences)
-  - Body Paragraph 2 (4-5 sentences)
-  - Conclusion (2-3 sentences)
+  - Body Paragraph 1 (*Using C-C-E Strategy*: main concept+ supportive expanding concept + *one* example proving them , 4-5 sentences)
+  - Body Paragraph 2 (*Using C-C-E Strategy*,4-5 sentences)
+  - Conclusion (summurise+ opnion+personal agree-disagree,2-3 sentences)
  #### warning
   - _I will NOT write a separate "Overall" paragraph_
   - _This prevents the "Museums" essay structural flaw_
@@ -89,7 +89,7 @@ _Use this checklist before every timed writing practice to prevent common errors
 ### **Content Strategy**
 
 - **5. Clear Position:**
-
+  - *Body 1: C-C-E Strategy*: main concept+ supportive expanding concept + *one* example proving them 
   - Do I have a clear, consistent position throughout?
   - Is my stance obvious from the introduction?
   - _This prevents waffling and confusion_
@@ -107,7 +107,7 @@ _Use this checklist before every timed writing practice to prevent common errors
 
 - **Task 1:** 20 minutes maximum
 - **Task 2:** 40 minutes maximum
-- **Review:** 5 minutes for both tasks
+- **Review:** 2.5 minutes for 1st task,5 minutes for 2nd task.
 
 ### **Word Count Discipline**
 
