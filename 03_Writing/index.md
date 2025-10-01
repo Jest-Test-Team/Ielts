@@ -113,6 +113,22 @@ P 的功能： 預告文章結構。
 
 「意見型 (Agree/Disagree)」和「利弊分析型 (Advantages/Disadvantages)」我們稱之為**「立場導向型」**。
 
+___
+## Final ttp:
+- In my personal point of view, I consider that... is redundant; a simple "I believe..." is more powerful. throughout global should be globally.
+
+- The phrasing with fully acknowledged is grammatically incorrect. A concession clause works best here (e.g., "While I acknowledge..." or "While acknowledging...").
+
+- convined should be convinced. humanized should be humane
+
+- crowdy should be crowded
+
+- **Last sentence for "我認為是正面/負面的" -> it(the eaasy) will argue that this is ultimately a negative/positive one.
+
+
+
+___
+
 ### Para body 1 section  - cd1e(Concept,D(Deeper Concept),1E)
 
 | 題型 (Question Type) | "C" (CONCEPT)  | "D" (Deeper Concept-拓展概念) | "1E" (1個範例說明以上兩個概念) |
