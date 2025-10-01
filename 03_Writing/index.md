@@ -64,7 +64,7 @@ IELTS Academic 寫作的第一個任務要求.描述圖表、圖形、表格或�
 | :--- | :--- |
 | 意見型 (Agree/Disagree) • 利弊分析型 (Advantages/Disadvantages) • 討論型 (Discuss Both Views) | • 原因與解決方案型 (Problem/Solution) • 雙問題型 (Two-Part Questions) |
  |"P":直接陳述觀點、判斷或傾向。 | "P":解釋essay結構和順序，不可在引言中提前給出具體的原因、方案或答案。|
-  |補充: Discuss Both Views - 必須要提到兩邊(關鍵字:Some,others)跟個人傾向 (While I acknowledge... I am convinced that...)<br/>  Some argue that investing in the arts is crucial for a nation's cultural vitality. Conversely, others contend that this money should be prioritized for essential public services like healthcare and education. <br/>While I acknowledge the value of the arts, I am convinced that fundamental services impacting daily well-being must take precedence.| |
+  |補充: Discuss Both Views - 必須要提到兩邊(關鍵字:Some,others)跟個人傾向 (While I acknowledge... I am convinced that...)<br/>  Some argue that investing in the arts is crucial for a nation's cultural vitality. Conversely, others contend that this money should be prioritized for essential public services like healthcare and education. <br/>While I acknowledge the value of the arts, I am convinced that fundamental services impacting daily well-being must take precedence.| **ile I acknowledge..., I strongly disagree..."**|
 
 
 
