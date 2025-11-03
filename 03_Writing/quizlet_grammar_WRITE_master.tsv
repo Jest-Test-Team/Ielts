@@ -1,0 +1,20 @@
+﻿its / it's（改寫）	Wrong: It's engine lost it's power during the test. → ★Model: Its engine lost its power during the test.｜任務: 重寫完整正確句；口拼『its』x2。
+anyone / any one（改寫）	Wrong: Any one who applies must show ID. → ★Model: Anyone who applies must show ID.｜任務: 重寫；注意複合不定代名詞寫成一字。
+capitalization（TV / Android OS）	Wrong: We watched tv and installed android os updates. → ★Model: We watched TV and installed Android OS updates.｜任務: 正確大寫，重寫句子。
+hyphenation（internet-based）	Wrong: We studied internet based learning platforms. → ★Model: We studied internet-based learning platforms.｜任務: 加連字號，重寫句子。
+preposition（influence on）	Wrong: Television has a strong influence to children. → ★Model: Television has a strong influence on children.｜任務: 改介系詞，重寫句子。
+Article（a / the）+ 可數單數	Prompt: ___ internet has transformed education.（談概念→the） → ★Ans: The internet has transformed education.｜任務: 造一個相同結構的新句。
+SVA（effects are）	Prompt: The long-term effects ___ significant.（are） → ★Ans: The long-term effects are significant.｜任務: 造一句含『effects are』。
+Plural/所有格（children’s lives）	Prompt: TV can shape ________ (child life, plural & possessive). → ★Ans: children’s lives｜任務: 造一完整句。
+Word form（responsible/ responsibility）	Prompt: Parents are ______ for content（形容詞） → ★Ans: responsible｜任務: 造句。
+Hyphen as modifier（X-driven / X-based）	Prompt: Use a hyphenated modifier before a noun. → ★Ans: We built an AI-driven writing assistant.｜任務: 自造一句新的。
+its vs. it's（辨識＋造句）	Task 1: 選正確→ (Its / It’s) obviously broken. ★Ans: It’s｜Task 2: 用『its』造句。
+anyone vs. any one（辨識＋造句）	Task 1: 選正確→ (Anyone / Any one) can join the club. ★Ans: Anyone｜Task 2: 用『anyone』造句。
+influence on vs. to（辨識＋造句）	Task 1: 選正確→ TV has an influence (on / to) teenagers. ★Ans: on｜Task 2: 造句。
+internet-based vs. internet based（辨識＋造句）	Task 1: 選正確→ an (internet-based / internet based) service. ★Ans: internet-based｜Task 2: 造句。
+Capitalization（TV / Linux）（辨識＋造句）	Task 1: 修正大小寫→ we watched tv on a linux laptop. ★Ans: We watched TV on a Linux laptop.｜Task 2: 造句。
+Article（零冠詞）	Prompt: ___ people often confuse its and it’s.（泛指→零冠詞） → ★Ans: People often confuse its and it’s.｜任務: 造一新句使用零冠詞。
+Run-on → 斷句/連接詞	Wrong: Many stars are rich they influence teens. → ★Model: Many stars are rich, and they influence teens.｜任務: 用 and/because/which 改寫正確複句。
+Comma splice → 標點修正	Wrong: The internet is powerful, it changes education. → ★Model: The internet is powerful, and it changes education.｜任務: 用連接詞/分號/斷句重寫。
+Countable noun（a policy）	Prompt: Government should create ___ policy to protect elders. → ★Ans: a policy｜任務: 造一完整句。
+Collocation（impact on / effect on）	Wrong: The policy has a good impact to students. → ★Model: The policy has a good impact on students.｜任務: 造含『impact/effect on』的新句。
